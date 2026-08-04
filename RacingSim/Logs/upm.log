@@ -1,0 +1,4 @@
+[2026-08-04T08:41:13.104Z][INFO] Command-line: Z:\\UNITY\\Editor\\6000.5.4f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe server -s 8444 --ipc-path Unity-Upm-8444 -l 2 --log-file Z:\\UNITY\\Projects\\RacingSim/Logs/upm.log
+[2026-08-04T08:41:13.145Z][INFO] IPC server started (IPC path=Unity-Upm-8444).
+[2026-08-04T08:41:13.145Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-8444.
+[2026-08-04T08:41:36.274Z][INFO] Shutting down UnityPackageManager.exe: parent process [8444] is no longer running.

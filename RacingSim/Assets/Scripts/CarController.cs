@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class CarController : MonoBehaviour
 {
@@ -24,30 +25,43 @@ public class CarController : MonoBehaviour
     private void OnEnable()
     {
         inputController.Enable();
-        inputController.Player.Throttle.performed += ctx => throttle = ctx.ReadValue<float>();
-        inputController.Player.Throttle.canceled += ctx => throttle = 0;
-
-        inputController.Player.SteeringWheel.performed += ctx => turn = ctx.ReadValue<float>();
-        inputController.Player.SteeringWheel.canceled += ctx => turn = 0;
-
-        inputController.Player.Brake.performed += ctx => brake = ctx.ReadValue<float>();
-        inputController.Player.Brake.canceled += ctx => brake = 0;
+        inputController.Player.Throttle.performed += OnThrottlePerformed;
+        inputController.Player.Throttle.canceled += OnThrottleCanceled;
+        inputController.Player.SteeringWheel.performed += OnSteerPerformed;
+        inputController.Player.SteeringWheel.canceled += OnSteerCanceled;
+        inputController.Player.Brake.performed += OnBrakePerformed;
+        inputController.Player.Brake.canceled += OnBrakeCanceled;
     }
 
     private void OnDisable()
     {
+        inputController.Player.Throttle.performed -= OnThrottlePerformed;
+        inputController.Player.Throttle.canceled -= OnThrottleCanceled;
+        inputController.Player.SteeringWheel.performed -= OnSteerPerformed;
+        inputController.Player.SteeringWheel.canceled -= OnSteerCanceled;
+        inputController.Player.Brake.performed -= OnBrakePerformed;
+        inputController.Player.Brake.canceled -= OnBrakeCanceled;
         inputController.Disable();
-        inputController.Player.Throttle.performed -= ctx => throttle = ctx.ReadValue<float>();
-        inputController.Player.Throttle.canceled -= ctx => throttle = 0;
-
-        inputController.Player.SteeringWheel.performed -= ctx => turn = ctx.ReadValue<float>();
-        inputController.Player.SteeringWheel.canceled -= ctx => turn = 0;
-
-        inputController.Player.Brake.performed -= ctx => brake = ctx.ReadValue<float>();
-        inputController.Player.Brake.canceled -= ctx => brake = 0;
     }
 
-    private void UpdateWheelState()
+    private void OnThrottlePerformed(InputAction.CallbackContext ctx) => throttle = ctx.ReadValue<float>();
+    private void OnThrottleCanceled(InputAction.CallbackContext ctx) => throttle = 0f;
+    private void OnSteerPerformed(InputAction.CallbackContext ctx) => turn = ctx.ReadValue<float>();
+    private void OnSteerCanceled(InputAction.CallbackContext ctx) => turn = 0f;
+    private void OnBrakePerformed(InputAction.CallbackContext ctx) => brake = ctx.ReadValue<float>();
+    private void OnBrakeCanceled(InputAction.CallbackContext ctx) => brake = 0f;
+
+    private void FixedUpdate()
+    {
+        UpdateWheelPhysics();
+    }
+
+    private void Update()
+    {
+        UpdateWheelVisuals();
+    }
+
+    private void UpdateWheelPhysics()
     {
         float steeringAngle = turn * maxSteeringAngle;
         float throttlePower = throttle * maxEnginePower;
@@ -57,31 +71,46 @@ public class CarController : MonoBehaviour
         {
             if (info.isSteering)
             {
-                info.rightWheel.steerAngle = steeringAngle;
-                info.leftWheel.steerAngle = steeringAngle;
+                info.rightWheelCollider.steerAngle = steeringAngle;
+                info.leftWheelCollider.steerAngle = steeringAngle;
             }
 
             if (info.isMotor)
             {
-                info.rightWheel.motorTorque = throttlePower;
-                info.leftWheel.motorTorque = throttlePower;                
+                info.rightWheelCollider.motorTorque = throttlePower;
+                info.leftWheelCollider.motorTorque = throttlePower;                
             }
 
-            info.rightWheel.brakeTorque = brakePower;
-            info.leftWheel.brakeTorque = brakePower;
+            info.rightWheelCollider.brakeTorque = brakePower;
+            info.leftWheelCollider.brakeTorque = brakePower;
         }
     }
 
-    private void FixedUpdate()
+    private void UpdateWheelVisuals()
     {
-        UpdateWheelState();
+        foreach (AxleInfo info in axleInfos)
+        {
+            ApplyWheelPose(info.leftWheelCollider, info.leftWheelTransform);
+            ApplyWheelPose(info.rightWheelCollider, info.rightWheelTransform);
+        }
     }
+
+    private void ApplyWheelPose(WheelCollider wheelColl, Transform wheelTransform)
+    {
+        wheelColl.GetWorldPose(out Vector3 position, out Quaternion rotation);
+
+        wheelTransform.position = position;
+        wheelTransform.rotation = rotation;
+    }
+
 
     [Serializable]
     public class AxleInfo
     {
-        public WheelCollider leftWheel;
-        public WheelCollider rightWheel;
+        public WheelCollider leftWheelCollider;
+        public WheelCollider rightWheelCollider;
+        public Transform leftWheelTransform;
+        public Transform rightWheelTransform;
         public bool isMotor;
         public bool isSteering;
     }

@@ -1,0 +1,385 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.4f1 (d550df8bd089) revision 13979871'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16265 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван" at "2026-08-06T11:26:21.9308273Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-06T11:26:21Z
+
+COMMAND LINE ARGUMENTS:
+Z:\UNITY\Editor\6000.5.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW3
+-projectPath
+Z:/UNITY/Projects/racing-sim-low-poly/RacingSim
+-logFile
+Logs/AssetImportWorkerHW3.log
+-srvPort
+54374
+-parentPid
+10248
+-analyticsCloudUserId
+10171394731915
+-analyticsLocalProjectId
+761e7e679cf607248b93b98558fc3d2b
+-licensingIpc
+LicenseClient-Иван
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: Z:/UNITY/Projects/racing-sim-low-poly/RacingSim
+Z:/UNITY/Projects/racing-sim-low-poly/RacingSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [15388]  Target information:
+
+Player connection [15388]  * "[IP] 192.168.8.116 [Port] 0 [Flags] 2 [Guid] 2526260783 [EditorId] 2526260783 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VKT7RGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15388] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15388] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.63 ms, found 4 plugins.
+Initialize engine version: 6000.5.4f1 (d550df8bd089)
+[Subsystems] Discovering subsystems at path Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/UNITY/Projects/racing-sim-low-poly/RacingSim/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:          NVIDIA
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.16.1074
+Initialize mono
+Mono path[0] = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Иван"
+[Licensing::IpcConnector] LicenseClient-Иван channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван-6000.5.4" at "2026-08-06T11:26:22.8334253Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15552, path: "Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              96ba05de709b4ddca032074190526edb
+  Correlation Id:          a833c6e40ede04f388f2bdf08e29a836
+  External correlation Id: 3587155659545228261
+  Machine Id:              lZ6J0gUcbcByzG+Ak5e7N0CmXQA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Иван-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван-6000.5.4-notifications" at "2026-08-06T11:26:22.8407817Z"
+[Licensing::Module] Licensing Background thread has ended after 0.91s
+Registering precompiled unity dll's ...
+Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006755 seconds.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.470 seconds
+Domain Reload Profiling: 1198ms
+	BeginReloadAssembly (212ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (88ms)
+	LoadAllAssembliesAndSetupDomain (399ms)
+		LoadAssemblies (211ms)
+		AnalyzeDomain (284ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (259ms)
+			BuildScriptInfoCaches (4ms)
+	FinalizeReload (471ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.09 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.635 seconds
+Domain Reload Profiling: 1472ms
+	BeginReloadAssembly (230ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (10ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (347ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (636ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (262ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6446 unused Assets / (5.7 MB). Loaded Objects now: 7286.
+Memory consumption went from 330.0 MB to 324.3 MB.
+Total: 9.641300 ms (FindLiveObjects: 0.732200 ms CreateObjectMapping: 2.179200 ms MarkObjects: 4.294700 ms  DeleteObjects: 2.433400 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:00.2921881Z
+  Time since last request: 88039.04603919999499 seconds.
+  importAddress: GUID: 9e59621e3e8614f8ca42c5665750258d - Path: Assets/Tom's Terrain Tools/Example Data/1-grassmap.tif - Importer: PreviewImporter
+Importing 'GUID: 9e59621e3e8614f8ca42c5665750258d - Path: Assets/Tom's Terrain Tools/Example Data/1-grassmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9e59621e3e8614f8ca42c5665750258d' -> (Import Result ID: 'e6306bfbea6443f77953829dbea1caf1') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=458adcddcfc381bf63d327880cdb6c7d DependenciesID=eb509c36346c74fc6638872f48381b41 StaticDependenciesID=8495fc029057e7861c4dcc7fbd3cc584 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:11.1206855Z
+  Time since last request: 10.7531166 seconds.
+  importAddress: GUID: 2c81cc45ff25bd34a9350a6a11342a75 - Path: Assets/Tom's Terrain Tools/Example Data/Materials/Tree_Leaves3.mat - Importer: PreviewImporter
+Importing 'GUID: 2c81cc45ff25bd34a9350a6a11342a75 - Path: Assets/Tom's Terrain Tools/Example Data/Materials/Tree_Leaves3.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2c81cc45ff25bd34a9350a6a11342a75' -> (Import Result ID: '51825106012e35cd0ffe1f56d17e8fe5') in 0.357 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4829b52145da042a300f6aef090458a1 DependenciesID=f16b8272b027b35f74d98d53e1895d93 StaticDependenciesID=b0ff4def9ff33997846d3cf1a64f33df 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:12.5794436Z
+  Time since last request: 1.0919576 seconds.
+  importAddress: GUID: 6c0bc9644e0e6fc4db4d8b21ea685f72 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/SycamoreBark4.mat - Importer: PreviewImporter
+Importing 'GUID: 6c0bc9644e0e6fc4db4d8b21ea685f72 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/SycamoreBark4.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6c0bc9644e0e6fc4db4d8b21ea685f72' -> (Import Result ID: '1e669bb5b52b94c0587745707198f756') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33ab7329aa2f325d595c73ad7a7b45fd DependenciesID=075dc108ae53fc3e66bd21605858cdf7 StaticDependenciesID=91461cef093bddbfcf9fd4758e645db4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:12.596775Z
+  Time since last request: 0.00017 seconds.
+  importAddress: GUID: 54f8ae2f68d76442582318ea89be0259 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/thintree.mat - Importer: PreviewImporter
+Importing 'GUID: 54f8ae2f68d76442582318ea89be0259 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/thintree.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 54f8ae2f68d76442582318ea89be0259' -> (Import Result ID: '76becc010e68dbe6dec840b6c3320666') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=43b566deee8ada6fd7e815cc5c368bf9 DependenciesID=772240584a3f50fb554e22d8e36c489a StaticDependenciesID=655ce924c41ed325888cc7e6ab09fdaf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:12.6125971Z
+  Time since last request: 0.0003384 seconds.
+  importAddress: GUID: d318bcc1b95bf8a4f9e01c8e849f04d3 - Path: Assets/Tom's Terrain Tools/Example Data/Materials/Tree_Bark1.mat - Importer: PreviewImporter
+Importing 'GUID: d318bcc1b95bf8a4f9e01c8e849f04d3 - Path: Assets/Tom's Terrain Tools/Example Data/Materials/Tree_Bark1.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d318bcc1b95bf8a4f9e01c8e849f04d3' -> (Import Result ID: '31de45f1224125dbcb73f92408b69d61') in 0.068 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=686b7e0c9498f93fa1dec47022dfddda DependenciesID=f54863f83567af31cdb1b9a24b44a6c3 StaticDependenciesID=cb6a004e273f8bc6f56f174f3292df43 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:13.5154619Z
+  Time since last request: 0.8250998 seconds.
+  importAddress: GUID: 4bd4ee421484909199fe72b81c03cb6c - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/scotspine-typeb-pine needles.mat - Importer: PreviewImporter
+Importing 'GUID: 4bd4ee421484909199fe72b81c03cb6c - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/scotspine-typeb-pine needles.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4bd4ee421484909199fe72b81c03cb6c' -> (Import Result ID: 'edf00391dd96f4ace548304216451128') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e57126203bc876ef8218095d926cf0a5 DependenciesID=972ca976df37f2a8c793eb4249c0665e StaticDependenciesID=dc8c9e0bcf570083158849e27906d0c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:13.5356649Z
+  Time since last request: 0.0002393 seconds.
+  importAddress: GUID: 000b3f7255e404bb0c8b384a2b961f78 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/sycamore-bark4.mat - Importer: PreviewImporter
+Importing 'GUID: 000b3f7255e404bb0c8b384a2b961f78 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/sycamore-bark4.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 000b3f7255e404bb0c8b384a2b961f78' -> (Import Result ID: '3dbc40bc2e87ff34cc450f16bd1ef71e') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f9abf1fd9a415395ad6f8cecd2abacc DependenciesID=6df8f714f3fdf30681665e647f64731a StaticDependenciesID=7189ea1ce0d3e598424c70a332801832 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:13.5536794Z
+  Time since last request: 0.0002516 seconds.
+  importAddress: GUID: 8e41f14c6552d48e6a7992aaecc808e4 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Rocks/Models/RockMesh.fbx - Importer: PreviewImporter
+Importing 'GUID: 8e41f14c6552d48e6a7992aaecc808e4 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Rocks/Models/RockMesh.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8e41f14c6552d48e6a7992aaecc808e4' -> (Import Result ID: '894e4304428ccb8a9c70f7f21e1a4ad7') in 0.073 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ad839a70c637a636585a99b57aae836 DependenciesID=7fdf6832404e0076e119c28eae36e307 StaticDependenciesID=2cda3c26c00a59c799869127aba65e63 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:13.6372188Z
+  Time since last request: 0.000029 seconds.
+  importAddress: GUID: f6ef43abea576784d94465478efd6a7d - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Rocks/Models/Materials/RockMesh-RockMat.mat - Importer: PreviewImporter
+Importing 'GUID: f6ef43abea576784d94465478efd6a7d - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Rocks/Models/Materials/RockMesh-RockMat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f6ef43abea576784d94465478efd6a7d' -> (Import Result ID: '7842aca51b551c8d57bc3c779e5de951') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0dc3e6fd96fedce05f9b1e150102533c DependenciesID=a790f3f0fe6b8e61a2c10274df07510c StaticDependenciesID=1ae2ea012993c0cb9843ec274d956f29 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:13.6572351Z
+  Time since last request: 0.0003455 seconds.
+  importAddress: GUID: f139f38e8a844de4fa5b3bd2d58c760d - Path: Assets/Tom's Terrain Tools/Example Data/Trees/SampleTree3.prefab - Importer: PreviewImporter
+Importing 'GUID: f139f38e8a844de4fa5b3bd2d58c760d - Path: Assets/Tom's Terrain Tools/Example Data/Trees/SampleTree3.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f139f38e8a844de4fa5b3bd2d58c760d' -> (Import Result ID: 'be471de3fa03faf1584447d893de02fd') in 0.134 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f1eb21b829a1541622367af830f1c45 DependenciesID=6a58d7abcb242a107c7ef015c9a4dd1c StaticDependenciesID=43582afd14054031570aab0a9c7737dd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:14.1315359Z
+  Time since last request: 0.3310573 seconds.
+  importAddress: GUID: a6251c8ecd118f12a000e6888f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/mimosa-bark.mat - Importer: PreviewImporter
+Importing 'GUID: a6251c8ecd118f12a000e6888f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/mimosa-bark.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a6251c8ecd118f12a000e6888f962b59' -> (Import Result ID: '383d708f2eeff7753b272b81767d825f') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ad560b170c03a9f843f3e7e3a6e04dfd DependenciesID=662de8fc9c7522e794aac9290225ce8a StaticDependenciesID=153ba2bd0605e9d6ef4a7b677d9b8117 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:14.1467889Z
+  Time since last request: 0.0002724 seconds.
+  importAddress: GUID: 102c3f2cfdcb3d64199f97f4f9aa3d46 - Path: Assets/ARCADE - FREE Racing Car/Skybox/Night/Night Skybox.mat - Importer: PreviewImporter
+Importing 'GUID: 102c3f2cfdcb3d64199f97f4f9aa3d46 - Path: Assets/ARCADE - FREE Racing Car/Skybox/Night/Night Skybox.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 102c3f2cfdcb3d64199f97f4f9aa3d46' -> (Import Result ID: 'd769c0a9ae0fa78dd36627df63d91761') in 0.160 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=640ac359f8b1a821ae89648ea0c56416 DependenciesID=990c9295836628419ce35a4b25e9a6b5 StaticDependenciesID=18d8b4fe30a94b49065e1c0392fff99c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:14.3155318Z
+  Time since last request: 0.0002193 seconds.
+  importAddress: GUID: 0289fdf7bd118bca11002b7b44295342 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Model/Bush5.fbx - Importer: PreviewImporter
+Importing 'GUID: 0289fdf7bd118bca11002b7b44295342 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Model/Bush5.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0289fdf7bd118bca11002b7b44295342' -> (Import Result ID: '07e5c1ae2f27a920259abfbcadf38f7e') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c0060493244a89d3ae77d649e189f12c DependenciesID=97add58973f23a9a97696395e27e698f StaticDependenciesID=f093dc3fe3d5044995fbe4b2425f71c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:14.349956Z
+  Time since last request: 0.0002124 seconds.
+  importAddress: GUID: 2e2c881dbd110e38a00062d88f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/alder-alderbark.mat - Importer: PreviewImporter
+Importing 'GUID: 2e2c881dbd110e38a00062d88f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Materials/alder-alderbark.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2e2c881dbd110e38a00062d88f962b59' -> (Import Result ID: '960847cf003b2f720f246478b635b471') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3ff00eb480f5725613b0e4ed012aec3 DependenciesID=53bd2bcafb34d0d210d478074bfd2317 StaticDependenciesID=bc4dec2b9db382f3286634817e048898 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:27:14.3669522Z
+  Time since last request: 0.0003288 seconds.
+  importAddress: GUID: 7d3867bf3c32ce34cbf01c7d8814e768 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/Materials/AFRC_Tex_Col1.mat - Importer: PreviewImporter
+Importing 'GUID: 7d3867bf3c32ce34cbf01c7d8814e768 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/Materials/AFRC_Tex_Col1.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7d3867bf3c32ce34cbf01c7d8814e768' -> (Import Result ID: 'dd3d3dc7748cc95d916d707f754cf951') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=131480d464aae5fdcdeef69f2e345336 DependenciesID=1a3400f7cc85402a4fc4ce201f7e520b StaticDependenciesID=79447c05b022fcee42cefe0eaf790a54 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

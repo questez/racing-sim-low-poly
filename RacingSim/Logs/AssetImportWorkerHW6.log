@@ -1,0 +1,763 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.4f1 (d550df8bd089) revision 13979871'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16265 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван" at "2026-08-06T11:49:41.6748129Z"
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-08-06T11:49:41Z
+
+COMMAND LINE ARGUMENTS:
+Z:\UNITY\Editor\6000.5.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW6
+-projectPath
+Z:/UNITY/Projects/racing-sim-low-poly/RacingSim
+-logFile
+Logs/AssetImportWorkerHW6.log
+-srvPort
+54374
+-parentPid
+10248
+-analyticsCloudUserId
+10171394731915
+-analyticsLocalProjectId
+761e7e679cf607248b93b98558fc3d2b
+-licensingIpc
+LicenseClient-Иван
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: Z:/UNITY/Projects/racing-sim-low-poly/RacingSim
+Z:/UNITY/Projects/racing-sim-low-poly/RacingSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [9452]  Target information:
+
+Player connection [9452]  * "[IP] 192.168.8.116 [Port] 0 [Flags] 2 [Guid] 2548341628 [EditorId] 2548341628 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VKT7RGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9452] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9452] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.18 ms, found 4 plugins.
+Initialize engine version: 6000.5.4f1 (d550df8bd089)
+[Subsystems] Discovering subsystems at path Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path Z:/UNITY/Projects/racing-sim-low-poly/RacingSim/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3070 (ID=0x2488)
+    Vendor:          NVIDIA
+    VRAM:            8018 MB
+    App VRAM Budget: 7250 MB
+    Driver:          32.0.16.1074
+Initialize mono
+Mono path[0] = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Managed'
+Mono path[1] = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Иван"
+[Licensing::IpcConnector] LicenseClient-Иван channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван-6000.5.4" at "2026-08-06T11:49:42.5983048Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15552, path: "Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              9e95107875394216a1b3e17bd4f8765b
+  Correlation Id:          a833c6e40ede04f388f2bdf08e29a836
+  External correlation Id: 8433158796177124732
+  Machine Id:              lZ6J0gUcbcByzG+Ak5e7N0CmXQA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Иван-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван-6000.5.4-notifications" at "2026-08-06T11:49:42.6044704Z"
+[Licensing::Module] Licensing Background thread has ended after 0.93s
+Registering precompiled unity dll's ...
+Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.004752 seconds.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.368 seconds
+Domain Reload Profiling: 867ms
+	BeginReloadAssembly (144ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (271ms)
+		LoadAssemblies (144ms)
+		AnalyzeDomain (202ms)
+			TypeCache.Refresh (201ms)
+				TypeCache.ScanAssembly (188ms)
+	FinalizeReload (370ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (81ms)
+			ProcessInitializeOnLoadAttributes (84ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.681 seconds
+Domain Reload Profiling: 1514ms
+	BeginReloadAssembly (209ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (547ms)
+		LoadAssemblies (350ms)
+		AnalyzeDomain (222ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (682ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (257ms)
+			ProcessInitializeOnLoadMethodAttributes (96ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6578 unused Assets / (6.5 MB). Loaded Objects now: 7421.
+Memory consumption went from 332.3 MB to 325.8 MB.
+Total: 9.751300 ms (FindLiveObjects: 0.722700 ms CreateObjectMapping: 2.091700 ms MarkObjects: 4.526600 ms  DeleteObjects: 2.408300 ms)
+
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:50:00.8197398Z
+  Time since last request: 89419.57359080000606 seconds.
+  importAddress: GUID: be56aeeaaf2300242a948e7551c0826f - Path: Assets/Fence pack/Textures/fence_a_metallic.tga - Importer: PreviewImporter
+Importing 'GUID: be56aeeaaf2300242a948e7551c0826f - Path: Assets/Fence pack/Textures/fence_a_metallic.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: be56aeeaaf2300242a948e7551c0826f' -> (Import Result ID: 'c52b93590453c70a0e94ae54dc6b0fb6') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ecf117d7d2b64a1c1e9e4b8259a3e6a DependenciesID=8027e0c4b865fb122e284073fb9e2ab4 StaticDependenciesID=eee8e667745f4fbe24345ee5775a380b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:50:00.8943117Z
+  Time since last request: 0.0003795 seconds.
+  importAddress: GUID: 8f5461dc878fb3d4485619a3ffbacecb - Path: Assets/Fence pack/Textures/fence_c.tga - Importer: PreviewImporter
+Importing 'GUID: 8f5461dc878fb3d4485619a3ffbacecb - Path: Assets/Fence pack/Textures/fence_c.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8f5461dc878fb3d4485619a3ffbacecb' -> (Import Result ID: '23ff2c7269840ad74a2b7ca7f366591c') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=31d5be0dccac9cef3c7a0e0c8acc2afd DependenciesID=d3554c9df72d7cb02c2dc2212828505c StaticDependenciesID=ef1c5ff25dbffc6688a29c8121bece14 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:50:00.9278166Z
+  Time since last request: 0.0003802 seconds.
+  importAddress: GUID: dda5c2c66cf4c674bacd3e1c0cbbbbdb - Path: Assets/Fence pack/Textures/fence_d_normals.tga - Importer: PreviewImporter
+Importing 'GUID: dda5c2c66cf4c674bacd3e1c0cbbbbdb - Path: Assets/Fence pack/Textures/fence_d_normals.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dda5c2c66cf4c674bacd3e1c0cbbbbdb' -> (Import Result ID: '190fdbb6b71395b05d9689b639cec9e9') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5df3654b41e2b05e300ab59f9ef4b74a DependenciesID=92eb6566dd1ab5a337a1d0a356a97650 StaticDependenciesID=86d6ae185be00a214cb4afb4282dbe48 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:50:00.9625897Z
+  Time since last request: 0.0000286 seconds.
+  importAddress: GUID: e0dc38eb0192b07498fba2b332133058 - Path: Assets/Fence pack/Textures/Fence_e_f_metallic.tga - Importer: PreviewImporter
+Importing 'GUID: e0dc38eb0192b07498fba2b332133058 - Path: Assets/Fence pack/Textures/Fence_e_f_metallic.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e0dc38eb0192b07498fba2b332133058' -> (Import Result ID: 'b3e05a6dac8b27e12be72c389193a356') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2053d31f635bc6eb2cd69cf6861ed95f DependenciesID=8fbdce348f3460ed2694a04f44266cb1 StaticDependenciesID=6911936b78993283da834aa6c9db7ac9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:50:00.9833594Z
+  Time since last request: 0.0003989 seconds.
+  importAddress: GUID: 1b78c0b4697a82e428e2dcc56bbacd43 - Path: Assets/Fence pack/Textures/fence_d.tga - Importer: PreviewImporter
+Importing 'GUID: 1b78c0b4697a82e428e2dcc56bbacd43 - Path: Assets/Fence pack/Textures/fence_d.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1b78c0b4697a82e428e2dcc56bbacd43' -> (Import Result ID: '9fd17004e9037c423ffff6e925fb5de1') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de1021d100d7b289a4bc26a7f1ec180e DependenciesID=e121e4d7d58a309dcbd3aca18963f094 StaticDependenciesID=9389881a879e73a1592a0a64a53c7828 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:50:03.7603937Z
+  Time since last request: 2.7560005 seconds.
+  importAddress: GUID: ae6d8c29d2f4da04e8aac0d1fed458b1 - Path: Assets/Fence pack/Models/fence_a.FBX - Importer: PreviewImporter
+Importing 'GUID: ae6d8c29d2f4da04e8aac0d1fed458b1 - Path: Assets/Fence pack/Models/fence_a.FBX - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ae6d8c29d2f4da04e8aac0d1fed458b1' -> (Import Result ID: 'e270f0631ea754e247283270de3fb4a5') in 0.450 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ff44c768dd398072913e3303b4ec4e2 DependenciesID=b509abcc2bbd142ea1b0cc7cdb48573e StaticDependenciesID=d942a57da79e568597cd69f1b5aa6d7d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7551.
+Memory consumption went from 343.4 MB to 340.8 MB.
+Total: 9.473400 ms (FindLiveObjects: 0.438100 ms CreateObjectMapping: 0.613700 ms MarkObjects: 7.872500 ms  DeleteObjects: 0.548400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:30.4894517Z
+  Time since last request: 146.2706216 seconds.
+  importAddress: GUID: c17833375ea78984db65d0f43c6d76d1 - Path: Assets/Fence pack/Prefabs/fence_a_gate.prefab - Importer: PreviewImporter
+Importing 'GUID: c17833375ea78984db65d0f43c6d76d1 - Path: Assets/Fence pack/Prefabs/fence_a_gate.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c17833375ea78984db65d0f43c6d76d1' -> (Import Result ID: '60c0915e436e9c2f1beeb9f590b84cb5') in 2.498 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9f7945de8cbe9df3cdda31342b8d0de5 DependenciesID=0b2716104724a9bf3170c33811e80823 StaticDependenciesID=9b3f445541e8e0565f3f5cc2a76bf258 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:32.9966222Z
+  Time since last request: 0.0002981 seconds.
+  importAddress: GUID: 527fe3df84949fc40801822247254a1e - Path: Assets/Fence pack/Prefabs/Fence_g_gate.prefab - Importer: PreviewImporter
+Importing 'GUID: 527fe3df84949fc40801822247254a1e - Path: Assets/Fence pack/Prefabs/Fence_g_gate.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 527fe3df84949fc40801822247254a1e' -> (Import Result ID: '4c23311d9e04c19ca1b720051bf7eff2') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8178e344e5dc0808365d110a53287164 DependenciesID=11467611d0ef72ee02506c455daf8079 StaticDependenciesID=23b149aa9174e23a2dc287688d27af47 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.022766Z
+  Time since last request: 0.0001206 seconds.
+  importAddress: GUID: 97ff22a5981f9a748b91d3f26a779100 - Path: Assets/Fence pack/Prefabs/fence_b_gate.prefab - Importer: PreviewImporter
+Importing 'GUID: 97ff22a5981f9a748b91d3f26a779100 - Path: Assets/Fence pack/Prefabs/fence_b_gate.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 97ff22a5981f9a748b91d3f26a779100' -> (Import Result ID: '499395e3af85d981751a7f87898a54a1') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a0b5f3b1712a795c8ba6242cf2c7c3b9 DependenciesID=17ef8c450c11086d5fadf5098bd3a9fc StaticDependenciesID=99354a887facbed727d5e4831c7ccd91 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.0484323Z
+  Time since last request: 0.0002004 seconds.
+  importAddress: GUID: 0a4154eacc46663499b287aba5cdb822 - Path: Assets/Fence pack/Prefabs/Fence_f_straight3.prefab - Importer: PreviewImporter
+Importing 'GUID: 0a4154eacc46663499b287aba5cdb822 - Path: Assets/Fence pack/Prefabs/Fence_f_straight3.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0a4154eacc46663499b287aba5cdb822' -> (Import Result ID: '87bad1f85eaec7649d9b3ad425a76cc1') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b9dd2c764bd112e7d4e330d868d996b3 DependenciesID=53aa4210e48b24cc4789f89e8690aa9f StaticDependenciesID=dce750be1df139b30c7b1d6fd0ba2db2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.0760005Z
+  Time since last request: 0.0003154 seconds.
+  importAddress: GUID: 71ad279a59e163044b203bde5e353162 - Path: Assets/Fence pack/Prefabs/fence_a_straight_end.prefab - Importer: PreviewImporter
+Importing 'GUID: 71ad279a59e163044b203bde5e353162 - Path: Assets/Fence pack/Prefabs/fence_a_straight_end.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 71ad279a59e163044b203bde5e353162' -> (Import Result ID: '016533c806596a4531fee9cd368945ab') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1acd6c67f38305d0725d9d8d4a3c13fa DependenciesID=89579f426479a7830c85cf12f3a638f4 StaticDependenciesID=e93e97c7498c90cc3d106a0e8a437655 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.1039654Z
+  Time since last request: 0.0000636 seconds.
+  importAddress: GUID: 9086358f316fa634b9f0c48bea978d3f - Path: Assets/Fence pack/Prefabs/fence_a_turn.prefab - Importer: PreviewImporter
+Importing 'GUID: 9086358f316fa634b9f0c48bea978d3f - Path: Assets/Fence pack/Prefabs/fence_a_turn.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9086358f316fa634b9f0c48bea978d3f' -> (Import Result ID: '95fad31b3157d2e4694599b4a1b80051') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9613835d34548c92aa013ace0c97a295 DependenciesID=c2606f7561fa958d3023d8ee94d7b49e StaticDependenciesID=bbc287d92466f0fda5f05e3f8be52bc5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.1286237Z
+  Time since last request: 0.000025 seconds.
+  importAddress: GUID: 3a2d1327eff07ce4eaccbbdf2dcbcd0a - Path: Assets/Fence pack/Prefabs/fence_d.prefab - Importer: PreviewImporter
+Importing 'GUID: 3a2d1327eff07ce4eaccbbdf2dcbcd0a - Path: Assets/Fence pack/Prefabs/fence_d.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3a2d1327eff07ce4eaccbbdf2dcbcd0a' -> (Import Result ID: 'c92feb41f41dc61248fb231188ab69b0') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a6a49b44063ae860b4a5c2fbf56be69 DependenciesID=959c8228769d2206928902503c5e4663 StaticDependenciesID=1add10fd1f72a0d3390ee861ab5be893 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.1562343Z
+  Time since last request: 0.0008124 seconds.
+  importAddress: GUID: adf7599abf17937489efd02e6555cb84 - Path: Assets/Fence pack/Prefabs/fence_c_straight_turn.prefab - Importer: PreviewImporter
+Importing 'GUID: adf7599abf17937489efd02e6555cb84 - Path: Assets/Fence pack/Prefabs/fence_c_straight_turn.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: adf7599abf17937489efd02e6555cb84' -> (Import Result ID: '55adc2f68b0940a353ce9427fe000f8f') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bee3a7bdc09ec6541d7d5c97b00bc1c DependenciesID=72a6aea0ceae1837325d2c88bbf4dc13 StaticDependenciesID=ebbc017e4f32769a488e7b0088a0a677 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.1833697Z
+  Time since last request: 0.0001798 seconds.
+  importAddress: GUID: 6670cfccda906b04a835d0476bb3e60b - Path: Assets/Fence pack/Prefabs/Fence_e_straight1.prefab - Importer: PreviewImporter
+Importing 'GUID: 6670cfccda906b04a835d0476bb3e60b - Path: Assets/Fence pack/Prefabs/Fence_e_straight1.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6670cfccda906b04a835d0476bb3e60b' -> (Import Result ID: '667087e28bc168d30f93df7d74f28edf') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4bea25ae60c273ae1c47849760bb985c DependenciesID=853e1cbe897df37dbccf26aff41fcaf0 StaticDependenciesID=5a36714c42d641a098871875a2d1b581 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.2062205Z
+  Time since last request: 0.0001974 seconds.
+  importAddress: GUID: 674aed4c152b62f48852cfddd96f6fb2 - Path: Assets/Fence pack/Prefabs/fence_c_gate3.prefab - Importer: PreviewImporter
+Importing 'GUID: 674aed4c152b62f48852cfddd96f6fb2 - Path: Assets/Fence pack/Prefabs/fence_c_gate3.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 674aed4c152b62f48852cfddd96f6fb2' -> (Import Result ID: '917c98d3fb7c932d6e3e4c5f0ba3b88d') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=181fb86042b37f4f89e02cafc878c0f9 DependenciesID=fa5a60bcf164591161572d7d3219eff2 StaticDependenciesID=f5e6b735225355d26aed4c4c57f09b44 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.2311166Z
+  Time since last request: 0.0001279 seconds.
+  importAddress: GUID: 7a72186447e5db9489b951242b2e9c64 - Path: Assets/Fence pack/Prefabs/fence_g_straight2.prefab - Importer: PreviewImporter
+Importing 'GUID: 7a72186447e5db9489b951242b2e9c64 - Path: Assets/Fence pack/Prefabs/fence_g_straight2.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7a72186447e5db9489b951242b2e9c64' -> (Import Result ID: 'd811da863b4fcc3c5a5dc0dbba4c6437') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1db59105940d2e71cab47e18fc59aaab DependenciesID=9fda874b314f1e0a38655bf6becce992 StaticDependenciesID=8afeda263c05a18f893f32d3020fba61 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.2565303Z
+  Time since last request: 0.0001196 seconds.
+  importAddress: GUID: 3e3dad3c1a0d79544a077b2c9305809f - Path: Assets/Fence pack/Prefabs/fence_g_gate_broke.prefab - Importer: PreviewImporter
+Importing 'GUID: 3e3dad3c1a0d79544a077b2c9305809f - Path: Assets/Fence pack/Prefabs/fence_g_gate_broke.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3e3dad3c1a0d79544a077b2c9305809f' -> (Import Result ID: 'a45383efb56a1379d67115cbfcd297b6') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7fcf435f1ab0a195d95130935b3b1dc DependenciesID=798d5d2b8b99191c3c47642e2c64064b StaticDependenciesID=f26da4a53b6a7cbc91ad00e40f45a6ec 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.2847918Z
+  Time since last request: 0.000146 seconds.
+  importAddress: GUID: 4b5f52c3d5052c64798ce7b87e728961 - Path: Assets/Fence pack/Prefabs/fence_b_straight.prefab - Importer: PreviewImporter
+Importing 'GUID: 4b5f52c3d5052c64798ce7b87e728961 - Path: Assets/Fence pack/Prefabs/fence_b_straight.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4b5f52c3d5052c64798ce7b87e728961' -> (Import Result ID: '4b0b722a820e5811462974d69f7df066') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=068f2b1159174d64223edf8a156ef612 DependenciesID=ba360667dfd21e82c95e8b60a30fa093 StaticDependenciesID=f261985ccc9273d41459a075667f7154 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:52:33.3071641Z
+  Time since last request: 0.0001609 seconds.
+  importAddress: GUID: da9e74826c0cb654495543446b5a912a - Path: Assets/Fence pack/Prefabs/fence_g_straight1.prefab - Importer: PreviewImporter
+Importing 'GUID: da9e74826c0cb654495543446b5a912a - Path: Assets/Fence pack/Prefabs/fence_g_straight1.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: da9e74826c0cb654495543446b5a912a' -> (Import Result ID: '2a556b2d261d63a7592c68f22f2baf5f') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02c87f34feb30cc7fe7cfb0116b59bfa DependenciesID=ab86c973fbc7695636c848205150e74c StaticDependenciesID=a91c8267130363d944035253b5cca0fb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:57:35.3659364Z
+  Time since last request: 302.0339209 seconds.
+  importAddress: GUID: 25fa881dbd110e38a00062d88f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Models/Alder.fbx - Importer: PreviewImporter
+Importing 'GUID: 25fa881dbd110e38a00062d88f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Models/Alder.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Models/Alder.fbx)
+Imported 'GUID: 25fa881dbd110e38a00062d88f962b59' -> (Import Result ID: '8179820cfef22ab8fe852e71a5506eaa') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b24ad13a64bc0214794abda45c00b6ee DependenciesID=5a9bbb91767db22e636a127d47ac0c50 StaticDependenciesID=643cfa0f5dc07249e08a18669e73d8c4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:57:35.3941864Z
+  Time since last request: 0.0002887 seconds.
+  importAddress: GUID: e183e7578703cc84b89334aee75b4ab8 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Bush7.prefab - Importer: PreviewImporter
+Importing 'GUID: e183e7578703cc84b89334aee75b4ab8 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Bush7.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e183e7578703cc84b89334aee75b4ab8' -> (Import Result ID: '140ea4b48bb0ce807bc1cc9db52c4c8e') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdf447e6f10bae5bfaa5228c287384d9 DependenciesID=17b8f0ab5013b0649532e1ac2f6b28f1 StaticDependenciesID=f72ab3680cab8b57c0b0ed39dd61d592 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7552.
+Memory consumption went from 345.5 MB to 342.9 MB.
+Total: 9.406100 ms (FindLiveObjects: 0.469800 ms CreateObjectMapping: 0.939100 ms MarkObjects: 7.427300 ms  DeleteObjects: 0.568600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:58:03.5535644Z
+  Time since last request: 28.1146123 seconds.
+  importAddress: GUID: 4b5f52c3d5052c64798ce7b87e728961 - Path: Assets/Fence pack/Prefabs/fence_b_straight.prefab - Importer: PreviewImporter
+Importing 'GUID: 4b5f52c3d5052c64798ce7b87e728961 - Path: Assets/Fence pack/Prefabs/fence_b_straight.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4b5f52c3d5052c64798ce7b87e728961' -> (Import Result ID: '701aecf349a9f0fe6156a00bc57bb29f') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=068f2b1159174d64223edf8a156ef612 DependenciesID=ea8298c544efbb16188d87cef0ced653 StaticDependenciesID=07c8c35c634da89d3985c9b5bd1e482c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:58:07.995182Z
+  Time since last request: 4.4201353 seconds.
+  importAddress: GUID: 4b5f52c3d5052c64798ce7b87e728961 - Path: Assets/Fence pack/Prefabs/fence_b_straight.prefab - Importer: PreviewImporter
+Importing 'GUID: 4b5f52c3d5052c64798ce7b87e728961 - Path: Assets/Fence pack/Prefabs/fence_b_straight.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4b5f52c3d5052c64798ce7b87e728961' -> (Import Result ID: '6c453d570eeb4a50c67a2ac9bdd07f53') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=068f2b1159174d64223edf8a156ef612 DependenciesID=08b71d4976f34cf4a20ba215a7856203 StaticDependenciesID=2892dfe63013740a7bc369ed178fe09b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.817 seconds
+Domain Reload Profiling: 1507ms
+	BeginReloadAssembly (246ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (356ms)
+		LoadAssemblies (344ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (6ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (818ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.37 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (7.0 MB). Loaded Objects now: 7505.
+Memory consumption went from 345.6 MB to 338.6 MB.
+Total: 14.032500 ms (FindLiveObjects: 1.191300 ms CreateObjectMapping: 2.942100 ms MarkObjects: 5.702600 ms  DeleteObjects: 4.195600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T12:03:14.3665669Z
+  Time since last request: 306.34653270000001 seconds.
+  importAddress: GUID: 4b5f52c3d5052c64798ce7b87e728961 - Path: Assets/Fence pack/Prefabs/fence_b_straight.prefab - Importer: PreviewImporter
+Importing 'GUID: 4b5f52c3d5052c64798ce7b87e728961 - Path: Assets/Fence pack/Prefabs/fence_b_straight.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4b5f52c3d5052c64798ce7b87e728961' -> (Import Result ID: '626968f349833e6c76b63769f85f006d') in 0.379 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=068f2b1159174d64223edf8a156ef612 DependenciesID=4747756273729f719fa006de8dd24656 StaticDependenciesID=fc137ff33f4a05d255215125f922d777 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7616.
+Memory consumption went from 346.8 MB to 344.2 MB.
+Total: 8.022100 ms (FindLiveObjects: 0.453700 ms CreateObjectMapping: 0.912400 ms MarkObjects: 6.114800 ms  DeleteObjects: 0.540500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.696 seconds
+Domain Reload Profiling: 1387ms
+	BeginReloadAssembly (259ms)
+		DisableScriptedObjects (20ms)
+		CreateAndSetChildDomain (55ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (323ms)
+		AnalyzeDomain (21ms)
+			TypeCache.Refresh (8ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (697ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (287ms)
+			ProcessInitializeOnLoadMethodAttributes (113ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (6.4 MB). Loaded Objects now: 7528.
+Memory consumption went from 349.2 MB to 342.8 MB.
+Total: 14.745700 ms (FindLiveObjects: 1.050800 ms CreateObjectMapping: 3.242700 ms MarkObjects: 6.379800 ms  DeleteObjects: 4.070900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.704 seconds
+Domain Reload Profiling: 1333ms
+	BeginReloadAssembly (221ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (318ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (705ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (6.1 MB). Loaded Objects now: 7531.
+Memory consumption went from 351.6 MB to 345.5 MB.
+Total: 13.866800 ms (FindLiveObjects: 1.278900 ms CreateObjectMapping: 2.683700 ms MarkObjects: 5.540600 ms  DeleteObjects: 4.362300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.689 seconds
+Domain Reload Profiling: 1338ms
+	BeginReloadAssembly (231ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (335ms)
+		LoadAssemblies (329ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (690ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (271ms)
+			ProcessInitializeOnLoadMethodAttributes (117ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (6.1 MB). Loaded Objects now: 7534.
+Memory consumption went from 354.2 MB to 348.1 MB.
+Total: 13.083100 ms (FindLiveObjects: 1.037300 ms CreateObjectMapping: 2.923100 ms MarkObjects: 5.483300 ms  DeleteObjects: 3.638200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7534.
+Memory consumption went from 351.9 MB to 349.3 MB.
+Total: 6.046700 ms (FindLiveObjects: 0.393100 ms CreateObjectMapping: 0.627300 ms MarkObjects: 4.504300 ms  DeleteObjects: 0.521300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1382ms
+	BeginReloadAssembly (227ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (328ms)
+		LoadAssemblies (325ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (746ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (127ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6574 unused Assets / (6.0 MB). Loaded Objects now: 7537.
+Memory consumption went from 359.2 MB to 353.2 MB.
+Total: 13.023200 ms (FindLiveObjects: 0.973600 ms CreateObjectMapping: 2.440400 ms MarkObjects: 6.292300 ms  DeleteObjects: 3.316100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7537.
+Memory consumption went from 357.0 MB to 354.4 MB.
+Total: 7.493300 ms (FindLiveObjects: 0.498500 ms CreateObjectMapping: 1.053300 ms MarkObjects: 5.259600 ms  DeleteObjects: 0.680800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

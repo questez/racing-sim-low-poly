@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.4f1 (d550df8bd089) revision 13979871'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван" at "2026-08-06T11:09:03.5122801Z"
 OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16265 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван" at "2026-08-05T12:21:30.849114Z"
 System  architecture: x64
 Process architecture: x64
-Date: 2026-08-05T12:21:30Z
+Date: 2026-08-06T11:09:03Z
 
 COMMAND LINE ARGUMENTS:
 Z:\UNITY\Editor\6000.5.4f1\Editor\Unity.exe
@@ -19,9 +19,9 @@ Z:/UNITY/Projects/racing-sim-low-poly/RacingSim
 -logFile
 Logs/AssetImportWorkerHW0.log
 -srvPort
-49875
+54374
 -parentPid
-888
+10248
 -analyticsCloudUserId
 anonymous
 -analyticsLocalProjectId
@@ -76,12 +76,12 @@ Z:/UNITY/Projects/racing-sim-low-poly/RacingSim
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [8272]  Target information:
+Player connection [17824]  Target information:
 
-Player connection [8272]  * "[IP] 192.168.8.116 [Port] 0 [Flags] 2 [Guid] 412257814 [EditorId] 412257814 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VKT7RGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [17824]  * "[IP] 192.168.8.116 [Port] 0 [Flags] 2 [Guid] 222321526 [EditorId] 222321526 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-VKT7RGT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [8272] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [8272] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [17824] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17824] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -93,7 +93,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.50 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.27 ms, found 4 plugins.
 Initialize engine version: 6000.5.4f1 (d550df8bd089)
 [Subsystems] Discovering subsystems at path Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path Z:/UNITY/Projects/racing-sim-low-poly/RacingSim/Assets
@@ -115,27 +115,25 @@ Mono config path = 'Z:/UNITY/Editor/6000.5.4f1/Editor/Data/MonoBleedingEdge/etc'
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.1'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-Иван"
 [Licensing::IpcConnector] LicenseClient-Иван channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван-6000.5.4" at "2026-08-05T12:21:33.4253099Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 7788, path: "Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван-6000.5.4" at "2026-08-06T11:09:04.2148614Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 15552, path: "Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.1+9fbee8e
-  Session Id:              00d2c99180374ce7be9ea9e31b5d3599
-  Correlation Id:          4cb4e3ad09a143392451e71299d302e1
-  External correlation Id: 1835599009031763400
+  Session Id:              c53a7fe3841f48388e64bf7136a5c411
+  Correlation Id:          a833c6e40ede04f388f2bdf08e29a836
+  External correlation Id: 5234174058950679462
   Machine Id:              lZ6J0gUcbcByzG+Ak5e7N0CmXQA=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Иван-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.00s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван-6000.5.4-notifications" at "2026-08-05T12:21:33.4302883Z"
-[Licensing::Module] Licensing Background thread has ended after 2.58s
-[Licensing::Module] Licensing is initialized (took 1.39s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Иван-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Иван-6000.5.4-notifications" at "2026-08-06T11:09:04.2215143Z"
+[Licensing::Module] Licensing Background thread has ended after 0.71s
+Registering precompiled unity dll's ...
+Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
@@ -160,7 +158,7 @@ Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/Playbac
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: Z:/UNITY/Editor/6000.5.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 1.399833 seconds.
+Registered in 0.005726 seconds.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -170,23 +168,23 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.315 seconds
-Domain Reload Profiling: 2208ms
-	BeginReloadAssembly (159ms)
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1367ms
+	BeginReloadAssembly (156ms)
 	RebuildCommonClasses (5ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (1465ms)
-	LoadAllAssembliesAndSetupDomain (247ms)
-		LoadAssemblies (158ms)
-		AnalyzeDomain (176ms)
-			TypeCache.Refresh (175ms)
-				TypeCache.ScanAssembly (163ms)
-	FinalizeReload (317ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (156ms)
+		AnalyzeDomain (218ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (188ms)
+	FinalizeReload (717ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			BeforeProcessingInitializeOnLoad (79ms)
-			ProcessInitializeOnLoadAttributes (84ms)
-			ProcessInitializeOnLoadMethodAttributes (89ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (306ms)
+			ProcessInitializeOnLoadMethodAttributes (241ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
@@ -214,98 +212,817 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.649 seconds
-Domain Reload Profiling: 1448ms
-	BeginReloadAssembly (187ms)
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1554ms
+	BeginReloadAssembly (281ms)
 		DisableScriptedObjects (5ms)
-		CreateAndSetChildDomain (29ms)
-	RebuildCommonClasses (7ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (533ms)
-		LoadAssemblies (313ms)
-		AnalyzeDomain (221ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (399ms)
+		AnalyzeDomain (219ms)
 			TypeCache.Refresh (151ms)
-				TypeCache.ScanAssembly (137ms)
-			BuildScriptInfoCaches (61ms)
+				TypeCache.ScanAssembly (136ms)
+			BuildScriptInfoCaches (59ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (650ms)
+	FinalizeReload (635ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (255ms)
-			ProcessInitializeOnLoadMethodAttributes (99ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (97ms)
+			AfterProcessingInitializeOnLoad (3ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 6428 unused Assets / (5.6 MB). Loaded Objects now: 7250.
-Memory consumption went from 319.8 MB to 314.2 MB.
-Total: 9.576200 ms (FindLiveObjects: 0.765600 ms CreateObjectMapping: 2.123100 ms MarkObjects: 4.431700 ms  DeleteObjects: 2.253600 ms)
+Unloading 6428 unused Assets / (5.5 MB). Loaded Objects now: 7250.
+Memory consumption went from 320.1 MB to 314.6 MB.
+Total: 9.966700 ms (FindLiveObjects: 0.736700 ms CreateObjectMapping: 1.682900 ms MarkObjects: 4.768100 ms  DeleteObjects: 2.467500 ms)
 
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7250.
-Memory consumption went from 312.7 MB to 310.1 MB.
-Total: 6.170600 ms (FindLiveObjects: 0.376300 ms CreateObjectMapping: 0.949000 ms MarkObjects: 4.351000 ms  DeleteObjects: 0.493800 ms)
+Memory consumption went from 313.0 MB to 310.4 MB.
+Total: 6.386900 ms (FindLiveObjects: 0.356100 ms CreateObjectMapping: 0.658900 ms MarkObjects: 4.920300 ms  DeleteObjects: 0.451000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-05T12:21:39.4596987Z
-  Time since last request: 4912.31473720000031 seconds.
-  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/SampleScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '2d5101cb5115530b0546f58dd151e791') in 0.064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df02ec44839888210c31917f4110d7f2 DependenciesID=16cfd6122fb290429a28451269382fde StaticDependenciesID=7b20d268a17dce7daea60ab47f5ab39c 
+  Time of request: 2026-08-06T11:09:41.4153376Z
+  Time since last request: 87000.16918870000518 seconds.
+  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/MainScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/MainScene.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: '2deaf149b8acefc95e65f298b89fcc53') in 0.062 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99c223e2f2783df372ae5722b965f0e3 DependenciesID=4e1afe7503a59ae89f71f19ee40d48f3 StaticDependenciesID=36a421a3520e0cc344294a29feaefb00 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-05T12:21:39.5428279Z
-  Time since last request: 0.0086076 seconds.
-  importAddress: GUID: fa69697be3070b04a893666f5947f18c - Path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow_PanelSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: fa69697be3070b04a893666f5947f18c - Path: Packages/com.unity.render-pipelines.core/Runtime/Debugging/Runtime UI Resources/RuntimeDebugWindow_PanelSettings.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: fa69697be3070b04a893666f5947f18c' -> (Import Result ID: '65136b8037c1ab4f5501d91670c2e633') in 0.079 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c7809b397225fa3481fcabd7b5cda50 DependenciesID=0d384b20d65b64fc780a0ea388ec211e StaticDependenciesID=ac2b8bada0c4cb2f8e912d8d0e0ddb2c 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 27
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-05T12:21:39.6349074Z
-  Time since last request: 0.0001224 seconds.
-  importAddress: GUID: 1c8e9f1e7f5808340a18eba5520b7296 - Path: Assets/InputController.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 1c8e9f1e7f5808340a18eba5520b7296 - Path: Assets/InputController.inputactions - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 1c8e9f1e7f5808340a18eba5520b7296' -> (Import Result ID: '0680eb433f9f0b71e1beb48f7a1e77d8') in 0.193 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c759b2b560f82910cae358f948a768b DependenciesID=8685ea52a46a28b5aff2d47bd07e30a6 StaticDependenciesID=d8d8192dfbb89c584c64a1b2c9dd8604 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 6
-========================================================================
-Received Import Request.
-  Time of request: 2026-08-05T12:21:39.8397753Z
-  Time since last request: 0.0003566 seconds.
+  Time of request: 2026-08-06T11:09:41.487577Z
+  Time since last request: 0.0001409 seconds.
   importAddress: GUID: 08d9640601d850c4a8391c07984a90d5 - Path: Assets/Scripts/CarController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
 Importing 'GUID: 08d9640601d850c4a8391c07984a90d5 - Path: Assets/Scripts/CarController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 08d9640601d850c4a8391c07984a90d5' -> (Import Result ID: 'f6888e5794c0a2b8cc5d188245faff00') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=907ace55cf7aa1c99d513ebf7e6d7ec2 DependenciesID=3083bd6cadf468e72e6f94d6d6408348 StaticDependenciesID=ab73c539ef9dcb4cc72f0e8b495f338b 
+Imported 'GUID: 08d9640601d850c4a8391c07984a90d5' -> (Import Result ID: '946d55a818906526aad921d0760755b9') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3c5e0b0a9e85c010694f43f0a8729c0e DependenciesID=ea674df906ea18e8f2bba3efbec48e05 StaticDependenciesID=f099557befac00745d0ace745c3d9f67 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-05T12:21:39.858429Z
-  Time since last request: 0.0005284 seconds.
+  Time of request: 2026-08-06T11:09:41.5188579Z
+  Time since last request: 0.0004453 seconds.
   importAddress: GUID: e9be6b9d71ce20345b55b654f6eca5d9 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Blue Variant.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
 Importing 'GUID: e9be6b9d71ce20345b55b654f6eca5d9 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Blue Variant.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: e9be6b9d71ce20345b55b654f6eca5d9' -> (Import Result ID: '12dfeabb6e6ab51e97e876dc184976a4') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e46a9e4068274105e8bdff9c29917a45 DependenciesID=9d7e6e1ea7e032697d58f808f180c40f StaticDependenciesID=4e677e620528feef7e483b4ada961f4a 
+Imported 'GUID: e9be6b9d71ce20345b55b654f6eca5d9' -> (Import Result ID: '245cf23bffc484792edc0776001d75e5') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a3039fcdaf3f095ae697c065370340d DependenciesID=e5432be7092f286084abe77cd251249c StaticDependenciesID=497af1006b4c1de4ce96aa98067d1802 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 108
 ========================================================================
 Received Import Request.
-  Time of request: 2026-08-05T12:21:39.9022974Z
-  Time since last request: 0.0000192 seconds.
-  importAddress: GUID: 031f8a21a0c70934b97aaa12e6bc205f - Path: Assets/InputController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
-Importing 'GUID: 031f8a21a0c70934b97aaa12e6bc205f - Path: Assets/InputController.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
-Imported 'GUID: 031f8a21a0c70934b97aaa12e6bc205f' -> (Import Result ID: '40b6b30c51d1c3fe68f2cc87406ece8b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81800921685731345c4be3f1f60b5428 DependenciesID=85c418be2d294203621a1c1cd3a18e58 StaticDependenciesID=0a0b506f2c22bc5924cf4794cd873814 
+  Time of request: 2026-08-06T11:09:47.9348467Z
+  Time since last request: 6.3565179 seconds.
+  importAddress: GUID: 08d9640601d850c4a8391c07984a90d5 - Path: Assets/Scripts/CarController.cs - Importer: PreviewImporter
+Importing 'GUID: 08d9640601d850c4a8391c07984a90d5 - Path: Assets/Scripts/CarController.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 08d9640601d850c4a8391c07984a90d5' -> (Import Result ID: 'a8832ef177176a2c8372494033f74b29') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc5f750493e31ce88ad81d7867925db8 DependenciesID=cb7caf11563ddd8f96d651244da0d9da StaticDependenciesID=6543227d47c106b0eb93f21e1179f0fc 
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:10:31.1928031Z
+  Time since last request: 43.2468234 seconds.
+  importAddress: GUID: d9f35230ed361074ca7492aca2232c82 - Path: Assets/New Terrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d9f35230ed361074ca7492aca2232c82 - Path: Assets/New Terrain.asset - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d9f35230ed361074ca7492aca2232c82' -> (Import Result ID: 'b8d61cf37f97aaff48e0dc0a4b63d167') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3aaccbe45af4a3faeef124d1135a4b91 DependenciesID=a92a3a8bfe504c6f20347252038e6ff4 StaticDependenciesID=81b2d10d35af1dd5676ec31f2604f0dd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:13:40.2828718Z
+  Time since last request: 189.07010589999999 seconds.
+  importAddress: GUID: d9f35230ed361074ca7492aca2232c82 - Path: Assets/New Terrain.asset - Importer: PreviewImporter
+Importing 'GUID: d9f35230ed361074ca7492aca2232c82 - Path: Assets/New Terrain.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d9f35230ed361074ca7492aca2232c82' -> (Import Result ID: '6e51977733543fe6cb740b3b2a24c729') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f1657f2a26efb454357dbfe507e2d0e DependenciesID=06ca87609be35034080acdf4aab8b648 StaticDependenciesID=9c461355de630b1a07f942744a30641f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:22.1371946Z
+  Time since last request: 41.8322474 seconds.
+  importAddress: GUID: f5e319e41d6dacd4ca48ffd42be2063e - Path: Assets/ARCADE - FREE Racing Car/Scenes - Importer: PreviewImporter
+Importing 'GUID: f5e319e41d6dacd4ca48ffd42be2063e - Path: Assets/ARCADE - FREE Racing Car/Scenes - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f5e319e41d6dacd4ca48ffd42be2063e' -> (Import Result ID: 'd5e42497dc836a12f3a7aeffc5128da2') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2df55ca999630f54e9130de464dc1c06 DependenciesID=0daeac8c4fe1593a476338de06d60b54 StaticDependenciesID=509d395067759e38bc75971a33a7327f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:22.2543696Z
+  Time since last request: 0.1095062 seconds.
+  importAddress: GUID: d12c0013fcfea9e4a9ee272bfaaec870 - Path: Assets/ARCADE - FREE Racing Car/Scenes/More cars.png - Importer: PreviewImporter
+Importing 'GUID: d12c0013fcfea9e4a9ee272bfaaec870 - Path: Assets/ARCADE - FREE Racing Car/Scenes/More cars.png - Importer: PreviewImporter' with importer (PreviewImporter)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Imported 'GUID: d12c0013fcfea9e4a9ee272bfaaec870' -> (Import Result ID: 'a36cf53ea9c5142995f5d9d7a15c3500') in 0.041 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81ebd5d3023835923bd94e119dd0bc13 DependenciesID=d5bd3c752297f966c0f442255abe2231 StaticDependenciesID=4636dc808b3eba6bbd63fde90ae0ab8d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:24.4126601Z
+  Time since last request: 2.1098724 seconds.
+  importAddress: GUID: 133308cdb8794744caaef026bde9e1f0 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car.prefab - Importer: PreviewImporter
+Importing 'GUID: 133308cdb8794744caaef026bde9e1f0 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 133308cdb8794744caaef026bde9e1f0' -> (Import Result ID: 'b20851f23d974b9df9b8db13bc6b3f28') in 0.379 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=94fc9284e419cde445b95c98475dee47 DependenciesID=358b3d62aa14bbd4501d56d0516758d2 StaticDependenciesID=6cac248038a6df4e270401d609314535 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 59
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:24.8012465Z
+  Time since last request: 0.0000266 seconds.
+  importAddress: GUID: 62010132604e8c94d96b4cb4fe6d3394 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Purple Variant.prefab - Importer: PreviewImporter
+Importing 'GUID: 62010132604e8c94d96b4cb4fe6d3394 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Purple Variant.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 62010132604e8c94d96b4cb4fe6d3394' -> (Import Result ID: 'a0c6a8dbb72c016c50508b1b74d031f5') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f93616aa3ffeed4a427947f4a4044fbb DependenciesID=fd7754393b24dce3ee780da86b66b70e StaticDependenciesID=16b60cfbe221e6d92247e7a3a37aae4c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:24.8312037Z
+  Time since last request: 0.000025 seconds.
+  importAddress: GUID: 4d1624804e8167f479ab63c5302ff1d5 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Gray Variant.prefab - Importer: PreviewImporter
+Importing 'GUID: 4d1624804e8167f479ab63c5302ff1d5 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (With Colliders)/Free Racing Car Gray Variant.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4d1624804e8167f479ab63c5302ff1d5' -> (Import Result ID: 'cf0f5436ecca63fb145f8cda34114b96') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d02659903b7dadac3653c3f3c7e111d DependenciesID=f1017e303c819b20cf1c9d9c91b27f72 StaticDependenciesID=1909f03b3a8d58426c9353997ff8746b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 108
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:27.1965841Z
+  Time since last request: 2.3371392 seconds.
+  importAddress: GUID: c4cad50aa03bbca42938fe318344950b - Path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab - Importer: PreviewImporter
+Importing 'GUID: c4cad50aa03bbca42938fe318344950b - Path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c4cad50aa03bbca42938fe318344950b' -> (Import Result ID: 'b2a5c5965a5ff26584f74e79d8e87477') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=675f65882b5c238439803ba418a89e73 DependenciesID=3ee8c88516c49130385fabaf74e9d3e0 StaticDependenciesID=12cabd4a47f7124b4b495e2a955068e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 42
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:27.2149446Z
+  Time since last request: 0.0000832 seconds.
+  importAddress: GUID: 98c57f100a7d7684dba02b8725bbc5d8 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Purple Variant.prefab - Importer: PreviewImporter
+Importing 'GUID: 98c57f100a7d7684dba02b8725bbc5d8 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Purple Variant.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 98c57f100a7d7684dba02b8725bbc5d8' -> (Import Result ID: 'd685d21d74b3e3d872127173b413ccda') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9008dda20f6dd5d87abe97fc22a9d2f4 DependenciesID=7354b87a4451475abde6270d8fb72d1f StaticDependenciesID=2e655aaf398c82643efa329148f4fb22 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:27.2345027Z
+  Time since last request: 0.0000215 seconds.
+  importAddress: GUID: f430073c636116b4b9c0f5e6ddcde097 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Gray Variant.prefab - Importer: PreviewImporter
+Importing 'GUID: f430073c636116b4b9c0f5e6ddcde097 - Path: Assets/ARCADE - FREE Racing Car/Prefabs (Meshes Only)/Free Racing Car Gray Variant.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f430073c636116b4b9c0f5e6ddcde097' -> (Import Result ID: 'f0264a137b0189e12247a604b7c980de') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6b906e2b4082e5310320c01266dcd644 DependenciesID=df3de46994caf85a9a5020f60be9f386 StaticDependenciesID=19ca97b63fbe0dccc7cb3e8a4f106901 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:28.617382Z
+  Time since last request: 1.3550099 seconds.
+  importAddress: GUID: 0b49c9f90b77b6441bac4cde7efcd2fe - Path: Assets/ARCADE - FREE Racing Car/Meshes - Importer: PreviewImporter
+Importing 'GUID: 0b49c9f90b77b6441bac4cde7efcd2fe - Path: Assets/ARCADE - FREE Racing Car/Meshes - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0b49c9f90b77b6441bac4cde7efcd2fe' -> (Import Result ID: '003d82bd446f1b46f07f7f32a3697151') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ea79b18bfcbedcc3ffabfc368e57074 DependenciesID=0098b55ca55b9e944ee58c7c04d34ef1 StaticDependenciesID=66a8c4e0050fbb6b8f2e934f0c3656dd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:28.6928163Z
+  Time since last request: 0.0674695 seconds.
+  importAddress: GUID: 9ec6a8fc6925acb4abc5500eeecb8270 - Path: Assets/ARCADE - FREE Racing Car/Meshes/ARCADE - FREE Racing Car.fbx - Importer: PreviewImporter
+Importing 'GUID: 9ec6a8fc6925acb4abc5500eeecb8270 - Path: Assets/ARCADE - FREE Racing Car/Meshes/ARCADE - FREE Racing Car.fbx - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9ec6a8fc6925acb4abc5500eeecb8270' -> (Import Result ID: 'f28e8f4213892ecb97a795b193d2b954') in 0.248 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2e020634ef4fb277f7dc7447066c0bc0 DependenciesID=9a7638757e0e07c96a8f5f61bd918077 StaticDependenciesID=c5f4f433954fe932645ed93bccb6571f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 35
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:45.8771064Z
+  Time since last request: 16.926466 seconds.
+  importAddress: GUID: ab035d7682921704a9015ac353311d57 - Path: Assets/ARCADE - FREE Racing Car/Materials/AFRC_Emission.mat - Importer: PreviewImporter
+Importing 'GUID: ab035d7682921704a9015ac353311d57 - Path: Assets/ARCADE - FREE Racing Car/Materials/AFRC_Emission.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ab035d7682921704a9015ac353311d57' -> (Import Result ID: '70720c6273207bf7d6a4d05c2a8e6517') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7d35d4919a7947756deaec32cb09363 DependenciesID=7341e4b5b20a744cb2fb2d6f7ff0498f StaticDependenciesID=b0b8eb97cce746f36494c678bee097df 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:47.0072168Z
+  Time since last request: 1.0893055 seconds.
+  importAddress: GUID: 07f44fe3e9c462146a7769b976c50ec4 - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col1.mat - Importer: PreviewImporter
+Importing 'GUID: 07f44fe3e9c462146a7769b976c50ec4 - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col1.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 07f44fe3e9c462146a7769b976c50ec4' -> (Import Result ID: 'a66ec09359c84d615568a41dc4c1649e') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d9c3f879ce45f5365bcc41d2780c796 DependenciesID=f303a565582bbd03d177de40d5ab2c91 StaticDependenciesID=2af9e0b139ddeed7b5430472bee69652 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:14:47.0271706Z
+  Time since last request: 0.0001216 seconds.
+  importAddress: GUID: 104696f8b5f23d24586d858b68916bdc - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col4.mat - Importer: PreviewImporter
+Importing 'GUID: 104696f8b5f23d24586d858b68916bdc - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col4.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 104696f8b5f23d24586d858b68916bdc' -> (Import Result ID: '97bc78c7b7bf1b7667af8fe4f3412c8a') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a070c0d5827d2e11d24509d518cee1c5 DependenciesID=baebf43d36f3a60f5d7de882d129d605 StaticDependenciesID=7424c5e164cec53f838596c9c31251f5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.769 seconds
+Domain Reload Profiling: 1689ms
+	BeginReloadAssembly (257ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (569ms)
+		LoadAssemblies (395ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (770ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6425 unused Assets / (5.2 MB). Loaded Objects now: 7365.
+Memory consumption went from 336.1 MB to 330.9 MB.
+Total: 10.162500 ms (FindLiveObjects: 0.702300 ms CreateObjectMapping: 1.742800 ms MarkObjects: 5.142300 ms  DeleteObjects: 2.574200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7365.
+Memory consumption went from 333.6 MB to 330.9 MB.
+Total: 6.318900 ms (FindLiveObjects: 0.416700 ms CreateObjectMapping: 0.801000 ms MarkObjects: 4.623600 ms  DeleteObjects: 0.477100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:18:32.9077561Z
+  Time since last request: 225.85706930000001 seconds.
+  importAddress: GUID: 28b0246252aaca14ca70564373a5a21f - Path: Assets/Next_Spring - Importer: PreviewImporter
+Importing 'GUID: 28b0246252aaca14ca70564373a5a21f - Path: Assets/Next_Spring - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 28b0246252aaca14ca70564373a5a21f' -> (Import Result ID: '4217c4728cb96832742a1a2adf2b4a6b') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2cf46952e75e822b5ac1f98dc23f6b0 DependenciesID=e28c077c84f276e962c1f0bff1f86c55 StaticDependenciesID=f3eca439b458d7a657eaadcfbc1cf338 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:18:59.9880392Z
+  Time since last request: 27.0675304 seconds.
+  importAddress: GUID: d48ef5fbece4a6b4eae31a4ff55ecd84 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_1.prefab - Importer: PreviewImporter
+Importing 'GUID: d48ef5fbece4a6b4eae31a4ff55ecd84 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_1.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d48ef5fbece4a6b4eae31a4ff55ecd84' -> (Import Result ID: 'a2a358b15ba3bbd0de35c3f5c60ef0d8') in 7.877 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=229dcb97e400ff3035fffa18189f6ee8 DependenciesID=241fe57c420cbc128c1624d379293845 StaticDependenciesID=b30426506af794e20a08ab3796d106a6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-DQYR-K32M-YQDA-VF2F-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.657 seconds
+Domain Reload Profiling: 1311ms
+	BeginReloadAssembly (240ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (324ms)
+		LoadAssemblies (311ms)
+		AnalyzeDomain (20ms)
+			TypeCache.Refresh (6ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (658ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (245ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6425 unused Assets / (5.2 MB). Loaded Objects now: 7388.
+Memory consumption went from 341.0 MB to 335.8 MB.
+Total: 8.538700 ms (FindLiveObjects: 0.664400 ms CreateObjectMapping: 1.703400 ms MarkObjects: 4.223100 ms  DeleteObjects: 1.947000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.743 seconds
+Domain Reload Profiling: 1373ms
+	BeginReloadAssembly (225ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (314ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (743ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (311ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (24ms)
+Refreshing native plugins compatible for Editor in 2.48 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6425 unused Assets / (6.2 MB). Loaded Objects now: 7391.
+Memory consumption went from 343.1 MB to 336.9 MB.
+Total: 14.132100 ms (FindLiveObjects: 0.794000 ms CreateObjectMapping: 3.319600 ms MarkObjects: 5.979300 ms  DeleteObjects: 4.038200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:06.5618353Z
+  Time since last request: 118.6875594 seconds.
+  importAddress: GUID: 312c21ee2735a124692834335b44738a - Path: Assets/Next_Spring/Tree_Bundle - Importer: PreviewImporter
+Importing 'GUID: 312c21ee2735a124692834335b44738a - Path: Assets/Next_Spring/Tree_Bundle - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 312c21ee2735a124692834335b44738a' -> (Import Result ID: '041ddb9cf520204eedad691867f09d0c') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=febefdf51bf788adee00ad758cfbc14f DependenciesID=de137df8b4132ea8f46fde607db91704 StaticDependenciesID=939b296f357418c46cea7ce98bc00550 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:07.8973184Z
+  Time since last request: 1.3228156 seconds.
+  importAddress: GUID: 364591aaaa5bccd4e987b6cb88c3d1ca - Path: Assets/Next_Spring/Tree_Bundle/Prefabs - Importer: PreviewImporter
+Importing 'GUID: 364591aaaa5bccd4e987b6cb88c3d1ca - Path: Assets/Next_Spring/Tree_Bundle/Prefabs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 364591aaaa5bccd4e987b6cb88c3d1ca' -> (Import Result ID: '88911b02ce42538683aac54ebf179dcb') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1faaa2bfb95039b8e5bae826214e7a99 DependenciesID=a88c167eaef432851f1d466e92ba998e StaticDependenciesID=da886a7c805a329ffd541178e4592d88 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:08.5848029Z
+  Time since last request: 0.6756391 seconds.
+  importAddress: GUID: 0edc40bca865a274ca02168050e620d2 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch - Importer: PreviewImporter
+Importing 'GUID: 0edc40bca865a274ca02168050e620d2 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0edc40bca865a274ca02168050e620d2' -> (Import Result ID: '7049597a59b3ca148080741fb0859b0e') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=33978cb97784969d5080b22dfe15ebcc DependenciesID=d62c9ef93de1b9e260605612af860dab StaticDependenciesID=6c90ca00b54f9354467325f38e4299bb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.1289699Z
+  Time since last request: 0.5348555 seconds.
+  importAddress: GUID: 99d8dbcde709876419029864e602f01b - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile - Importer: PreviewImporter
+Importing 'GUID: 99d8dbcde709876419029864e602f01b - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 99d8dbcde709876419029864e602f01b' -> (Import Result ID: '70b1d22b02e53aaa7f45ddad426c60de') in 0.000 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dcd0ca867f339a10845b1f1de778e356 DependenciesID=fa941b705bf061068c416e7bcac11a89 StaticDependenciesID=56143939650c1e754fe10917a01fa010 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.1758594Z
+  Time since last request: 0.0376657 seconds.
+  importAddress: GUID: dd9226cbd9f85f349a0b76660a1be283 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_2.prefab - Importer: PreviewImporter
+Importing 'GUID: dd9226cbd9f85f349a0b76660a1be283 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_2.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dd9226cbd9f85f349a0b76660a1be283' -> (Import Result ID: '76215d03660e4940816e13c0f4fb3d97') in 0.436 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ddfea1fe38e1b44b8db009726ba3b72 DependenciesID=ad4f68f13e88639b78758ec97bf6cd6f StaticDependenciesID=876e25bce6443a05cbe69a9c703ee036 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.6213025Z
+  Time since last request: 0.0001024 seconds.
+  importAddress: GUID: c582896265a2f4046a080fc6eb2a04c3 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_14.prefab - Importer: PreviewImporter
+Importing 'GUID: c582896265a2f4046a080fc6eb2a04c3 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_14.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c582896265a2f4046a080fc6eb2a04c3' -> (Import Result ID: 'd647a24e07049d6419ccc8bdfe16a833') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1856598ecda6879bab4893da6b5f3c8 DependenciesID=05813adb4353f89cb12732989d0e0fe3 StaticDependenciesID=ef8d89a3cc97fce084a89b5b99c389b8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.6695221Z
+  Time since last request: 0.0000228 seconds.
+  importAddress: GUID: bf25dc42cd0adca48b32d841ad399f4e - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_15.prefab - Importer: PreviewImporter
+Importing 'GUID: bf25dc42cd0adca48b32d841ad399f4e - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_15.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bf25dc42cd0adca48b32d841ad399f4e' -> (Import Result ID: 'c01482609cf37b6bb0ea157e0719e599') in 0.045 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=47ea72875bc965699f3e3692cffe8cc3 DependenciesID=4a9dd5cdf2ea72aefc78646d88167a10 StaticDependenciesID=fcd09039f191a6e46a7c5441d3ef4336 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.7262748Z
+  Time since last request: 0.0003413 seconds.
+  importAddress: GUID: af9f444800d711a43a5ac13961cd237f - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_8.prefab - Importer: PreviewImporter
+Importing 'GUID: af9f444800d711a43a5ac13961cd237f - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_8.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: af9f444800d711a43a5ac13961cd237f' -> (Import Result ID: '4959ee80dfefae0e5ae86c493c7b98fe') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7810d60bf5bf9f3975f50079b5fba122 DependenciesID=1a8c9954e9a2f0c9926fee95555c6ad1 StaticDependenciesID=53a112344265adddf48b720e6420e69a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.7610211Z
+  Time since last request: 0.0002099 seconds.
+  importAddress: GUID: 06cb4696cfd45db49a1601e7f86176b6 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_7.prefab - Importer: PreviewImporter
+Importing 'GUID: 06cb4696cfd45db49a1601e7f86176b6 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_7.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 06cb4696cfd45db49a1601e7f86176b6' -> (Import Result ID: '83869e2d44a1562f890fafdb2bcf210e') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=374245556876fa711aa9db44f81a5f8b DependenciesID=32adb70a9e98187246d371fdc02745b3 StaticDependenciesID=3cc453c3325d69b65419f1b26f37e064 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.7988462Z
+  Time since last request: 0.0003643 seconds.
+  importAddress: GUID: 93e2d23148ef83c4da6992ff5eff4bd8 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_17.prefab - Importer: PreviewImporter
+Importing 'GUID: 93e2d23148ef83c4da6992ff5eff4bd8 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_17.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 93e2d23148ef83c4da6992ff5eff4bd8' -> (Import Result ID: 'f80db280d0aae8e6b15abbeffe6ca7d4') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=143e7c150e820ba388982ceec3d8bb10 DependenciesID=08814ce2f62f1ac1c2fe5dd5cf237176 StaticDependenciesID=8cfdf29a018778abf5b0b4c04bfed916 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.8416707Z
+  Time since last request: 0.0000321 seconds.
+  importAddress: GUID: 29d1e644745abad4e9d26e4ffb9f8faf - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_5.prefab - Importer: PreviewImporter
+Importing 'GUID: 29d1e644745abad4e9d26e4ffb9f8faf - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_5.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 29d1e644745abad4e9d26e4ffb9f8faf' -> (Import Result ID: '4d38cfcef9d8ec6b654b578e6ab68a5e') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f1ea3558c6713612c99e7e9a0a285e6e DependenciesID=3645985b1b7cca07c6e51602c5b1739c StaticDependenciesID=5ef5ec33fe9cef4d38f25b98c5f0c3ea 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.873099Z
+  Time since last request: 0.0000327 seconds.
+  importAddress: GUID: 8aec1c09565c4c1489f73194b6cc605e - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_10.prefab - Importer: PreviewImporter
+Importing 'GUID: 8aec1c09565c4c1489f73194b6cc605e - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_10.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8aec1c09565c4c1489f73194b6cc605e' -> (Import Result ID: '95d522fe424e8200798cc96b5dc8d883') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=496cb14946e7e87af585cb2ffb6c7a9c DependenciesID=4dd2aae64f645d1b600f4d1b35e7b97a StaticDependenciesID=89de126fefa86b5204ca5fb25fe7ba30 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.9076533Z
+  Time since last request: 0.0000307 seconds.
+  importAddress: GUID: 2c91e619520b2c4488bffa4711f1e602 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_16.prefab - Importer: PreviewImporter
+Importing 'GUID: 2c91e619520b2c4488bffa4711f1e602 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_16.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2c91e619520b2c4488bffa4711f1e602' -> (Import Result ID: '0bcbcf1f7b1e85d659ece186d9e94374') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9417a4b7fc5fe48e3d5ae17364369718 DependenciesID=e1a82953b94b13f961e6e5ec8ae70453 StaticDependenciesID=c7b742e2a10bae894fbc1be8b0eb400b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.9413874Z
+  Time since last request: 0.0000394 seconds.
+  importAddress: GUID: fdeb7c5bd61f34d4793c35a3dfb250cb - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_9.prefab - Importer: PreviewImporter
+Importing 'GUID: fdeb7c5bd61f34d4793c35a3dfb250cb - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_9.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fdeb7c5bd61f34d4793c35a3dfb250cb' -> (Import Result ID: '0c77ee6e411e904e884c0613be84c246') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c54d03278cd24bd7e34a648f14816f5b DependenciesID=9873212dc029f983fec8bc5e7ab09903 StaticDependenciesID=e0f81fb8b4e3b53f313da7e509086e2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:09.9766692Z
+  Time since last request: 0.0000995 seconds.
+  importAddress: GUID: 51ddd95a7f4f08f47ab569df30d1e02b - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_11.prefab - Importer: PreviewImporter
+Importing 'GUID: 51ddd95a7f4f08f47ab569df30d1e02b - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_11.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 51ddd95a7f4f08f47ab569df30d1e02b' -> (Import Result ID: '52f874980c57c987e7290603d853c7cc') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0b012bf21370009b047a846a1b5869a6 DependenciesID=e7ca9c09fc8af5a066d9ab6ba2ef57b1 StaticDependenciesID=452055c3170e27b71e7c154be4360ecb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:10.0110758Z
+  Time since last request: 0.0000823 seconds.
+  importAddress: GUID: 08a644d488902a94d9f0244d6f0cf6ba - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_12.prefab - Importer: PreviewImporter
+Importing 'GUID: 08a644d488902a94d9f0244d6f0cf6ba - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_12.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 08a644d488902a94d9f0244d6f0cf6ba' -> (Import Result ID: '36fe77bad3989f24d81e2596e64c737d') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c0e195a6ba8c71b6396c4cc4608646f DependenciesID=3deb7e91dc4c662077f574a115c7b7a7 StaticDependenciesID=d34bb6c2ad279a7437d00cce70313913 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:10.0429192Z
+  Time since last request: 0.0000613 seconds.
+  importAddress: GUID: 20b962cb67ecb5a4fb9d04f7f7ca9998 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_6.prefab - Importer: PreviewImporter
+Importing 'GUID: 20b962cb67ecb5a4fb9d04f7f7ca9998 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_6.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 20b962cb67ecb5a4fb9d04f7f7ca9998' -> (Import Result ID: '1598a6c52fd153ac15bfac35c2c4f100') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ace58e278e7ad421f0dd159cfc0c811b DependenciesID=ed84ad5320399c9106b5220daf27ba74 StaticDependenciesID=23c79e3f3eebc256a34991b003af1a17 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:10.0773758Z
+  Time since last request: 0.0000328 seconds.
+  importAddress: GUID: f4cf693241b5cb04e9be71f3888d7237 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_4.prefab - Importer: PreviewImporter
+Importing 'GUID: f4cf693241b5cb04e9be71f3888d7237 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_4.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4cf693241b5cb04e9be71f3888d7237' -> (Import Result ID: 'f14867514119938b2b4dc4e2c7401cad') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d15491e6071b5a882c4aed044409859e DependenciesID=5dbe993917210cb88931fd92ec7aabb1 StaticDependenciesID=b8f17f3149183af909d479813be03e95 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:10.1126727Z
+  Time since last request: 0.0000315 seconds.
+  importAddress: GUID: f4cfecebe5a1f9143a527b69d1c7db45 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_13.prefab - Importer: PreviewImporter
+Importing 'GUID: f4cfecebe5a1f9143a527b69d1c7db45 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_13.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f4cfecebe5a1f9143a527b69d1c7db45' -> (Import Result ID: '959717ed1cf4311d6b167bf4b4692815') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=587a4bcdace1445b558641b39ff54525 DependenciesID=8ee71cc752cd9f2c70739b00e32701ac StaticDependenciesID=f45e111d3ed566b4c5f73ec3bd289d13 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.5768893Z
+  Time since last request: 13.4305552 seconds.
+  importAddress: GUID: 3b9f2777f7c5381439d6b1161cba0236 - Path: Assets/Next_Spring/Tree_Bundle/Textures/White_Birch/Trunk - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3b9f2777f7c5381439d6b1161cba0236 - Path: Assets/Next_Spring/Tree_Bundle/Textures/White_Birch/Trunk - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3b9f2777f7c5381439d6b1161cba0236' -> (Import Result ID: '5eeb4a8075bf1c877ad10d30edca3510') in 0.050 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0bd8a1fdd072f1b0c827348d9258fa57 DependenciesID=f128694b9e6ca6c0b350b13a6ac6614c StaticDependenciesID=f61dd0b11fedd27a69be03b5667c8d31 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.637951Z
+  Time since last request: 0.0006798 seconds.
+  importAddress: GUID: c582896265a2f4046a080fc6eb2a04c3 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_14.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c582896265a2f4046a080fc6eb2a04c3 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_14.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c582896265a2f4046a080fc6eb2a04c3' -> (Import Result ID: 'c1b95d9190bf83af6c54a2a9eab3eacd') in 0.076 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38e36f4091cd30c80319863d15726f96 DependenciesID=45bb40487ef8952a75a162e52cfcfd21 StaticDependenciesID=042c365d981ff5e4bab907043992c90d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.7265008Z
+  Time since last request: 0.0004459 seconds.
+  importAddress: GUID: e8490b2e35ec5c646827fce8a3f6ba48 - Path: Assets/Next_Spring/Tree_Bundle/Settings/New Lighting Settings.lighting - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e8490b2e35ec5c646827fce8a3f6ba48 - Path: Assets/Next_Spring/Tree_Bundle/Settings/New Lighting Settings.lighting - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e8490b2e35ec5c646827fce8a3f6ba48' -> (Import Result ID: 'cda624c4ffcfb99231b82158385eae2c') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2516b9fbd0dac8a354afd8188df1ab31 DependenciesID=ecd82e34da3d87b3b869c96753c85891 StaticDependenciesID=32dfdac0b86be87c9ed84e449c91cbb1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.7576882Z
+  Time since last request: 0.0000404 seconds.
+  importAddress: GUID: fd605b860ff1e7f4199762122f7f0638 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_11.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fd605b860ff1e7f4199762122f7f0638 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_11.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_11.fbx)
+Imported 'GUID: fd605b860ff1e7f4199762122f7f0638' -> (Import Result ID: 'cce9b5397e72717eaf9f190b6e591fc9') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1ec4e4e2a566937d11f41817a09b37e DependenciesID=d7e085d1a0e99b6346778c8be2c89fff StaticDependenciesID=f7a5648f49dacc83728e777bf2933caa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.8038997Z
+  Time since last request: 0.0002907 seconds.
+  importAddress: GUID: 06cb4696cfd45db49a1601e7f86176b6 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_7.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 06cb4696cfd45db49a1601e7f86176b6 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_7.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 06cb4696cfd45db49a1601e7f86176b6' -> (Import Result ID: '65a1b79efa61ec6b5ccbdb9814157b2f') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d4356ae23f41a6f61d402e0c28532b8 DependenciesID=e7b5005b8c14466c62729c844f5dc157 StaticDependenciesID=b060077b007104ec3c61f70cb1cfcd27 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.8286165Z
+  Time since last request: 0.000166 seconds.
+  importAddress: GUID: 59dcda66290d7494ca3fd8e0fadfdd83 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_6.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 59dcda66290d7494ca3fd8e0fadfdd83 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_6.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_6.fbx)
+Imported 'GUID: 59dcda66290d7494ca3fd8e0fadfdd83' -> (Import Result ID: '7c025541ac992f481a49e0e6289e2b74') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ecfd5ac93c606df9c214dd51b5249fec DependenciesID=78d10fd8165b4a362de15952ab020960 StaticDependenciesID=925a55019dbca6051d8ed41daba94d4a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.8599233Z
+  Time since last request: 0.0003019 seconds.
+  importAddress: GUID: f4cfecebe5a1f9143a527b69d1c7db45 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_13.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f4cfecebe5a1f9143a527b69d1c7db45 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_13.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f4cfecebe5a1f9143a527b69d1c7db45' -> (Import Result ID: '7ad62dfbd8a76ac0ffbe262cc807370d') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6ec85336e90a2cbbec02aefcd1da953b DependenciesID=505792adb7a56051474658d56d968e58 StaticDependenciesID=9954f2c8dc15fa5b5871deaab624a55a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.8844561Z
+  Time since last request: 0.0002549 seconds.
+  importAddress: GUID: 6f672e45e2931fa43aae4afb51d1eb38 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/Materials/M_Realistic8_Leaf.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6f672e45e2931fa43aae4afb51d1eb38 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/Materials/M_Realistic8_Leaf.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6f672e45e2931fa43aae4afb51d1eb38' -> (Import Result ID: '9c8dd3a49f7598a6b256080d9f06af2a') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=956725f964513efb2ebdec7cff7bb475 DependenciesID=84a26bd8509b82bcb67fb2b686a6e40c StaticDependenciesID=66503ce93226dc84e3a68c8b427693e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.9203842Z
+  Time since last request: 0.000576 seconds.
+  importAddress: GUID: f0065bcfb83e5904384b9c077b500c2a - Path: Assets/Next_Spring/Tree_Bundle/Scene/White_Birch.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f0065bcfb83e5904384b9c077b500c2a - Path: Assets/Next_Spring/Tree_Bundle/Scene/White_Birch.unity - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f0065bcfb83e5904384b9c077b500c2a' -> (Import Result ID: 'e8237f1ace318eba6c7fceb68b7bfd0a') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8dd0fc812e20ca5b7b38b20d96d36c74 DependenciesID=288894ff22ca494c171b8cb5933b46da StaticDependenciesID=1115504489a4dba67a0e56e24b37fef1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.9411272Z
+  Time since last request: 0.0004438 seconds.
+  importAddress: GUID: 56132011418a7854ebf838c2ea7f21ec - Path: Assets/Next_Spring/Tree_Bundle/Scene - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 56132011418a7854ebf838c2ea7f21ec - Path: Assets/Next_Spring/Tree_Bundle/Scene - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 56132011418a7854ebf838c2ea7f21ec' -> (Import Result ID: 'c4d84afcc31a0dab220ded0f7df07372') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fcd5b1be62c09a7dbbbf6e8365dc38be DependenciesID=cebde5b52e999136007aff2fabfb8076 StaticDependenciesID=9b1bd99e6d83ec7837e269a38a1cbf3e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.9600807Z
+  Time since last request: 0.0004017 seconds.
+  importAddress: GUID: f3b1179c1c298034b87998f63ae6a8a3 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_12.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f3b1179c1c298034b87998f63ae6a8a3 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_12.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_12.fbx)
+Imported 'GUID: f3b1179c1c298034b87998f63ae6a8a3' -> (Import Result ID: '3d9bee67bfa878bd728133443f1ed1dc') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=542309ac67dc381052a425fb3cc94f33 DependenciesID=f80d6e742ec4bf0de27631027e5b09c8 StaticDependenciesID=390013a01b57089acda91504950d2065 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:23.9886811Z
+  Time since last request: 0.0002089 seconds.
+  importAddress: GUID: 64e6602246dfcc4459ef1164e7fc9626 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_14.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 64e6602246dfcc4459ef1164e7fc9626 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_14.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_14.fbx)
+Imported 'GUID: 64e6602246dfcc4459ef1164e7fc9626' -> (Import Result ID: '9e5880c7ad8010bf4a3487e94a91edb5') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b27b70abc5043b793108ff502f637ab4 DependenciesID=1aeffd0454b8e337b4a9c08469a09348 StaticDependenciesID=1afd7b0a35aacc69a8113ad904e2d8eb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.0171425Z
+  Time since last request: 0.0004229 seconds.
+  importAddress: GUID: c2f2b1f9324724c45989509f17ae58a0 - Path: Assets/Next_Spring/Tree_Bundle/Doc/MobileTreePacks.pdf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c2f2b1f9324724c45989509f17ae58a0 - Path: Assets/Next_Spring/Tree_Bundle/Doc/MobileTreePacks.pdf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c2f2b1f9324724c45989509f17ae58a0' -> (Import Result ID: 'a954e6711bb92e6a19961d523f8f5263') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5d289ae3f9b2cacf6ec86cceeb2d1689 DependenciesID=af6ace68e57aaf4720a8d0d285daceb9 StaticDependenciesID=5dca9a04e70ac19b27dc829e6011eb41 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.0376799Z
+  Time since last request: 0.0005298 seconds.
+  importAddress: GUID: c42ee106c1e37f34d93e8a5a5667da47 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_3.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c42ee106c1e37f34d93e8a5a5667da47 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_3.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_3.fbx)
+Imported 'GUID: c42ee106c1e37f34d93e8a5a5667da47' -> (Import Result ID: '0cfdce179636c64abc0281b0ded80e09') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3a34a5a8424a8358843bdff12759163e DependenciesID=3f76e92d94064b391b71312523a044c7 StaticDependenciesID=b165c46071300eee48b9cc215a92588d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.0655586Z
+  Time since last request: 0.0002567 seconds.
+  importAddress: GUID: e477e7db2abb5f047848d02979eb09bc - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/Materials/M_Realistic8_Trunk.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e477e7db2abb5f047848d02979eb09bc - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/Materials/M_Realistic8_Trunk.mat - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e477e7db2abb5f047848d02979eb09bc' -> (Import Result ID: 'bacdde7b1fddda0cb8e81e5e6c4e73b3') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b6e36afac6ee757bd58f9d7129bec25c DependenciesID=8e83c49db663f0a3c31321121d739dda StaticDependenciesID=8e19b6a5121a5fdcdecdf6fe9bfa22c0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.0931624Z
+  Time since last request: 0.0002586 seconds.
+  importAddress: GUID: 6341195625e4a3d44b4f07c034ff98f4 - Path: Assets/Next_Spring/Tree_Bundle/Textures/White_Birch/Leaf/Realistic21_Leaf_normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6341195625e4a3d44b4f07c034ff98f4 - Path: Assets/Next_Spring/Tree_Bundle/Textures/White_Birch/Leaf/Realistic21_Leaf_normal.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6341195625e4a3d44b4f07c034ff98f4' -> (Import Result ID: '78a103c93f1f91cf998629eb3d16915f') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4a9a49cafd0de50ee428f75e080e6ae4 DependenciesID=5e37871cf8013fbecb9bfd521d2ef5e7 StaticDependenciesID=689b872bee3a862a2707ebc2e86702bc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.1561422Z
+  Time since last request: 0.0003211 seconds.
+  importAddress: GUID: dd9226cbd9f85f349a0b76660a1be283 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_2.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: dd9226cbd9f85f349a0b76660a1be283 - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_2.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: dd9226cbd9f85f349a0b76660a1be283' -> (Import Result ID: '314835299a2aa82aff46ea56b595d485') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d13c71298bfbd685d6e3c645c2fe1b1 DependenciesID=2399c72e35e87e48bf31efee883df99c StaticDependenciesID=583b9d91a8150924adbf46c77e420a62 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.182725Z
+  Time since last request: 0.0002761 seconds.
+  importAddress: GUID: 364591aaaa5bccd4e987b6cb88c3d1ca - Path: Assets/Next_Spring/Tree_Bundle/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 364591aaaa5bccd4e987b6cb88c3d1ca - Path: Assets/Next_Spring/Tree_Bundle/Prefabs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 364591aaaa5bccd4e987b6cb88c3d1ca' -> (Import Result ID: 'f5313a1c1b8e0c256a957ec55d5a0914') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c83506242d7e25197b29fd135432927 DependenciesID=ab7643def7d31749da107ac1f8a1d7b5 StaticDependenciesID=d3c225a6db67baea99d68b7145d84b4e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.2033224Z
+  Time since last request: 0.000332 seconds.
+  importAddress: GUID: af9f444800d711a43a5ac13961cd237f - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_8.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: af9f444800d711a43a5ac13961cd237f - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_8.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: af9f444800d711a43a5ac13961cd237f' -> (Import Result ID: 'e24a7284c7331135d4a5d3169d2464a1') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e31c5818d2ae0ee87235b31f44e975db DependenciesID=4c8c7db74b8487cf2d4166eccb2070a5 StaticDependenciesID=6bcdc7fbb74bf949597eb6f5c7941921 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.2271266Z
+  Time since last request: 0.0005396 seconds.
+  importAddress: GUID: 8aec1c09565c4c1489f73194b6cc605e - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_10.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 8aec1c09565c4c1489f73194b6cc605e - Path: Assets/Next_Spring/Tree_Bundle/Prefabs/White_Birch/Mobile/M_Realistic21_10.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 8aec1c09565c4c1489f73194b6cc605e' -> (Import Result ID: '4ca3f2634278d4ea70b503fd0bcc1c33') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=91f329bf5c48f24cc8bb51b2532a4094 DependenciesID=d2d0fc79a90926998d9743075401bb88 StaticDependenciesID=b4193e67711df7c9c6a1eefa8d927ba7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.255857Z
+  Time since last request: 0.0013595 seconds.
+  importAddress: GUID: bacfc69c542c14349b093ff0bc289a6c - Path: Assets/Next_Spring/Tree_Bundle/Textures/White_Birch/Leaf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bacfc69c542c14349b093ff0bc289a6c - Path: Assets/Next_Spring/Tree_Bundle/Textures/White_Birch/Leaf - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bacfc69c542c14349b093ff0bc289a6c' -> (Import Result ID: '0050437261ee7578b876132fdbf0756d') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=38b3356de59e48877262b9b65d4eb321 DependenciesID=8f3bfa6f424d700e366a8ca7d6e3ee55 StaticDependenciesID=0e4effe5a98965ba12a47a91f3dbcfa4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.2756055Z
+  Time since last request: 0.0006012 seconds.
+  importAddress: GUID: e3a7ccc7f9802cf4a98bc356232c1761 - Path: Assets/Next_Spring/Tree_Bundle/Textures/Global - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: e3a7ccc7f9802cf4a98bc356232c1761 - Path: Assets/Next_Spring/Tree_Bundle/Textures/Global - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: e3a7ccc7f9802cf4a98bc356232c1761' -> (Import Result ID: '572a0df8fd1579e06839ba7a06dd0709') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bdf1aad2b5d0d3d80a7c6a1e6ed50fa7 DependenciesID=52b3fac7cbbe11a506435299dd5e9d4a StaticDependenciesID=49b513ba636a2d91ebaa6e8be86590c7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-08-06T11:21:24.3134205Z
+  Time since last request: 0.0185245 seconds.
+  importAddress: GUID: 041049b115717f644bcba0e56bcd4668 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_15.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 041049b115717f644bcba0e56bcd4668 - Path: Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_15.fbx - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+MaterialLocation.External is obsolete. External Material Location is no longer supported. (Assets/Next_Spring/Tree_Bundle/Models/White_Birch/Mobile/M_Realistic21_15.fbx)
+Imported 'GUID: 041049b115717f644bcba0e56bcd4668' -> (Import Result ID: '6ff77efddc7008c9d09bfb8b86742884') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc6347c04839ab4a87f31d79412b3fa8 DependenciesID=66f2ef7208e3114e73bf7f5fdcb47f54 StaticDependenciesID=cc8cbd68418d3e9015459f589c430573 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7503.
+Memory consumption went from 342.1 MB to 339.5 MB.
+Total: 8.796700 ms (FindLiveObjects: 0.609200 ms CreateObjectMapping: 0.970200 ms MarkObjects: 6.702500 ms  DeleteObjects: 0.513900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7503.
+Memory consumption went from 344.4 MB to 341.8 MB.
+Total: 7.248100 ms (FindLiveObjects: 0.405400 ms CreateObjectMapping: 0.687200 ms MarkObjects: 5.585900 ms  DeleteObjects: 0.568800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server

@@ -24,7 +24,7 @@ public class CarController : MonoBehaviour
 
     private void OnEnable()
     {
-        inputController.Enable();
+        inputController.Player.Enable();
         inputController.Player.Throttle.performed += OnThrottlePerformed;
         inputController.Player.Throttle.canceled += OnThrottleCanceled;
         inputController.Player.SteeringWheel.performed += OnSteerPerformed;
@@ -41,7 +41,7 @@ public class CarController : MonoBehaviour
         inputController.Player.SteeringWheel.canceled -= OnSteerCanceled;
         inputController.Player.Brake.performed -= OnBrakePerformed;
         inputController.Player.Brake.canceled -= OnBrakeCanceled;
-        inputController.Disable();
+        inputController.Player.Disable();
     }
 
     private void OnThrottlePerformed(InputAction.CallbackContext ctx) => throttle = ctx.ReadValue<float>();

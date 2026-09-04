@@ -31,7 +31,7 @@ public class UIManager: MonoBehaviour
         {
             levelStatus.color = Color.red;
         }
-            levelStatus.text = message;
+        levelStatus.text = message;
         levelStatus.enabled = true;        
     }
 }

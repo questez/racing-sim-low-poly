@@ -17,6 +17,9 @@ public class CarController : MonoBehaviour
     private float turn;
     private float brake;
 
+    [SerializeField] private Win winTrigger;
+    [SerializeField] private Loss lossTrigger;
+
     private void Awake()
     {
         inputController = new InputController();
@@ -24,6 +27,12 @@ public class CarController : MonoBehaviour
 
     private void OnEnable()
     {
+        if (winTrigger != null && lossTrigger != null)
+        {
+            winTrigger.OnLevelFinished += StopLevel;
+            lossTrigger.OnLevelFinished += StopLevel;
+        }     
+        
         inputController.Player.Enable();
         inputController.Player.Throttle.performed += OnThrottlePerformed;
         inputController.Player.Throttle.canceled += OnThrottleCanceled;
@@ -35,6 +44,12 @@ public class CarController : MonoBehaviour
 
     private void OnDisable()
     {
+        if (winTrigger != null && lossTrigger != null)
+        {
+            winTrigger.OnLevelFinished -= StopLevel;
+            lossTrigger.OnLevelFinished -= StopLevel;
+        }
+
         inputController.Player.Throttle.performed -= OnThrottlePerformed;
         inputController.Player.Throttle.canceled -= OnThrottleCanceled;
         inputController.Player.SteeringWheel.performed -= OnSteerPerformed;
@@ -44,13 +59,6 @@ public class CarController : MonoBehaviour
         inputController.Player.Disable();
     }
 
-    private void OnThrottlePerformed(InputAction.CallbackContext ctx) => throttle = ctx.ReadValue<float>();
-    private void OnThrottleCanceled(InputAction.CallbackContext ctx) => throttle = 0f;
-    private void OnSteerPerformed(InputAction.CallbackContext ctx) => turn = ctx.ReadValue<float>();
-    private void OnSteerCanceled(InputAction.CallbackContext ctx) => turn = 0f;
-    private void OnBrakePerformed(InputAction.CallbackContext ctx) => brake = ctx.ReadValue<float>();
-    private void OnBrakeCanceled(InputAction.CallbackContext ctx) => brake = 0f;
-
     private void FixedUpdate()
     {
         UpdateWheelPhysics();
@@ -59,6 +67,19 @@ public class CarController : MonoBehaviour
     private void Update()
     {
         UpdateWheelVisuals();
+    }
+
+    private void OnThrottlePerformed(InputAction.CallbackContext ctx) => throttle = ctx.ReadValue<float>();
+    private void OnThrottleCanceled(InputAction.CallbackContext ctx) => throttle = 0f;
+    private void OnSteerPerformed(InputAction.CallbackContext ctx) => turn = ctx.ReadValue<float>();
+    private void OnSteerCanceled(InputAction.CallbackContext ctx) => turn = 0f;
+    private void OnBrakePerformed(InputAction.CallbackContext ctx) => brake = ctx.ReadValue<float>();
+    private void OnBrakeCanceled(InputAction.CallbackContext ctx) => brake = 0f;
+
+    private void StopLevel(string message)
+    {
+        maxBrakePower *= 1000000;
+        inputController.Player.Disable();
     }
 
     private void UpdateWheelPhysics()

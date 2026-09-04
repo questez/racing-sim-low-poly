@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|z:\\unity\\projects\\racing-sim-low-poly\\racingsim\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|z:\\unity\\projects\\racing-sim-low-poly\\racingsim\\assets\\scripts\\win.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\win.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\assets\\scripts\\loss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|z:\\unity\\projects\\racing-sim-low-poly\\racingsim\\assets\\scripts\\loss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\loss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\assets\\scripts\\win.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\win.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C378171A-42B7-CB74-21ED-C43DD3ADD582}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\carcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\Assets\\Scripts\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\UIManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Loss.cs",
               "DocumentMoniker": "Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\Assets\\Scripts\\Loss.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Loss.cs",
@@ -42,10 +46,6 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Win.cs",
@@ -55,25 +55,23 @@
               "RelativeToolTip": "Assets\\Scripts\\Win.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T09:42:25.09Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-26T09:42:25.09Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "UIManager.cs",
               "DocumentMoniker": "Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\Assets\\Scripts\\UIManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
               "ToolTip": "Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\Assets\\Scripts\\UIManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-26T14:58:56.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-26T14:58:56.362Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CarController.cs",
               "DocumentMoniker": "Z:\\UNITY\\Projects\\racing-sim-low-poly\\RacingSim\\Assets\\Scripts\\CarController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CarController.cs",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CarController.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAgwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-03T10:33:19.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-03T10:33:19.208Z"
             }
           ]
         }

@@ -1,0 +1,776 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.4f1 (d550df8bd089) revision 13979871'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany" at "2026-09-05T10:47:02.3978561Z"
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-05T10:47:02Z
+
+COMMAND LINE ARGUMENTS:
+D:\UNITY\Installs\6000.5.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW7
+-projectPath
+D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+-logFile
+Logs/AssetImportWorkerHW7.log
+-srvPort
+25971
+-parentPid
+16988
+-analyticsCloudUserId
+10171394731915
+-analyticsLocalProjectId
+761e7e679cf607248b93b98558fc3d2b
+-licensingIpc
+LicenseClient-vany
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [16464]  Target information:
+
+Player connection [16464]  * "[IP] 172.22.131.175 [Port] 0 [Flags] 2 [Guid] 1576115067 [EditorId] 1576115067 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IE2K1EE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [16464] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [16464] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-vany"
+[Licensing::IpcConnector] LicenseClient-vany channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4" at "2026-09-05T10:47:21.098474Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14584, path: "D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              73990f9cd495450d9b5d7d8c95e0f952
+  Correlation Id:          ebd87833a23bda9af7e23f8ca2d36e23
+  External correlation Id: 2993162318881383802
+  Machine Id:              +LmYPC+2oN3U6DFsdUHdOP1mlqY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-vany-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4-notifications" at "2026-09-05T10:47:21.1071912Z"
+[Licensing::Module] Licensing Background thread has ended after 18.71s
+[Licensing::Module] Licensing is initialized (took 18.31s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 9.64 ms, found 4 plugins.
+Initialize engine version: 6000.5.4f1 (d550df8bd089)
+[Subsystems] Discovering subsystems at path D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) UHD Graphics (ID=0xa7a8)
+    Vendor:          Intel
+    VRAM:            8054 MB
+    App VRAM Budget: 7395 MB
+    Driver:          31.0.101.4146
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003361 seconds.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.367 seconds
+Domain Reload Profiling: 783ms
+	BeginReloadAssembly (100ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (248ms)
+		LoadAssemblies (99ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (186ms)
+				TypeCache.ScanAssembly (173ms)
+	FinalizeReload (369ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (90ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.701 seconds
+Domain Reload Profiling: 1509ms
+	BeginReloadAssembly (148ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (598ms)
+		LoadAssemblies (344ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (702ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6583 unused Assets / (5.5 MB). Loaded Objects now: 7426.
+Memory consumption went from 320.7 MB to 315.2 MB.
+Total: 9.361800 ms (FindLiveObjects: 0.573600 ms CreateObjectMapping: 2.478900 ms MarkObjects: 3.904700 ms  DeleteObjects: 2.402200 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7428.
+Memory consumption went from 313.4 MB to 310.8 MB.
+Total: 6.630700 ms (FindLiveObjects: 0.348800 ms CreateObjectMapping: 0.978300 ms MarkObjects: 4.927000 ms  DeleteObjects: 0.375100 ms)
+
+Prepare: number of updated asset objects reloaded= 20
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:54:54.4045783Z
+  Time since last request: 250021.21389340001042 seconds.
+  importAddress: GUID: 1c8e9f1e7f5808340a18eba5520b7296 - Path: Assets/InputController.inputactions - Importer: PreviewImporter
+Importing 'GUID: 1c8e9f1e7f5808340a18eba5520b7296 - Path: Assets/InputController.inputactions - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1c8e9f1e7f5808340a18eba5520b7296' -> (Import Result ID: 'db2eed483e086dee2e2bfec55e45fd15') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3208c2d475c2e1231d49522f891852bd DependenciesID=de810a9b9bf8eeec98ba646748742c1e StaticDependenciesID=73b2d998cb06cfa28d3df8f854b39059 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:54:54.4601405Z
+  Time since last request: 0.0001754 seconds.
+  importAddress: GUID: 5891b31326c8efd48ab886f109d5271e - Path: Assets/New Terrain 2.asset - Importer: PreviewImporter
+Importing 'GUID: 5891b31326c8efd48ab886f109d5271e - Path: Assets/New Terrain 2.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5891b31326c8efd48ab886f109d5271e' -> (Import Result ID: 'ce184548afa4f1a642eb10f7cb18c2cb') in 0.088 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95e17dfefbfd71fefdab11944be30de7 DependenciesID=9becdbaf1d38fce987627af9229c335b StaticDependenciesID=4081b95d873ab0cf7a163268df308427 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:54:54.5597302Z
+  Time since last request: 0.0008181 seconds.
+  importAddress: GUID: 462cd3c3af12dc24f935162252fe14b7 - Path: Assets/New Terrain 1.asset - Importer: PreviewImporter
+Importing 'GUID: 462cd3c3af12dc24f935162252fe14b7 - Path: Assets/New Terrain 1.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 462cd3c3af12dc24f935162252fe14b7' -> (Import Result ID: '41ed641afaac143c23b7cb2d3be51574') in 0.005 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96070761791d526f1ce23e9d2f191e40 DependenciesID=86a58666de2d1bb7f7527105be205fe0 StaticDependenciesID=68c196f46ac401b3fb2021c804588a6a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.1724463Z
+  Time since last request: 24.5949319 seconds.
+  importAddress: GUID: 9a8fdd3204c254a0593b3186e3c44366 - Path: Assets/Tom's Terrain Tools/Example Data/2-splatmap.tif - Importer: PreviewImporter
+Importing 'GUID: 9a8fdd3204c254a0593b3186e3c44366 - Path: Assets/Tom's Terrain Tools/Example Data/2-splatmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Imported 'GUID: 9a8fdd3204c254a0593b3186e3c44366' -> (Import Result ID: 'd3bc6ec52df0204efc4f3bdafd386295') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0ae4f5bc44c8db877c35a59e605d1f62 DependenciesID=94da142ac61d67c78984f94ece65484d StaticDependenciesID=f2cd4b71906577df6bb37c0da86bab7e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.259006Z
+  Time since last request: 0.0536313 seconds.
+  importAddress: GUID: de1cf6e737bc5459badb686e0e026390 - Path: Assets/Tom's Terrain Tools/Example Data/3-bushmap.tif - Importer: PreviewImporter
+Importing 'GUID: de1cf6e737bc5459badb686e0e026390 - Path: Assets/Tom's Terrain Tools/Example Data/3-bushmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: de1cf6e737bc5459badb686e0e026390' -> (Import Result ID: 'b337fe44760600359435d3e7a14cec0a') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f506c3038ff888937f2d0678608d3d65 DependenciesID=118d1e8066d082775accebdfdbe38de7 StaticDependenciesID=b2a987a9aabe5a5172b6d666e35886c7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.3122128Z
+  Time since last request: 0.0115688 seconds.
+  importAddress: GUID: cd17fcf75cca1454dbd28eb2406833be - Path: Assets/Tom's Terrain Tools/Example Data/3-roads.png - Importer: PreviewImporter
+Importing 'GUID: cd17fcf75cca1454dbd28eb2406833be - Path: Assets/Tom's Terrain Tools/Example Data/3-roads.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cd17fcf75cca1454dbd28eb2406833be' -> (Import Result ID: 'c157736b8061641500d3e4c172057054') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c36e01ee6049f0865495aded147c2fa0 DependenciesID=c0e60ed7cbeb17e5c19fe6caef39bb25 StaticDependenciesID=1b6f0d202830dc8706ea2be6f5a9f3e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.6435076Z
+  Time since last request: 0.3032161 seconds.
+  importAddress: GUID: e246e6988e7f445e7a96e3bf4dafafae - Path: Assets/Tom's Terrain Tools/Example Data/3-splatmap.tif - Importer: PreviewImporter
+Importing 'GUID: e246e6988e7f445e7a96e3bf4dafafae - Path: Assets/Tom's Terrain Tools/Example Data/3-splatmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e246e6988e7f445e7a96e3bf4dafafae' -> (Import Result ID: '778ce4f0a2651271308da2637f9c3031') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=615fa5e59c30dc1c51679e234f2ff213 DependenciesID=4d0bbe2ea3b0b6214522df8ba6721539 StaticDependenciesID=bc480430ed0b9178c771630cc7dd110d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.6732824Z
+  Time since last request: 0.0006836 seconds.
+  importAddress: GUID: e1e24a0a857694776a1fc6af4c157564 - Path: Assets/Tom's Terrain Tools/Example Data/3-treemap.tif - Importer: PreviewImporter
+Importing 'GUID: e1e24a0a857694776a1fc6af4c157564 - Path: Assets/Tom's Terrain Tools/Example Data/3-treemap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e1e24a0a857694776a1fc6af4c157564' -> (Import Result ID: '8670425c825a6a0f3dff6c0648fa649e') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=81048a0f15a7808af54b17dfa674f33e DependenciesID=8c63f56d8f60076087a4de85fa455e77 StaticDependenciesID=b63885ec1a0c0f4116cea391b6d26ac5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.7464256Z
+  Time since last request: 0.0471357 seconds.
+  importAddress: GUID: 1194a7f0f9bdccf48a3e435feb3715ea - Path: Assets/Tom's Terrain Tools/Example Data/7-splatmap.tif - Importer: PreviewImporter
+Importing 'GUID: 1194a7f0f9bdccf48a3e435feb3715ea - Path: Assets/Tom's Terrain Tools/Example Data/7-splatmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1194a7f0f9bdccf48a3e435feb3715ea' -> (Import Result ID: 'a9ea27cdbb93f9404aec6b2177975377') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9658de1b38cf44b0abe5ceebe70a9689 DependenciesID=20351aae400a3691f361f41c875cc4a4 StaticDependenciesID=d5a7e0f0c9f03152598a2b31e7501b8a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.0077991Z
+  Time since last request: 0.2335645 seconds.
+  importAddress: GUID: 4c6a5e995a24e844492ceecc2ea6b9cd - Path: Assets/Next_Spring/Tree_Bundle/Textures/Global/501-free-hdri-skies-com.hdr - Importer: PreviewImporter
+Importing 'GUID: 4c6a5e995a24e844492ceecc2ea6b9cd - Path: Assets/Next_Spring/Tree_Bundle/Textures/Global/501-free-hdri-skies-com.hdr - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4c6a5e995a24e844492ceecc2ea6b9cd' -> (Import Result ID: 'f18d881d85c8f49f65e69f469fccafee') in 0.699 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87f9232196ed375227d064161dfc8712 DependenciesID=038077f5882be6b2e7fe7e218a7714fb StaticDependenciesID=207728fdb05afefb08f85bd9f5207df3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.7698671Z
+  Time since last request: 0.0461226 seconds.
+  importAddress: GUID: d09270a5be941b14e8cd76b7d0347e0b - Path: Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Bottom.png - Importer: PreviewImporter
+Importing 'GUID: d09270a5be941b14e8cd76b7d0347e0b - Path: Assets/ARCADE - FREE Racing Car/Skybox/Day/Textures/Bottom.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d09270a5be941b14e8cd76b7d0347e0b' -> (Import Result ID: '67c34070838e5a19dbeddf4daaec9ab1') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6bcba46ed5efeabcbf6f8d71816ad394 DependenciesID=f3f7d871e853d72a39701a45edef31f1 StaticDependenciesID=c8a0f78f50f4f48c1f0e0db6764c452a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.8469254Z
+  Time since last request: 0.0005158 seconds.
+  importAddress: GUID: 951aab9a19f551f4385d0ceafdaf19b4 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga - Importer: PreviewImporter
+Importing 'GUID: 951aab9a19f551f4385d0ceafdaf19b4 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 951aab9a19f551f4385d0ceafdaf19b4' -> (Import Result ID: '5fc41efa25cce99b5b9a0857c5685bf9') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=694c7168395fe4e252ab96c813b822e8 DependenciesID=dceb18273694d4aa4f8afbf47ed8748f StaticDependenciesID=ee6927bd9e19bb1d86ad58e2b9d91ac2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.8806766Z
+  Time since last request: 0.0002322 seconds.
+  importAddress: GUID: b552931caa1b3ea418b9ba90cbd1333e - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: b552931caa1b3ea418b9ba90cbd1333e - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b552931caa1b3ea418b9ba90cbd1333e' -> (Import Result ID: 'afe195b7718b232010426f9cb9bd2b3e') in 0.044 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0bb5dae1fd836fe1a97b34507b5fdd6b DependenciesID=b0ac7d73e6d8445cc5e6d82ebf6feb91 StaticDependenciesID=977ec59aef110c81fb0b5f65b62b0b31 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.9391564Z
+  Time since last request: 0.0000569 seconds.
+  importAddress: GUID: 2c116325e19b8a04d916864cc540ec2d - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga - Importer: PreviewImporter
+Importing 'GUID: 2c116325e19b8a04d916864cc540ec2d - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2c116325e19b8a04d916864cc540ec2d' -> (Import Result ID: '06834c27c31d948107a8870890234ab3') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b5f9af079f3c7273b3d0dcabb2d272e DependenciesID=02de0903b10046d6183fcb64d58f78f8 StaticDependenciesID=1a638fcb8de4fc0cc71031f84985cc4d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.1651246Z
+  Time since last request: 0.1953309 seconds.
+  importAddress: GUID: c9de3ae2361df6c469caeb2024321cbf - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: c9de3ae2361df6c469caeb2024321cbf - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c9de3ae2361df6c469caeb2024321cbf' -> (Import Result ID: '7243e65d1bc70201df0529c277a836bd') in 0.034 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b903386a5ea202ff15cd77d6fb2eeb9c DependenciesID=90301174586844e1c8d4b989951cf60c StaticDependenciesID=f0963fbc446fabdfadb86331ab552bb3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.21453Z
+  Time since last request: 0.0003795 seconds.
+  importAddress: GUID: be053ea3235ccb64a889bf0b15c2764b - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: be053ea3235ccb64a889bf0b15c2764b - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: be053ea3235ccb64a889bf0b15c2764b' -> (Import Result ID: 'd919e146b0152fc09f56a7e2216b2f36') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75523e50f8a1dde615791e2939671db3 DependenciesID=5b368cd43c5da7d3c4d7697302812da9 StaticDependenciesID=4709248136a2a78ddd0a8aa0a67a354f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.2448509Z
+  Time since last request: 0.0002584 seconds.
+  importAddress: GUID: 2c1c27ec8c3b75a4c80a795adc9ca788 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga - Importer: PreviewImporter
+Importing 'GUID: 2c1c27ec8c3b75a4c80a795adc9ca788 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2c1c27ec8c3b75a4c80a795adc9ca788' -> (Import Result ID: 'fa31704a78bc2cd1db0edea9e4e59d22') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f0ec59c5103139f7b966518e9043aecf DependenciesID=07ed7eee7c0a85f9da1a00d8f83238ed StaticDependenciesID=4e6e6f2d3de322f01dc2c76c88f430b5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.2825368Z
+  Time since last request: 0.0145207 seconds.
+  importAddress: GUID: f0d8945c7972e4747aa776e16494fa37 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: f0d8945c7972e4747aa776e16494fa37 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f0d8945c7972e4747aa776e16494fa37' -> (Import Result ID: 'cc9daf8b7d73a2d3d3cf29159e0ae9ed') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e45f8b0c56f449ae0ba46ab51a54006 DependenciesID=9c4286d50df88c9caa161959f66ba004 StaticDependenciesID=624bb73986e0d2f9bd1519dbe9bddb68 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.5495792Z
+  Time since last request: 0.2393267 seconds.
+  importAddress: GUID: 306f8f570579fb3448d141a63029ef94 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga - Importer: PreviewImporter
+Importing 'GUID: 306f8f570579fb3448d141a63029ef94 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 306f8f570579fb3448d141a63029ef94' -> (Import Result ID: 'cb64987c0ee56be866d0369e3323dce0') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d6cf78ddb8f6f854fb2e9b10548b4a93 DependenciesID=65df3dca6cb06e21c6d4dc4fbfd88dd6 StaticDependenciesID=c74487c1dee9be0b5f7255c754566bf6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.59725Z
+  Time since last request: 0.0058791 seconds.
+  importAddress: GUID: 30586af2d47849140b2d533bb6f75eaa - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga - Importer: PreviewImporter
+Importing 'GUID: 30586af2d47849140b2d533bb6f75eaa - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Spec.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 30586af2d47849140b2d533bb6f75eaa' -> (Import Result ID: 'c451246a6598056d68c1c083a3083e55') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d4ff4abd244fa1b35ae82b2b9557b3f DependenciesID=ec2afacf1aecac372e56029b6b5b2320 StaticDependenciesID=2f78d1ac46be434d721d60bf6fb3e97d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.6307357Z
+  Time since last request: 0.0004298 seconds.
+  importAddress: GUID: 7bdd8cb386e0b554b84cb783663bb4fc - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 7bdd8cb386e0b554b84cb783663bb4fc - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7bdd8cb386e0b554b84cb783663bb4fc' -> (Import Result ID: 'c558fb4c02790f339316a57e65125360') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9678855f0798efb5926dbdb8fd9fa27 DependenciesID=4cd13db08e3a6726febec247beb3679c StaticDependenciesID=91e10265777c58345c3b020f5f3eecfe 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.9278203Z
+  Time since last request: 0.2656745 seconds.
+  importAddress: GUID: 1a3b3425554429741ac62eb5d7b91937 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/SingleColor/brown_color_tile-2.png - Importer: PreviewImporter
+Importing 'GUID: 1a3b3425554429741ac62eb5d7b91937 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/SingleColor/brown_color_tile-2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1a3b3425554429741ac62eb5d7b91937' -> (Import Result ID: 'd4a435eca2352731f3aee01c692a7fd7') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b60cca1427e5b49f04c89c00fabcb0c DependenciesID=e4f6024af94121da3f6cd73360440027 StaticDependenciesID=f92d2d9b3c7dbed00bdd19f313c64577 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.9564411Z
+  Time since last request: 0.0013018 seconds.
+  importAddress: GUID: df4ddf96bd116869a000fb488f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Textures/Bush5.psd - Importer: PreviewImporter
+Importing 'GUID: df4ddf96bd116869a000fb488f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Textures/Bush5.psd - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: df4ddf96bd116869a000fb488f962b59' -> (Import Result ID: 'e3222e73a6bed78f28359ab610c8a16e') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6429bae8ea833dd23c50ae8fefda9dfa DependenciesID=470f8cbfe283a103747a5d8bad146046 StaticDependenciesID=69a676485ed925101312c57c034bdb73 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.0101174Z
+  Time since last request: 0.0294835 seconds.
+  importAddress: GUID: d044fe4912c343049a5a491cf7ce571c - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Textures/Bush7-tif.tif - Importer: PreviewImporter
+Importing 'GUID: d044fe4912c343049a5a491cf7ce571c - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Textures/Bush7-tif.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d044fe4912c343049a5a491cf7ce571c' -> (Import Result ID: '7e0d9f83d97cd84eab1c56c007c78125') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24ef8b5e55c57e08483463ce4f800b68 DependenciesID=b02ac282f8a184e5393ea31116befe40 StaticDependenciesID=ce07879bfb5b6d2291a6a12a6c86cc10 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.2414111Z
+  Time since last request: 0.2080422 seconds.
+  importAddress: GUID: 55e2334423fefa34fb4916f6780413d3 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 55e2334423fefa34fb4916f6780413d3 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 55e2334423fefa34fb4916f6780413d3' -> (Import Result ID: '91b0f5cc5429967f2daa2c7a9682940f') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ba0d30902165ed5619485fc45d2126cb DependenciesID=ac02997e0135051da262aab583507d7b StaticDependenciesID=24eb85721278129681556876b18a6498 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.2834019Z
+  Time since last request: 0.0009744 seconds.
+  importAddress: GUID: ee07ea8cb1a00c844b4048d37dcfe712 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga - Importer: PreviewImporter
+Importing 'GUID: ee07ea8cb1a00c844b4048d37dcfe712 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ee07ea8cb1a00c844b4048d37dcfe712' -> (Import Result ID: '413afd872756f8dc9d49cc6e2f2cbfda') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05cca0810d8b94e2ee85eee3f9e7f919 DependenciesID=c8975ef0b55fcf66c86dede0cd67016b StaticDependenciesID=378625e940e95a0a602367ff8b99d371 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.3113741Z
+  Time since last request: 0.0008261 seconds.
+  importAddress: GUID: 2820d6b2eadb4e44380a6c1ee32054ec - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Grassy)-png.png - Importer: PreviewImporter
+Importing 'GUID: 2820d6b2eadb4e44380a6c1ee32054ec - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Grassy)-png.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2820d6b2eadb4e44380a6c1ee32054ec' -> (Import Result ID: '0eebee09b7dfd188e540643d4001715b') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dd5c6a141aba84649b7838adcd642fcd DependenciesID=fb90c7ad4adf075c6fbacfaf7bbc4518 StaticDependenciesID=22f4c100d52d7dc034751ff1b32a8627 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.5994167Z
+  Time since last request: 0.2558048 seconds.
+  importAddress: GUID: 569efae0e3c48a74f968ee940a15860b - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Layered Rock)-png.png - Importer: PreviewImporter
+Importing 'GUID: 569efae0e3c48a74f968ee940a15860b - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Layered Rock)-png.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 569efae0e3c48a74f968ee940a15860b' -> (Import Result ID: '48c6838611e3b08233083afef1e9b349') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=95a9634a5bde98d18c55a19fc877aafe DependenciesID=8e9e83c9bd6dd2c899a18f53ad76ec56 StaticDependenciesID=778df2cb82752077520841e04dce2681 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.6481751Z
+  Time since last request: 0.0001549 seconds.
+  importAddress: GUID: 18214e9d6af6248559d501391856f1c7 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd - Importer: PreviewImporter
+Importing 'GUID: 18214e9d6af6248559d501391856f1c7 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 18214e9d6af6248559d501391856f1c7' -> (Import Result ID: 'f36b3df7a5b247ec7b37b12ddb18d3f1') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d039bd8baef07a9cdf949485f660eb1 DependenciesID=d84cb57b9cad7c849a9cd00dfc183d9c StaticDependenciesID=8273ed837a9fe6fec02290e288c02053 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.6757364Z
+  Time since last request: 0.000539 seconds.
+  importAddress: GUID: 98a0c4bded48f6e488eb93670599274e - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 98a0c4bded48f6e488eb93670599274e - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 98a0c4bded48f6e488eb93670599274e' -> (Import Result ID: '7ddb2961daf0c3c363b2234d7f58ea94') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45304487c4a7576213506aec239139bb DependenciesID=ccfcdb208df5efcc00924d7587c0a8dc StaticDependenciesID=da5c92d99397e41808a6192c1dd83524 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.0162762Z
+  Time since last request: 0.317226 seconds.
+  importAddress: GUID: 612b65e0cd1576e4bbba0516d756a99d - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga - Importer: PreviewImporter
+Importing 'GUID: 612b65e0cd1576e4bbba0516d756a99d - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 612b65e0cd1576e4bbba0516d756a99d' -> (Import Result ID: 'f671fc4f01a00e16d196af254f43901e') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15b149f04ad3e278c45557ad3a3affaa DependenciesID=942dd30b79139e02cf7307d8ae9bb497 StaticDependenciesID=af2441a3a2fea752630de1f2c9c9670c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.0569973Z
+  Time since last request: 0.0007546 seconds.
+  importAddress: GUID: 855926cb3532dc14c87b1e6d589334b2 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 855926cb3532dc14c87b1e6d589334b2 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 855926cb3532dc14c87b1e6d589334b2' -> (Import Result ID: 'a13008c5a92a91b85ccd05467bad15f9') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1f80d09e95650d28fc676d86ab00420a DependenciesID=884e62ae81b39c8013830355569aca58 StaticDependenciesID=af54fdc8be421151ffd7ddaadecff312 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.1149366Z
+  Time since last request: 0.0248123 seconds.
+  importAddress: GUID: 897461e3c2fa9d84d8bd48bf1b00a950 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga - Importer: PreviewImporter
+Importing 'GUID: 897461e3c2fa9d84d8bd48bf1b00a950 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Dekstop_Spec.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 897461e3c2fa9d84d8bd48bf1b00a950' -> (Import Result ID: 'bf1b6737bcb04122e6251b8fb6875929') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=935c02219b95edd94a68b89eb2d0bffb DependenciesID=aab62a0661d24a2dff27d817bbd6e69a StaticDependenciesID=0ef276e5b69cd27b770b6af0df165c63 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.4281122Z
+  Time since last request: 0.2879496 seconds.
+  importAddress: GUID: ab89d7e9dbd9462458ecef029ee60f6e - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: ab89d7e9dbd9462458ecef029ee60f6e - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ab89d7e9dbd9462458ecef029ee60f6e' -> (Import Result ID: 'f525915962a25960cc2d1b56aef01573') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dbcfacca5775b925deedb5c3159d86c3 DependenciesID=108b8881911b9421db3cfc8303504963 StaticDependenciesID=785bade0220c7652f351a39c62f007a6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.4705493Z
+  Time since last request: 0.0005334 seconds.
+  importAddress: GUID: 2b46b029d8dc37049aebb484e79998ff - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 2b46b029d8dc37049aebb484e79998ff - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2b46b029d8dc37049aebb484e79998ff' -> (Import Result ID: 'f5883aa305c80d4b79ff91382d32bc1d') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9b20854616b3f313e16cb2feee1866d5 DependenciesID=aff8f95eb8302c55aa980b91294290a1 StaticDependenciesID=b0666afe176c9852cff8473cf6ef7ef1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.5004249Z
+  Time since last request: 0.0005088 seconds.
+  importAddress: GUID: d8070f366daa815438bcab25db036957 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_blue.png - Importer: PreviewImporter
+Importing 'GUID: d8070f366daa815438bcab25db036957 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_blue.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d8070f366daa815438bcab25db036957' -> (Import Result ID: '196253f93f00be1241fab3ff57d146a5') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=804aa81793fc2e0b74b44d760632468b DependenciesID=5b7138c7aeece7626b62805548b17b78 StaticDependenciesID=0cc0358910f4e1d91d9ca401197c330c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.7783918Z
+  Time since last request: 0.255521 seconds.
+  importAddress: GUID: 21885ceb2492d504f9d621148be3eb58 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_green.png - Importer: PreviewImporter
+Importing 'GUID: 21885ceb2492d504f9d621148be3eb58 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_green.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 21885ceb2492d504f9d621148be3eb58' -> (Import Result ID: '06aef337ccf43030891b3fdce6b8967f') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf8ac4f94a28e58c1b454298243cb250 DependenciesID=375c535ef3e92f9b93f4415aa27aa57c StaticDependenciesID=92d12e1d2e65141e87a71ee06e75a77e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.8066573Z
+  Time since last request: 0.0004527 seconds.
+  importAddress: GUID: 4b95639272e9cae429d4b9bfae3e01b3 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_red.png - Importer: PreviewImporter
+Importing 'GUID: 4b95639272e9cae429d4b9bfae3e01b3 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_red.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4b95639272e9cae429d4b9bfae3e01b3' -> (Import Result ID: '26711a4f9355fb329eddbd9c37a5f9d6') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=406bdc1cce924a24a6d88dc95572dbe1 DependenciesID=9a17224d7b5717593e0a9bb46116faff StaticDependenciesID=aff7a54ee496599189e1b3d5a939de2e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.8383246Z
+  Time since last request: 0.0051604 seconds.
+  importAddress: GUID: 1a2d129f9c4522d4fb1319d4cfcea203 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_yellow.png - Importer: PreviewImporter
+Importing 'GUID: 1a2d129f9c4522d4fb1319d4cfcea203 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_yellow.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1a2d129f9c4522d4fb1319d4cfcea203' -> (Import Result ID: '0935cb4ad447e1c365bfb022ca0cc2dd') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=af5b8cc0ad08499e5638dcfac6092456 DependenciesID=3ddb383f08039cdc3e3c9943c8a643c0 StaticDependenciesID=6bd11367497520968495d9f49bf9310b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.872444Z
+  Time since last request: 0.0125534 seconds.
+  importAddress: GUID: fedda4cd82ed7194da7ab97a14628f6a - Path: Assets/Tom's Terrain Tools/Example Data/Trees/SampleTree2_Textures/diffuse.png - Importer: PreviewImporter
+Importing 'GUID: fedda4cd82ed7194da7ab97a14628f6a - Path: Assets/Tom's Terrain Tools/Example Data/Trees/SampleTree2_Textures/diffuse.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fedda4cd82ed7194da7ab97a14628f6a' -> (Import Result ID: '70600cf10d9907765490d315e53aede7') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8a2994f96f7692b1626e8ffd4db2da9 DependenciesID=87e926aa77d380468f110787b339f1c5 StaticDependenciesID=9dea55cab4cd7a467dd12d1f98eed6fa 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.908244Z
+  Time since last request: 0.000408 seconds.
+  importAddress: GUID: 8ca1c38497ba1c04bb67dca62701a5b1 - Path: Assets/Tom's Terrain Tools/Example Data/Trees/SampleTree1_Textures/diffuse.png - Importer: PreviewImporter
+Importing 'GUID: 8ca1c38497ba1c04bb67dca62701a5b1 - Path: Assets/Tom's Terrain Tools/Example Data/Trees/SampleTree1_Textures/diffuse.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8ca1c38497ba1c04bb67dca62701a5b1' -> (Import Result ID: '11e79deefaaa9aec83d24d2e548100a2') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53a677a80209b9f84dd1821371341e55 DependenciesID=fffa0deadad40256907ce9bccc357f1a StaticDependenciesID=bf3aa81786331d2698a0d513ab4fee40 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:24.1573071Z
+  Time since last request: 0.2172556 seconds.
+  importAddress: GUID: 72fd1ef7a88eda746b6a9cff48727aec - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/DirtGrass_normal-png.png - Importer: PreviewImporter
+Importing 'GUID: 72fd1ef7a88eda746b6a9cff48727aec - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/DirtGrass_normal-png.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 72fd1ef7a88eda746b6a9cff48727aec' -> (Import Result ID: 'af3c9c6550362ef00a5880f40ef0d777') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2bd18f61dd5093fd349e2bc37da24699 DependenciesID=90731ccb792aa3e9fadbc08bfe8f8232 StaticDependenciesID=3c70a3e5ede261b963ad154a0954f762 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:24.1919545Z
+  Time since last request: 0.0005273 seconds.
+  importAddress: GUID: ff27951c329286b4395c6e7397a1297a - Path: Assets/Fence pack/Textures/fence_a.tga - Importer: PreviewImporter
+Importing 'GUID: ff27951c329286b4395c6e7397a1297a - Path: Assets/Fence pack/Textures/fence_a.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ff27951c329286b4395c6e7397a1297a' -> (Import Result ID: '4a1668c6e972f1278343445c9a57bdf0') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6deed1ead7a73129da40d5dc71da4035 DependenciesID=5c69ee5123bbc6cb2d96a9f17253f40e StaticDependenciesID=24c3b53c2ea54b1e11e15df80002cf16 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:24.2724394Z
+  Time since last request: 0.0002583 seconds.
+  importAddress: GUID: 4f0ea21344eb93e4e807367696ac3464 - Path: Assets/Fence pack/Textures/fence_b.tga - Importer: PreviewImporter
+Importing 'GUID: 4f0ea21344eb93e4e807367696ac3464 - Path: Assets/Fence pack/Textures/fence_b.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4f0ea21344eb93e4e807367696ac3464' -> (Import Result ID: '9a7d315f4a062f470c6aff70d798de50') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6cae3bb82f3e7d5ce7fabc3e0fc136a5 DependenciesID=105a92c6a8ceca2f4f6339fb334054c1 StaticDependenciesID=29fac9235d72d0f4a03a2a923a356247 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:24.3513932Z
+  Time since last request: 0.0012384 seconds.
+  importAddress: GUID: f8d3bce5f57211744bdfe87c555c15b1 - Path: Assets/Fence pack/Textures/fence_b_normals.tga - Importer: PreviewImporter
+Importing 'GUID: f8d3bce5f57211744bdfe87c555c15b1 - Path: Assets/Fence pack/Textures/fence_b_normals.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f8d3bce5f57211744bdfe87c555c15b1' -> (Import Result ID: 'f510a773383a59e6f424f657ecdb5ff6') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9210f3cd013310348fcf8a5ee36137ec DependenciesID=d62c96242a10e0e1d2fcfa7ab96fb086 StaticDependenciesID=63dc1de7cfa89bcd4b46a654b1c85fb1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7573.
+Memory consumption went from 325.8 MB to 323.2 MB.
+Total: 6.509800 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.559300 ms MarkObjects: 5.302000 ms  DeleteObjects: 0.331500 ms)
+
+Prepare: number of updated asset objects reloaded= 55
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7573.
+Memory consumption went from 326.9 MB to 324.3 MB.
+Total: 18.127600 ms (FindLiveObjects: 0.450800 ms CreateObjectMapping: 1.342300 ms MarkObjects: 15.847500 ms  DeleteObjects: 0.484400 ms)
+
+Prepare: number of updated asset objects reloaded= 55
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:19.8784774Z
+  Time since last request: 415.47267429999999 seconds.
+  importAddress: GUID: 53cf15b7c34ac57408990b3886ebc840 - Path: Assets/Fence pack/Textures/fence_c_metallic.tga - Importer: PreviewImporter
+Importing 'GUID: 53cf15b7c34ac57408990b3886ebc840 - Path: Assets/Fence pack/Textures/fence_c_metallic.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 53cf15b7c34ac57408990b3886ebc840' -> (Import Result ID: '5fabf9fa79d0835cd626890efda6522b') in 0.086 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cbb16845d06b62294ac61fb821184009 DependenciesID=cc32a67e10122aaa8c305fb5ba504a76 StaticDependenciesID=29530e1992c4ab93edcf512b8256a467 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:19.9818235Z
+  Time since last request: 0.00026 seconds.
+  importAddress: GUID: 41664b1b22fda5f4588de6e9f7bc26e3 - Path: Assets/Fence pack/Textures/Fence_e_f_normals.tga - Importer: PreviewImporter
+Importing 'GUID: 41664b1b22fda5f4588de6e9f7bc26e3 - Path: Assets/Fence pack/Textures/Fence_e_f_normals.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 41664b1b22fda5f4588de6e9f7bc26e3' -> (Import Result ID: 'c5ad489f6afb5ed67d45fb9c59e3bbda') in 0.060 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d5e9605e848bba2c0eb1b5f0182dde20 DependenciesID=30b84f6cb6bc24eb73f1d6ac428cbc81 StaticDependenciesID=a1097af4b8b3965815e35f45d96bd9b8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.0562354Z
+  Time since last request: 0.0003268 seconds.
+  importAddress: GUID: dda5c2c66cf4c674bacd3e1c0cbbbbdb - Path: Assets/Fence pack/Textures/fence_d_normals.tga - Importer: PreviewImporter
+Importing 'GUID: dda5c2c66cf4c674bacd3e1c0cbbbbdb - Path: Assets/Fence pack/Textures/fence_d_normals.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dda5c2c66cf4c674bacd3e1c0cbbbbdb' -> (Import Result ID: 'aec2c511798f127d34ea6b580125b119') in 0.058 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=987535b322c3050d217ea5db4e95d888 DependenciesID=0e6ae2aa89c0ca3b15ce35049fc92613 StaticDependenciesID=c33100f3d26d48279ffd16df0d10ca0c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.1278625Z
+  Time since last request: 0.0004226 seconds.
+  importAddress: GUID: 3f101a99b25ee2d46b43c5ca74342750 - Path: Assets/Fence pack/Textures/fence_g_h metallic.tga - Importer: PreviewImporter
+Importing 'GUID: 3f101a99b25ee2d46b43c5ca74342750 - Path: Assets/Fence pack/Textures/fence_g_h metallic.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3f101a99b25ee2d46b43c5ca74342750' -> (Import Result ID: '9d9e89d3d1d1f14ff88225cff37992df') in 0.064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=89fb0c8eb06d992a3948a8570359e9e3 DependenciesID=f5f77cb1119d84e5e2f7d0b09a4d45b7 StaticDependenciesID=d07ea87407960d3d0fe3e272e65b6ba1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.2062231Z
+  Time since last request: 0.0003878 seconds.
+  importAddress: GUID: e0dc38eb0192b07498fba2b332133058 - Path: Assets/Fence pack/Textures/Fence_e_f_metallic.tga - Importer: PreviewImporter
+Importing 'GUID: e0dc38eb0192b07498fba2b332133058 - Path: Assets/Fence pack/Textures/Fence_e_f_metallic.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e0dc38eb0192b07498fba2b332133058' -> (Import Result ID: 'bcd6b1595c407e6ba6fc0d2a2f661f67') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2672899f086d4b6d723a7f115149eeb3 DependenciesID=1d013f68f2eaa58873b1848d3cc6a6e5 StaticDependenciesID=fed5f6e70c523c4c2f4a03589cfc417f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.268398Z
+  Time since last request: 0.000247 seconds.
+  importAddress: GUID: 1b78c0b4697a82e428e2dcc56bbacd43 - Path: Assets/Fence pack/Textures/fence_d.tga - Importer: PreviewImporter
+Importing 'GUID: 1b78c0b4697a82e428e2dcc56bbacd43 - Path: Assets/Fence pack/Textures/fence_d.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1b78c0b4697a82e428e2dcc56bbacd43' -> (Import Result ID: '8b5ee2380ec2344c738737753278c6ce') in 0.070 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc46bd50b71ebe1fcd71a03abb6d069d DependenciesID=7cba21d5d26658df6d534920166d418d StaticDependenciesID=ea00f0bf49435cc33fe2403e4cc1eed3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:27.0976091Z
+  Time since last request: 6.7479536 seconds.
+  importAddress: GUID: 78fe8916ac297e64a8fd32ab9dd09bd4 - Path: Assets/Fence pack/Materials/fence_b.mat - Importer: PreviewImporter
+Importing 'GUID: 78fe8916ac297e64a8fd32ab9dd09bd4 - Path: Assets/Fence pack/Materials/fence_b.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 78fe8916ac297e64a8fd32ab9dd09bd4' -> (Import Result ID: 'b3b8e0520f559dedb667806842dd99b8') in 0.570 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0f357b96d47504a90154963467b284d1 DependenciesID=0e09a6d83a6cb17c658e3e8889cac49b StaticDependenciesID=650a2f45a1e0646f976f7f49a13c93ca 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:27.6788563Z
+  Time since last request: 0.0000385 seconds.
+  importAddress: GUID: cb843698ff3044f47a2cdab6a49ef035 - Path: Assets/Fence pack/Materials/fence_d.mat - Importer: PreviewImporter
+Importing 'GUID: cb843698ff3044f47a2cdab6a49ef035 - Path: Assets/Fence pack/Materials/fence_d.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cb843698ff3044f47a2cdab6a49ef035' -> (Import Result ID: 'aa8b0782f0184f8c98590a22d19c814d') in 0.124 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8faf37bc93789d2fa0dbe2420286585a DependenciesID=b8f27ee4ffc9b6645d13fa3d87d9be95 StaticDependenciesID=4b879df95fa133b3df7bcbdece8b8ec8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:27.815208Z
+  Time since last request: 0.0005027 seconds.
+  importAddress: GUID: 7f147c0ec89c71b4dbd8c95038e02155 - Path: Assets/Fence pack/Materials/fence_b 1.mat - Importer: PreviewImporter
+Importing 'GUID: 7f147c0ec89c71b4dbd8c95038e02155 - Path: Assets/Fence pack/Materials/fence_b 1.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7f147c0ec89c71b4dbd8c95038e02155' -> (Import Result ID: 'fe51f9933bff4932b66011fcfcee9f08') in 0.103 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5f1c9072bf8bc9f3d12386505a354f00 DependenciesID=ff05c16a96227c7bec5c118959381784 StaticDependenciesID=f45ec0fda8523fb49d1a6c0ff0a126ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:27.9307968Z
+  Time since last request: 0.000342 seconds.
+  importAddress: GUID: 1c074c7db81bad44782137d74a9bd301 - Path: Assets/Fence pack/Materials/fence_e_f.mat - Importer: PreviewImporter
+Importing 'GUID: 1c074c7db81bad44782137d74a9bd301 - Path: Assets/Fence pack/Materials/fence_e_f.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1c074c7db81bad44782137d74a9bd301' -> (Import Result ID: '0ec1eb88ee8d63400a8b5264b462d9cc') in 0.106 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7a1279d1b5ec046523d74fbf8fe55b7 DependenciesID=a868cb45053a9497cacaea0a59e3009c StaticDependenciesID=bed76e22b61a807fb97f730141a012cd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:28.0533514Z
+  Time since last request: 0.0009364 seconds.
+  importAddress: GUID: 803d70e780cd880489fcdde5c3013f3e - Path: Assets/Fence pack/Materials/fence_c.mat - Importer: PreviewImporter
+Importing 'GUID: 803d70e780cd880489fcdde5c3013f3e - Path: Assets/Fence pack/Materials/fence_c.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 803d70e780cd880489fcdde5c3013f3e' -> (Import Result ID: '202c7dfe3faca5a28422eeb45eeece08') in 0.113 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a851c7632e6dd5f7386de71cb8979ec9 DependenciesID=4e969b2cdaccdf314e2899d1d3d9cb00 StaticDependenciesID=26c5a5b2c620e7276b4b127538ac167b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:03:09.1198343Z
+  Time since last request: 40.9352302 seconds.
+  importAddress: GUID: c4c2ee3e832cffd48bb9d156c2b21376 - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col3.mat - Importer: PreviewImporter
+Importing 'GUID: c4c2ee3e832cffd48bb9d156c2b21376 - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col3.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c4c2ee3e832cffd48bb9d156c2b21376' -> (Import Result ID: '67f1e55a8c57731a1ec023af516e6006') in 0.314 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9679894c1fe979c0ec3f729862232d14 DependenciesID=2ef3f9e251beb47cb341467e69e454a5 StaticDependenciesID=05ad72d2c6809c98cd92d3f50b63ed7b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

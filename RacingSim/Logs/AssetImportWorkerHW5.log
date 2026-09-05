@@ -1,0 +1,1452 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.4f1 (d550df8bd089) revision 13979871'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany" at "2026-09-05T10:14:38.0118367Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-05T10:14:38Z
+
+COMMAND LINE ARGUMENTS:
+D:\UNITY\Installs\6000.5.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW5
+-projectPath
+D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+-logFile
+Logs/AssetImportWorkerHW5.log
+-srvPort
+25971
+-parentPid
+16988
+-analyticsCloudUserId
+10171394731915
+-analyticsLocalProjectId
+761e7e679cf607248b93b98558fc3d2b
+-licensingIpc
+LicenseClient-vany
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [18012]  Target information:
+
+Player connection [18012]  * "[IP] 172.22.131.175 [Port] 0 [Flags] 2 [Guid] 3880065088 [EditorId] 3880065088 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IE2K1EE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18012] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18012] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.01 ms, found 4 plugins.
+Initialize engine version: 6000.5.4f1 (d550df8bd089)
+[Subsystems] Discovering subsystems at path D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) UHD Graphics (ID=0xa7a8)
+    Vendor:          Intel
+    VRAM:            8054 MB
+    App VRAM Budget: 7395 MB
+    Driver:          31.0.101.4146
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-vany"
+[Licensing::IpcConnector] LicenseClient-vany channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4" at "2026-09-05T10:14:53.8413903Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14584, path: "D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              f6fe1f1d529f4e0dbbe6f2b11b968325
+  Correlation Id:          ebd87833a23bda9af7e23f8ca2d36e23
+  External correlation Id: 4283542024553709158
+  Machine Id:              +LmYPC+2oN3U6DFsdUHdOP1mlqY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-vany-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4-notifications" at "2026-09-05T10:14:53.8474405Z"
+[Licensing::Module] Licensing Background thread has ended after 15.84s
+[Licensing::Module] Licensing is initialized (took 15.11s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 15.114173 seconds.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.347 seconds
+Domain Reload Profiling: 15860ms
+	BeginReloadAssembly (97ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (15161ms)
+	LoadAllAssembliesAndSetupDomain (237ms)
+		LoadAssemblies (97ms)
+		AnalyzeDomain (173ms)
+			TypeCache.Refresh (171ms)
+				TypeCache.ScanAssembly (159ms)
+	FinalizeReload (349ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (85ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.683 seconds
+Domain Reload Profiling: 1419ms
+	BeginReloadAssembly (150ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (524ms)
+		LoadAssemblies (292ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (138ms)
+			BuildScriptInfoCaches (56ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (684ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (290ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6583 unused Assets / (6.7 MB). Loaded Objects now: 7426.
+Memory consumption went from 321.8 MB to 315.1 MB.
+Total: 8.215200 ms (FindLiveObjects: 0.494500 ms CreateObjectMapping: 1.450100 ms MarkObjects: 3.860700 ms  DeleteObjects: 2.407700 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7426.
+Memory consumption went from 314.5 MB to 311.9 MB.
+Total: 6.707500 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.946300 ms MarkObjects: 5.094700 ms  DeleteObjects: 0.321700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.07 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7426.
+Memory consumption went from 318.3 MB to 315.7 MB.
+Total: 6.506100 ms (FindLiveObjects: 0.391300 ms CreateObjectMapping: 0.999700 ms MarkObjects: 4.680900 ms  DeleteObjects: 0.432800 ms)
+
+WARNING: Shader Unsupported: 'Universal Render Pipeline/Terrain/Lit' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+WARNING: Shader Unsupported: 'Hidden/Universal Render Pipeline/Terrain/Lit (Base Pass)' - All subshaders removed
+WARNING: Shader Did you use #pragma only_renderers and omit this platform?
+WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
+Prepare: number of updated asset objects reloaded= 172
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7426.
+Memory consumption went from 317.9 MB to 315.3 MB.
+Total: 6.055900 ms (FindLiveObjects: 0.320900 ms CreateObjectMapping: 0.986000 ms MarkObjects: 4.367100 ms  DeleteObjects: 0.380200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7426.
+Memory consumption went from 318.9 MB to 316.3 MB.
+Total: 6.466400 ms (FindLiveObjects: 0.576700 ms CreateObjectMapping: 0.977600 ms MarkObjects: 4.532800 ms  DeleteObjects: 0.377200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 10.97 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.671 seconds
+Domain Reload Profiling: 3418ms
+	BeginReloadAssembly (386ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (1236ms)
+		LoadAssemblies (476ms)
+		AnalyzeDomain (645ms)
+			TypeCache.Refresh (218ms)
+				TypeCache.ScanAssembly (200ms)
+			BuildScriptInfoCaches (408ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1673ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (16ms)
+			BeforeProcessingInitializeOnLoad (215ms)
+			ProcessInitializeOnLoadAttributes (468ms)
+			ProcessInitializeOnLoadMethodAttributes (168ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (6.1 MB). Loaded Objects now: 7470.
+Memory consumption went from 339.4 MB to 333.3 MB.
+Total: 8.983500 ms (FindLiveObjects: 0.614200 ms CreateObjectMapping: 1.711200 ms MarkObjects: 4.357400 ms  DeleteObjects: 2.299400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:51.2254887Z
+  Time since last request: 248218.03480459999992 seconds.
+  importAddress: GUID: 052913ff636054540b70d52173eccf89 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 5 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 052913ff636054540b70d52173eccf89 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 5 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Imported 'GUID: 052913ff636054540b70d52173eccf89' -> (Import Result ID: 'd7730fe0c8fbf65d3049ec780d25b7d8') in 0.148 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8dcda2b5f277e05c04f1776e3fc4a8f4 DependenciesID=2efcc4d7d49147742b136312336eaa9c StaticDependenciesID=8890afb5d21e1cf6c74708de53a6bcc2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:51.5783775Z
+  Time since last request: 0.1882007 seconds.
+  importAddress: GUID: 91661b7a5626fa54286d4c18c95d7d00 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 91661b7a5626fa54286d4c18c95d7d00 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Volume 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 91661b7a5626fa54286d4c18c95d7d00' -> (Import Result ID: '145358641286879457853885af4aa957') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=24e51ca6c35eb8f82497ccdce8ccf374 DependenciesID=23124725704c4fff3308859f038b7d31 StaticDependenciesID=cfdf056394c213502bbd5a7c9113bf3a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:51.6140522Z
+  Time since last request: 0.0004576 seconds.
+  importAddress: GUID: 5a20439d7b6619c40a0ef94f13d18bc5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload Cloud Icon.png - Importer: PreviewImporter
+Importing 'GUID: 5a20439d7b6619c40a0ef94f13d18bc5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload Cloud Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5a20439d7b6619c40a0ef94f13d18bc5' -> (Import Result ID: 'c7ebc47ebeeedf25ec33f9b4bb45d216') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a76c001d7499e1ef21e3cc598e12bcc DependenciesID=c12fe00cf796f95791b3b45430203f4b StaticDependenciesID=2d638704b1bd4c447d39217d3b25a24f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:51.681222Z
+  Time since last request: 0.0397054 seconds.
+  importAddress: GUID: 961661a007c5e694ea024df6b49ce3ae - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 961661a007c5e694ea024df6b49ce3ae - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Upload 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 961661a007c5e694ea024df6b49ce3ae' -> (Import Result ID: '4089cb0e3ae126e13ccf98060666ddc9') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=937f37d83410104ba30a948b3136d13e DependenciesID=ba549bc838547e33f051edbcc64becaa StaticDependenciesID=9202544df7a15dcd5da4f0a6411b9de1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:51.9814554Z
+  Time since last request: 0.2690534 seconds.
+  importAddress: GUID: 98d066211bdac204cb692c7ac53e012d - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Left Icon.png - Importer: PreviewImporter
+Importing 'GUID: 98d066211bdac204cb692c7ac53e012d - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Thumb Left Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 98d066211bdac204cb692c7ac53e012d' -> (Import Result ID: 'fb40383c89f1dca6543deed64e24649b') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=effcf2a482e6b001f890c680f782303d DependenciesID=7dd895090e0b4d6fbbdc12e81c270433 StaticDependenciesID=1ba738fed39ed8b6858ad05e449e215f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:52.0137797Z
+  Time since last request: 0.0004035 seconds.
+  importAddress: GUID: fdff4e51aa5b6a64287fb2f9a0b10bc0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Left Icon.png - Importer: PreviewImporter
+Importing 'GUID: fdff4e51aa5b6a64287fb2f9a0b10bc0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Left Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fdff4e51aa5b6a64287fb2f9a0b10bc0' -> (Import Result ID: '7861daa62f9850d77afc8a4e52845272') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ad8f86aeb8e569ff43ceb1ad2bb7799 DependenciesID=9a21d77eaa430218d78912dd5f9c385a StaticDependenciesID=34d9b131280a571065b457cfbcdbb4a8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:52.0450394Z
+  Time since last request: 0.0004016 seconds.
+  importAddress: GUID: da098e9c51c4f7d42bd00970713bfc95 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Centre Icon.png - Importer: PreviewImporter
+Importing 'GUID: da098e9c51c4f7d42bd00970713bfc95 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Toggle Centre Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: da098e9c51c4f7d42bd00970713bfc95' -> (Import Result ID: '2556c0bc1884d674ed6e17f2f12094a7') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b0ec1a7dad44b7fc0844e991c9cb063 DependenciesID=4ee2f9e9bc9607f8ae4e851bb628aaf5 StaticDependenciesID=18eacc8cd6773bf4d9ab7bca35722350 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:52.4956606Z
+  Time since last request: 0.4168381 seconds.
+  importAddress: GUID: a38d763eb32ea12439af1cd4b07db735 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Thumbs Up Icon.png - Importer: PreviewImporter
+Importing 'GUID: a38d763eb32ea12439af1cd4b07db735 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Thumbs Up Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a38d763eb32ea12439af1cd4b07db735' -> (Import Result ID: 'cf3814381f732338be210db9ecdb2ed7') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e2a6237a8f4090ec8a1a5c0b68bd89a9 DependenciesID=240b743beb19bbd452c08a289b2513c7 StaticDependenciesID=7e397ee579fddbc47eaa908e2c1f93be 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:52.525462Z
+  Time since last request: 0.0003197 seconds.
+  importAddress: GUID: 694f5b86dbe494b4d9a8edeee57acfd4 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Star Empty Icon.png - Importer: PreviewImporter
+Importing 'GUID: 694f5b86dbe494b4d9a8edeee57acfd4 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Star Empty Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 694f5b86dbe494b4d9a8edeee57acfd4' -> (Import Result ID: 'adc043639979eaee2de823937569ee33') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6f4f863587e5e88b877e95a9d606f79f DependenciesID=65a3743e9255ec273579cec33de380c3 StaticDependenciesID=adf8bb5fd4edc4a918618fabf08e450d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.0058518Z
+  Time since last request: 0.4429051 seconds.
+  importAddress: GUID: 1bc1adfe09a4215459e403f002a487df - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Solid Brush Icon.png - Importer: PreviewImporter
+Importing 'GUID: 1bc1adfe09a4215459e403f002a487df - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Solid Brush Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1bc1adfe09a4215459e403f002a487df' -> (Import Result ID: '4ee68111f877fa2dc1ef641fa6fc7b74') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0a1f41fd65134017464c3ee16dc9033 DependenciesID=caed71488b5c4a24d81aaf3cf93aa097 StaticDependenciesID=e57a317cdc2e7cdd1eb9f75ba1927fae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.0421912Z
+  Time since last request: 0.0089183 seconds.
+  importAddress: GUID: b5d747335d1bafb43915c028619955af - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 101 Icon.png - Importer: PreviewImporter
+Importing 'GUID: b5d747335d1bafb43915c028619955af - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 101 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b5d747335d1bafb43915c028619955af' -> (Import Result ID: 'ffc4ffb8556e967e1edb854579106e7d') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc782db3c0239d69b209b0a9af1c11c5 DependenciesID=f301b07e756177d450729bc371f3a1ee StaticDependenciesID=3aef9cdcdb6f95bf1ad1d0df38c8cbf2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.1265133Z
+  Time since last request: 0.0481316 seconds.
+  importAddress: GUID: df6b34c8b502f7e48a79565096a23132 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 3 Icon.png - Importer: PreviewImporter
+Importing 'GUID: df6b34c8b502f7e48a79565096a23132 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 3 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: df6b34c8b502f7e48a79565096a23132' -> (Import Result ID: '2e1e5f471afb7edc74548a5dde2ea943') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ea84ae39f1f7d00c825a55f1c6e178c1 DependenciesID=2d40af4c2f508934d460056b8968a617 StaticDependenciesID=93ec42e6ed59f83441d5f348d2051eb7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.2074183Z
+  Time since last request: 0.0494923 seconds.
+  importAddress: GUID: 01eead9d665b57646bca62095606183a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 01eead9d665b57646bca62095606183a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Signal Up 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 01eead9d665b57646bca62095606183a' -> (Import Result ID: '604ded16b89d11056ee74ece0d9e5f21') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ee292ed16871bddd1a6f1117546cad33 DependenciesID=f1dab0f99f4e76b002d47b57e629ef41 StaticDependenciesID=423c325b4c74e39eff1a38be859cb449 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.4953813Z
+  Time since last request: 0.2500407 seconds.
+  importAddress: GUID: dbd47afd428ae6e46acf14df8476e8db - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Plus Icon.png - Importer: PreviewImporter
+Importing 'GUID: dbd47afd428ae6e46acf14df8476e8db - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Plus Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dbd47afd428ae6e46acf14df8476e8db' -> (Import Result ID: '7082aec90d2b101b3852eb4abf850b87') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18d78d31e59a9e1d5778451018ec3545 DependenciesID=2801211b585ceb12ee65549234f5c1a2 StaticDependenciesID=35e6e7579d29bd8bed5e28f550984d89 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.534275Z
+  Time since last request: 0.005564 seconds.
+  importAddress: GUID: 45a1cba1d3d949545a6edfcc72019549 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 4 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 45a1cba1d3d949545a6edfcc72019549 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 4 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 45a1cba1d3d949545a6edfcc72019549' -> (Import Result ID: 'f6d27272db7f3cdd4c6edaac2f5a15e0') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82c3e6fb516b688df998b8f49c651d0c DependenciesID=722c565ca4548d873f71831711a5de43 StaticDependenciesID=a198edd358f10a721dd561effecc14f8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.5726571Z
+  Time since last request: 0.0003086 seconds.
+  importAddress: GUID: c2b97174e9f46424eae9d83a5ca15158 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 2 Icon.png - Importer: PreviewImporter
+Importing 'GUID: c2b97174e9f46424eae9d83a5ca15158 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat People 2 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c2b97174e9f46424eae9d83a5ca15158' -> (Import Result ID: 'ea60ff3014fa25bccd59d9ed8845a9b7') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3825ada1f82c5af07c93214a6dbd1c3e DependenciesID=55cf14153cd30ba7152a436e5e8ad93f StaticDependenciesID=61872881f3534df58ea3e873f1930ddd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.9253699Z
+  Time since last request: 0.3237012 seconds.
+  importAddress: GUID: 705f0467455c3f0479897da07daeb0be - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Pen Icon.png - Importer: PreviewImporter
+Importing 'GUID: 705f0467455c3f0479897da07daeb0be - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Pen Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 705f0467455c3f0479897da07daeb0be' -> (Import Result ID: '852325bb393f6af15c1500cd6d1a6715') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e0fdf9b7ba4878d260335fb08a73035 DependenciesID=8aa2288584a636d1cd7526bc19091afb StaticDependenciesID=8b54b338d35c9e8077c0a37bafa990f5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.9580384Z
+  Time since last request: 0.0003402 seconds.
+  importAddress: GUID: a631e872ceb8c434ead7ead22b772b24 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Icon.png - Importer: PreviewImporter
+Importing 'GUID: a631e872ceb8c434ead7ead22b772b24 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a631e872ceb8c434ead7ead22b772b24' -> (Import Result ID: 'b8bd0dab7c94a04c888865cfe6a2dd93') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1b7c13a0f079de495ba7c094e4cebd8 DependenciesID=09d54b9a75fb2017e627e3a57d062503 StaticDependenciesID=a3d7c64b9956baa0c538da79c71a552d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:53.997174Z
+  Time since last request: 0.0009674 seconds.
+  importAddress: GUID: 68398e08cb2ba1d419e4d40d1cbf9249 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Dash Icon.png - Importer: PreviewImporter
+Importing 'GUID: 68398e08cb2ba1d419e4d40d1cbf9249 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Music No Dash Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 68398e08cb2ba1d419e4d40d1cbf9249' -> (Import Result ID: '4320a3ddd1c1f70bdd3d885c7a55a6d5') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4c112922937cb0a9c2c0ebf3eae25618 DependenciesID=c8b7adb0036e79c4ffb1ebd36473b90f StaticDependenciesID=79f03fe5b7586d87b06cc18b962b58e9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:54.0338052Z
+  Time since last request: 0.000666 seconds.
+  importAddress: GUID: c47d07607041a9e46ac5a017fa569294 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move Out_1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: c47d07607041a9e46ac5a017fa569294 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move Out_1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c47d07607041a9e46ac5a017fa569294' -> (Import Result ID: 'e255394a1b2510132c3d9db54bff7391') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b552378af060de696b4a48470e798a6 DependenciesID=482fdc84757095cd745bcdf062bb9058 StaticDependenciesID=bdafb04a18b956180bd257c86980ae20 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:54.3507992Z
+  Time since last request: 0.2898013 seconds.
+  importAddress: GUID: 033336c308c8eb048a200b88b4c9012f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move In_1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 033336c308c8eb048a200b88b4c9012f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Move In_1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 033336c308c8eb048a200b88b4c9012f' -> (Import Result ID: '2658a85ae9868cffcef48a2a56373895') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc81bbfe949e52b70104a7cf62051e9b DependenciesID=6191722a575c38601f3738afbbfeab29 StaticDependenciesID=874a9c42907823587cb6ddaeceb4d3ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:54.388068Z
+  Time since last request: 0.000688 seconds.
+  importAddress: GUID: e4a9e167cc90cae43bb03120ccbe26ef - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic Off Icon.png - Importer: PreviewImporter
+Importing 'GUID: e4a9e167cc90cae43bb03120ccbe26ef - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic Off Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e4a9e167cc90cae43bb03120ccbe26ef' -> (Import Result ID: '840a62e0faac1c0cc9c71439a89234a5') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=25d0bd9454a0e94065dd75323eb33f66 DependenciesID=fead3f03603173e4972c9b5b34957598 StaticDependenciesID=6a1921e392277cf16c58d485a7c0cc1e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:54.4270439Z
+  Time since last request: 0.0000923 seconds.
+  importAddress: GUID: a2209b713c93ece44babfd822911c69e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Icon.png - Importer: PreviewImporter
+Importing 'GUID: a2209b713c93ece44babfd822911c69e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a2209b713c93ece44babfd822911c69e' -> (Import Result ID: '49571b0b7da937add235d3807495675e') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5fc3d284b700f46a3c25b4960ccb9f2b DependenciesID=83b7be12274efb235aa9fcc84b1411b4 StaticDependenciesID=c9d4bc6fa86afc5ad74d24c2e62045b9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:54.8410644Z
+  Time since last request: 0.3843363 seconds.
+  importAddress: GUID: 17a49a70c2f55784b88d0fb593781488 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Crossless Icon.png - Importer: PreviewImporter
+Importing 'GUID: 17a49a70c2f55784b88d0fb593781488 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic No Crossless Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 17a49a70c2f55784b88d0fb593781488' -> (Import Result ID: '5aaaf18d4fbb59afc77efc435e93a872') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a3ef3a1a55629b12a8b932c82f1a11e DependenciesID=14ce67b608bb752961d5c6359292d886 StaticDependenciesID=32109e0f2b06171a8ec7ba7ca650ea78 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:54.8790204Z
+  Time since last request: 0.0016827 seconds.
+  importAddress: GUID: f2f9800a1d8f6624db87fcc401513e95 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic Icon.png - Importer: PreviewImporter
+Importing 'GUID: f2f9800a1d8f6624db87fcc401513e95 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Mic Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f2f9800a1d8f6624db87fcc401513e95' -> (Import Result ID: '51e05b2fb296edd9029fb6b2b849eb02') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=617565a90152b3f351583d13ac2d66b2 DependenciesID=5de7b2370584faacd24be705d68ce7f9 StaticDependenciesID=086ec9a37754f9793f19cb663a13510e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:54.9388813Z
+  Time since last request: 0.0239457 seconds.
+  importAddress: GUID: cefa2b23d10c33e4182f330dffd33b92 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 11 Icon.png - Importer: PreviewImporter
+Importing 'GUID: cefa2b23d10c33e4182f330dffd33b92 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 11 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cefa2b23d10c33e4182f330dffd33b92' -> (Import Result ID: 'b8a86c7dba8d952d63b639cfe1f84a6d') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35c567aa6baf94c5674ea846c1e0261b DependenciesID=3a8ca49abfd274450471fc5e2094f6e7 StaticDependenciesID=39600f87906f9a16af5d2dbbbc2e17c2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:54.9684992Z
+  Time since last request: 0.0005462 seconds.
+  importAddress: GUID: 346e3b2dceb1a6c458d4271b170b3bd5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 8 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 346e3b2dceb1a6c458d4271b170b3bd5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 8 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 346e3b2dceb1a6c458d4271b170b3bd5' -> (Import Result ID: 'ccca3f005590a00c45aef84ced8837c8') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7fa3760d54ef1d098d456ff18dc09853 DependenciesID=aaa82408217ed618375cca982057a738 StaticDependenciesID=24dbcea5eddea7d5021b1c3e2bda6c84 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:55.3216543Z
+  Time since last request: 0.3203364 seconds.
+  importAddress: GUID: 9b466b84db50ef34ea05f95f37e7d439 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 7 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 9b466b84db50ef34ea05f95f37e7d439 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 7 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9b466b84db50ef34ea05f95f37e7d439' -> (Import Result ID: '90ef6d28a0009de0243984113139f834') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff63e248382f095959a324397b26d996 DependenciesID=999c9523df1062491503c8a42f132a7a StaticDependenciesID=062ecc7c37f434a014df88742368fb3f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:55.3595607Z
+  Time since last request: 0.0003499 seconds.
+  importAddress: GUID: 6ecb7ae4ee0996f47a0663ebb676ff57 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 5 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 6ecb7ae4ee0996f47a0663ebb676ff57 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 5 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6ecb7ae4ee0996f47a0663ebb676ff57' -> (Import Result ID: '00a8b93c38d36a0dc573baa37f950c7d') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=043fe7ff569414db3a3a8ff7d21354ee DependenciesID=ed2906081a7f84e5c70db0993b19f6fe StaticDependenciesID=488665e947b2c14229d6410813fbd99b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:55.7346674Z
+  Time since last request: 0.3399003 seconds.
+  importAddress: GUID: 80e352140f72c1a46925fdcd2fc5fb28 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 3 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 80e352140f72c1a46925fdcd2fc5fb28 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Menu 3 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 80e352140f72c1a46925fdcd2fc5fb28' -> (Import Result ID: 'd0148d4a46caa4024231c5d465823546') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa1a11c360efbf9d944065e34450636a DependenciesID=8d16a6ac6c748dda3606c1ea0358fbcb StaticDependenciesID=14e4d1ce13120e93da813bbb1a53d478 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:55.7679482Z
+  Time since last request: 0.0001582 seconds.
+  importAddress: GUID: 7d0e2c51f326f034bb2ac5081607bc85 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Stop Icon.png - Importer: PreviewImporter
+Importing 'GUID: 7d0e2c51f326f034bb2ac5081607bc85 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Stop Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7d0e2c51f326f034bb2ac5081607bc85' -> (Import Result ID: '6db4ed9ecac9a6bc6219596d5e05a866') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eefa8bb7e322996eae4efe233c184921 DependenciesID=88a4e13e3cac08d680a5ab7dcd98275a StaticDependenciesID=773482ed9607fc6ed13720b7ad9051b8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:55.811442Z
+  Time since last request: 0.017161 seconds.
+  importAddress: GUID: 6523bf926843dbb4e979cedb7370c43e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Right Icon.png - Importer: PreviewImporter
+Importing 'GUID: 6523bf926843dbb4e979cedb7370c43e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Right Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6523bf926843dbb4e979cedb7370c43e' -> (Import Result ID: '00b5d11a663cfdbf147f48c9f8c638b8') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8787d15e3fa831354d58e05ef147a4d DependenciesID=822f4466c859db95b1b331390f772fe8 StaticDependenciesID=063e9fff16edde092503b7cf1232e1f5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:55.8876138Z
+  Time since last request: 0.0438246 seconds.
+  importAddress: GUID: 22057aef5fa19f9489473012c242bba0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Right Double Icon.png - Importer: PreviewImporter
+Importing 'GUID: 22057aef5fa19f9489473012c242bba0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Right Double Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 22057aef5fa19f9489473012c242bba0' -> (Import Result ID: '2bdc6ff2d6160e8ad26fb6810c96daf4') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7ff361a04ed6c213aa5e52025e146d4b DependenciesID=5d8234a2345e3362d5da325e6562f19c StaticDependenciesID=14c9be7906f05369956a497ecda1e242 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:56.2539629Z
+  Time since last request: 0.3336838 seconds.
+  importAddress: GUID: 6a736cfd9250d5c4a9ff3e0e4ad0cb5c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Left Icon.png - Importer: PreviewImporter
+Importing 'GUID: 6a736cfd9250d5c4a9ff3e0e4ad0cb5c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Left Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6a736cfd9250d5c4a9ff3e0e4ad0cb5c' -> (Import Result ID: '10d87e91e7be79c0ae033c3c51f9ebc8') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e0f20ae2a0ec0ad65ecdc89f5c35a19b DependenciesID=88343f097226772e7722a51b9de9a859 StaticDependenciesID=40312045acb01cab0a278e306cc00ee7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:56.2919083Z
+  Time since last request: 0.000413 seconds.
+  importAddress: GUID: c7a6fe9f3f07bf74a897236d55e0cee6 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Left Double Icon.png - Importer: PreviewImporter
+Importing 'GUID: c7a6fe9f3f07bf74a897236d55e0cee6 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Media Left Double Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c7a6fe9f3f07bf74a897236d55e0cee6' -> (Import Result ID: 'e2dda7274599286be9e34dc595b04203') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8c75c9d02f19464bcf7801c578671310 DependenciesID=7b9288c4a6efaf280029d2626e6a72be StaticDependenciesID=dae6ae67739bc80d9b533295cce2e82c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:56.3364241Z
+  Time since last request: 0.0003974 seconds.
+  importAddress: GUID: 729052d35d545f2459aa6859cdcac322 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Magnify Minus Icon.png - Importer: PreviewImporter
+Importing 'GUID: 729052d35d545f2459aa6859cdcac322 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Magnify Minus Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 729052d35d545f2459aa6859cdcac322' -> (Import Result ID: 'd07691ee6cbd74cd80534049e8442349') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a5b1b1ba3465e1e985f6152efc7753b DependenciesID=268e9db346901e61855a3fb6f02b9fcd StaticDependenciesID=2dc1087128c36edc15e0864d95a95175 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:56.8235574Z
+  Time since last request: 0.4624206 seconds.
+  importAddress: GUID: bb7ec8b62952b184997404e390b9e690 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Lock Open Icon.png - Importer: PreviewImporter
+Importing 'GUID: bb7ec8b62952b184997404e390b9e690 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Lock Open Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bb7ec8b62952b184997404e390b9e690' -> (Import Result ID: '4f82ee5e626ffb08dbb1c29410c5c0a5') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=57b1a82bec59d0447dcddf2a143bbb81 DependenciesID=98cbb7545e61909c99ca597df8028457 StaticDependenciesID=2a1413f9b090aa2480375f556b68e074 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:56.8940678Z
+  Time since last request: 0.0357304 seconds.
+  importAddress: GUID: e1d56bf61bc01bf4a94b84873148109e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Leaderboard Icon.png - Importer: PreviewImporter
+Importing 'GUID: e1d56bf61bc01bf4a94b84873148109e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Leaderboard Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e1d56bf61bc01bf4a94b84873148109e' -> (Import Result ID: '009b3e3d1ba1807e67b34a0df3c3a8d7') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b7dd72600b0c1b0950af4d70390e464d DependenciesID=109f53ab6a07706de114fe1852f6ed00 StaticDependenciesID=ac726d92b079c455189c9d5f78fbe561 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:57.365185Z
+  Time since last request: 0.4381343 seconds.
+  importAddress: GUID: 2776e7415ee80d54b8ba0b71a8f22d19 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Home Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2776e7415ee80d54b8ba0b71a8f22d19 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Home Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2776e7415ee80d54b8ba0b71a8f22d19' -> (Import Result ID: '10a116c36ae489fffd959e61668077c7') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6a327a949f69c3d6abe69851c392dac3 DependenciesID=575097f667cc7665b8bc846b000e83d5 StaticDependenciesID=63d562f3cebc6160f3eec69bbb9882fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:57.4362929Z
+  Time since last request: 0.0383108 seconds.
+  importAddress: GUID: 2b128a5e4d59a054e9193a83052697e3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Heart Empty Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2b128a5e4d59a054e9193a83052697e3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Heart Empty Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2b128a5e4d59a054e9193a83052697e3' -> (Import Result ID: '051e363ebf38737c10786dfb94191cf4') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62a8528a9c845779d27e327a75525b80 DependenciesID=324fedd12fb79838e7b66053d7bcf48e StaticDependenciesID=3d9372a4331a9d3d358658bdf6edae17 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:57.4717172Z
+  Time since last request: 0.0005466 seconds.
+  importAddress: GUID: 2d2efb71714622f48a1b75dcb0fbe9c1 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split SW Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2d2efb71714622f48a1b75dcb0fbe9c1 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split SW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2d2efb71714622f48a1b75dcb0fbe9c1' -> (Import Result ID: '841ccf51b6121f806f9368dc97ba26b2') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5075de573470ee4cb1ea357d53d3591e DependenciesID=0a566909a1c035ca29ca91dc1738cef5 StaticDependenciesID=2ce37962274d1227fdebc83712689d8d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:57.5194728Z
+  Time since last request: 0.0126395 seconds.
+  importAddress: GUID: 0574ad204ce85db469a066c20d0f377e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split S Icon.png - Importer: PreviewImporter
+Importing 'GUID: 0574ad204ce85db469a066c20d0f377e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split S Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0574ad204ce85db469a066c20d0f377e' -> (Import Result ID: '77a980b1684af846994c3b8c18449aa3') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b1d2b3f2eff193b63166383e5af67042 DependenciesID=a5bfc4fffde919db454034eb5c867766 StaticDependenciesID=2c58b27553804e63384682a044111bc2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:57.5498248Z
+  Time since last request: 0.0006222 seconds.
+  importAddress: GUID: 5fbdf9d5c02a7c8488bf88d69359eb3d - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NS Icon.png - Importer: PreviewImporter
+Importing 'GUID: 5fbdf9d5c02a7c8488bf88d69359eb3d - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NS Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5fbdf9d5c02a7c8488bf88d69359eb3d' -> (Import Result ID: '868eece5c187c9061681a8da708fa006') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=385530bd08df04a29ac1023bb1169ca5 DependenciesID=f99db2f2eec05c437d2c926fba94a94b StaticDependenciesID=12f93a1c774f79939d90090c4a5078cb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:57.8973269Z
+  Time since last request: 0.3155579 seconds.
+  importAddress: GUID: 00b091dc7bf12c342b2fb878622f1dac - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NESW Icon.png - Importer: PreviewImporter
+Importing 'GUID: 00b091dc7bf12c342b2fb878622f1dac - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NESW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 00b091dc7bf12c342b2fb878622f1dac' -> (Import Result ID: '96c843559edfe8f01fa9d1d809cd8bec') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4ed68d624b8ec49fcf545a513dfb12b DependenciesID=5f1cfd26d334594212a4cde4d9ce6312 StaticDependenciesID=eb052c42aa382c02a258308eb13bc8eb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:57.937877Z
+  Time since last request: 0.0005411 seconds.
+  importAddress: GUID: b61b4cfa10e855e4eac44966d6113f26 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NE Icon.png - Importer: PreviewImporter
+Importing 'GUID: b61b4cfa10e855e4eac44966d6113f26 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split NE Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b61b4cfa10e855e4eac44966d6113f26' -> (Import Result ID: '78058fef91a1c11b418cb5b92b444473') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ec5dea0d5c40498e2a2157aa9949dc9b DependenciesID=d46e44522b9ad0c7dbf1c8d53c82691e StaticDependenciesID=3fad8a0bf6462436b516d8aeac8306bc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:57.9760946Z
+  Time since last request: 0.0009242 seconds.
+  importAddress: GUID: 401cf7eb34cb4fb43ab0ba85694e8e7f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split ESW Icon.png - Importer: PreviewImporter
+Importing 'GUID: 401cf7eb34cb4fb43ab0ba85694e8e7f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split ESW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 401cf7eb34cb4fb43ab0ba85694e8e7f' -> (Import Result ID: '205fa4f7601bdab51706500ae3e351f4') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f27d6e975576172331ee6316d5f90603 DependenciesID=b06c16dc0489d677ac9d568463df0a05 StaticDependenciesID=47279aa2650da511fe01bd0f8d11cbd5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.0276543Z
+  Time since last request: 0.0202799 seconds.
+  importAddress: GUID: 379bea2ed4d8a5045b698b8f260be4e3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split ENW Icon.png - Importer: PreviewImporter
+Importing 'GUID: 379bea2ed4d8a5045b698b8f260be4e3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split ENW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 379bea2ed4d8a5045b698b8f260be4e3' -> (Import Result ID: '9f00ff55b0564792a1e4e18f2e2d6dab') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9da7e57f9cc65db90c78d28215cac5fc DependenciesID=e2c28a5fb9abea005bbeaeac3812768f StaticDependenciesID=a13cd0a8e6f86a5276b9769c3675d800 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.378144Z
+  Time since last request: 0.3194175 seconds.
+  importAddress: GUID: 91e3f51b2db613346a2e4c0f13d4dc7d - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split Blank Icon.png - Importer: PreviewImporter
+Importing 'GUID: 91e3f51b2db613346a2e4c0f13d4dc7d - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Split Blank Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 91e3f51b2db613346a2e4c0f13d4dc7d' -> (Import Result ID: '31a5cb1bb77e5f2bc72ba490ea3327cd') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2f808ba91ca3823374f31dd705a1ef65 DependenciesID=1cfec38f17c35c7c06b40d3579f48def StaticDependenciesID=03603081db4e64aa23844f36b6c1d168 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.4153988Z
+  Time since last request: 0.0010679 seconds.
+  importAddress: GUID: ecd240902c8ca3141bfbc2512673e3fc - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid SE Icon.png - Importer: PreviewImporter
+Importing 'GUID: ecd240902c8ca3141bfbc2512673e3fc - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid SE Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ecd240902c8ca3141bfbc2512673e3fc' -> (Import Result ID: '83487df4e172df66494f00d66c820a8b') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3563ccc5b755c9ed48fcfb3ff54a58c4 DependenciesID=7e520c36375792ab7bff00125e14494f StaticDependenciesID=2d6455b1f288fa72af6d00754ee9d361 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.4505261Z
+  Time since last request: 0.0010707 seconds.
+  importAddress: GUID: ec2abcf014cb2754f93cdbbff9ec34c3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NWS Icon.png - Importer: PreviewImporter
+Importing 'GUID: ec2abcf014cb2754f93cdbbff9ec34c3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NWS Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ec2abcf014cb2754f93cdbbff9ec34c3' -> (Import Result ID: '257703183b9da91fddc13e4834530393') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5864140b5f4be1d3a3395418828ff544 DependenciesID=ef6e325a371314309d60f286e1c5fabf StaticDependenciesID=56c7aa56ccf926cde582851600caaaf3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.4799287Z
+  Time since last request: 0.000243 seconds.
+  importAddress: GUID: 4123cf49a9e94bf4e853f60226e46a5f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NW Icon.png - Importer: PreviewImporter
+Importing 'GUID: 4123cf49a9e94bf4e853f60226e46a5f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4123cf49a9e94bf4e853f60226e46a5f' -> (Import Result ID: 'd00eee62d53da5f550d65ece9c7e3c50') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=360897e148b0a61f2d6b2ad823b60aa3 DependenciesID=123970fb632cb90517c5a20e2fdacafa StaticDependenciesID=7ad575be117a02322e1532749677c30e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.7931264Z
+  Time since last request: 0.2869416 seconds.
+  importAddress: GUID: ad28ff0024282714d98193f0b11e99c8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NESW Icon.png - Importer: PreviewImporter
+Importing 'GUID: ad28ff0024282714d98193f0b11e99c8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid NESW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ad28ff0024282714d98193f0b11e99c8' -> (Import Result ID: 'b9841a08314791fae797dbcb6ea49afe') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71e5cfd8eb6db7b24721907acbc5547f DependenciesID=c9618990578a2b57ee63485ba00609f5 StaticDependenciesID=a40a3ec1b682f087cc48d493c591023d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.8265991Z
+  Time since last request: 0.0003444 seconds.
+  importAddress: GUID: a7177caaa757a4d4cac55efaabd67d92 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid N Icon.png - Importer: PreviewImporter
+Importing 'GUID: a7177caaa757a4d4cac55efaabd67d92 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid N Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a7177caaa757a4d4cac55efaabd67d92' -> (Import Result ID: '44b687505c1cef782c21e22b13a408d7') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4098f5d0a99b3b95a8e2ffa88664a99 DependenciesID=69d63e361469315c2d685f54f2c209d1 StaticDependenciesID=7ff55742b897f62a7ac630ad8aff0659 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.8681923Z
+  Time since last request: 0.0002755 seconds.
+  importAddress: GUID: 946f65581e11fc94c83c26309552581f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid ESW Icon.png - Importer: PreviewImporter
+Importing 'GUID: 946f65581e11fc94c83c26309552581f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid ESW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 946f65581e11fc94c83c26309552581f' -> (Import Result ID: 'd241b132b502d1c407b167a1faaeeefd') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=be2846a5f3482849bc5a59af46536b86 DependenciesID=484ea940ee80b2906c09f4566a051f4b StaticDependenciesID=88d8aba8266a48cfa770ebba45deb00c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:58.8981151Z
+  Time since last request: 0.0004153 seconds.
+  importAddress: GUID: 6e5eee0c05fcf7b439b27ea85bcb070e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid E Icon.png - Importer: PreviewImporter
+Importing 'GUID: 6e5eee0c05fcf7b439b27ea85bcb070e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid E Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6e5eee0c05fcf7b439b27ea85bcb070e' -> (Import Result ID: 'fd88d5040ec8cad98b95a54ee172f7ab') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ac9a88d80e9c87ab6f7c50fbab2fd00c DependenciesID=17f56ea9ab636acf09594402a40b2813 StaticDependenciesID=e73b151a484b7debac09a20c00b1ec19 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.1724792Z
+  Time since last request: 0.2472325 seconds.
+  importAddress: GUID: 9a363b86d8dc1f9469388fb98608bb7b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid Blank Icon.png - Importer: PreviewImporter
+Importing 'GUID: 9a363b86d8dc1f9469388fb98608bb7b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Hat Solid Blank Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9a363b86d8dc1f9469388fb98608bb7b' -> (Import Result ID: '39d8f21cdd0a52eaf306dac53c33fe42') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=82abf12457b853aedeebd48c6a5783cd DependenciesID=c703049938ff94b5fa5e978ba8489542 StaticDependenciesID=ea623a46839685540b0a8fed413ca26d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.2065299Z
+  Time since last request: 0.0000394 seconds.
+  importAddress: GUID: c0c6236a6ab80ef4a976fb36399ec076 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Horizontal (Middle) Icon.png - Importer: PreviewImporter
+Importing 'GUID: c0c6236a6ab80ef4a976fb36399ec076 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Horizontal (Middle) Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c0c6236a6ab80ef4a976fb36399ec076' -> (Import Result ID: 'e71f3c1d3d342c788c1422e99a2ac677') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa875df45e4651283194d2684784e2fe DependenciesID=571630d108c01d246c9d14af9b895954 StaticDependenciesID=7b92ebacc5bf877a514dcd9c47acaafc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.2473904Z
+  Time since last request: 0.000477 seconds.
+  importAddress: GUID: e4bf43d6d1e92494f952cf4372e91e8f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle Icon.png - Importer: PreviewImporter
+Importing 'GUID: e4bf43d6d1e92494f952cf4372e91e8f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e4bf43d6d1e92494f952cf4372e91e8f' -> (Import Result ID: 'bf09c8f2da53d2a49c32b3c9e18cd9c6') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a12b3433a5ade21890ae5c0b5667fb7 DependenciesID=083e1fa672c401e6d1fc3b17f1d2aa5c StaticDependenciesID=278d1df4164738bf5429c387b9f7499b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.2861016Z
+  Time since last request: 0.0004611 seconds.
+  importAddress: GUID: 1fa55995552a1ad4d8fb1977d1dc135f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Vertical (Middle) Icon.png - Importer: PreviewImporter
+Importing 'GUID: 1fa55995552a1ad4d8fb1977d1dc135f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Vertical (Middle) Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1fa55995552a1ad4d8fb1977d1dc135f' -> (Import Result ID: 'eab565491f6eda9758c74ecbe33350b6') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fe91f2a7645b83d572411f41ac6dc7a7 DependenciesID=d9d6a0aae92947f1396c3647e71925a1 StaticDependenciesID=874ad3a789c5b01ab9af873f97a1b21e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.494474Z
+  Time since last request: 0.1801187 seconds.
+  importAddress: GUID: 797c89b2982d2754892436de08157cf0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Top) Icon.png - Importer: PreviewImporter
+Importing 'GUID: 797c89b2982d2754892436de08157cf0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Top) Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 797c89b2982d2754892436de08157cf0' -> (Import Result ID: '0c9639a9d396dbc01665ca73a3c17556') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb6d631ad4f64a14de5b4e5900d0367b DependenciesID=a6e222a790b1d5117bd0bca5e91cb42e StaticDependenciesID=a2973fb7b1bcdd77e88e6078d40a0d83 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.5280846Z
+  Time since last request: 0.000148 seconds.
+  importAddress: GUID: 12c3cc74bc3f4a74f8bf4f294f797d54 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Bottom) Icon.png - Importer: PreviewImporter
+Importing 'GUID: 12c3cc74bc3f4a74f8bf4f294f797d54 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gradient Circle (Bottom) Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 12c3cc74bc3f4a74f8bf4f294f797d54' -> (Import Result ID: '0d62925a78a1d6c950bef9f5660dbf93') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a3839a09ef8d00d9459fd8d1b381a64 DependenciesID=dc2604da7d71718d9783391b9272e695 StaticDependenciesID=e0c75e246bc47e189577bf8523af9bca 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.5686568Z
+  Time since last request: 0.0001837 seconds.
+  importAddress: GUID: 2fa906dd9c7da0e44b82fa4cda8f8a8a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 4 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2fa906dd9c7da0e44b82fa4cda8f8a8a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 4 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2fa906dd9c7da0e44b82fa4cda8f8a8a' -> (Import Result ID: 'f83a111ea30597e8164f5835565e7026') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=55adafff9ee2b98fad638ab49de48364 DependenciesID=1ded9dd7e7743b2ff0a7ccae78422bc4 StaticDependenciesID=bde25b0595a7b628df5ca80460b6b806 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.6046989Z
+  Time since last request: 0.0003315 seconds.
+  importAddress: GUID: 561ce56b57e34e6499fda3c9e96b3559 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 561ce56b57e34e6499fda3c9e96b3559 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Gear 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 561ce56b57e34e6499fda3c9e96b3559' -> (Import Result ID: 'efd77146565db543a54076edf99f262b') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0456999990d25f00a2e7601d215b305c DependenciesID=ff55cca6bdbc925a08544a2dd2db81dd StaticDependenciesID=af0c90d5e156efc4de96682eeefcd4c4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.8273129Z
+  Time since last request: 0.1950662 seconds.
+  importAddress: GUID: 50578edbd10cc3a438c38d6d4493b7b1 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Funnel Icon.png - Importer: PreviewImporter
+Importing 'GUID: 50578edbd10cc3a438c38d6d4493b7b1 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Funnel Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 50578edbd10cc3a438c38d6d4493b7b1' -> (Import Result ID: '106e9feccce173e48390144410d3b323') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d7a445af8097d849fdc112b29a153d15 DependenciesID=c91e0f9abb6eb9cc565204d8ed4d5d48 StaticDependenciesID=f520ab01da5632c0af2208079eedac62 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.887395Z
+  Time since last request: 0.0097069 seconds.
+  importAddress: GUID: 8cd55c5b366c4574d93e99269b8a01d9 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Edit Icon.png - Importer: PreviewImporter
+Importing 'GUID: 8cd55c5b366c4574d93e99269b8a01d9 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Edit Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8cd55c5b366c4574d93e99269b8a01d9' -> (Import Result ID: '900b4ed69a3ce9e1400aab3ff6495434') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d907f113c8c763dc68df4025dcc931cb DependenciesID=3bb61ae379f4435df075face9f3b31a5 StaticDependenciesID=62c338a6d344e6dc01b2448ffc1f4ee8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.9201322Z
+  Time since last request: 0.0004171 seconds.
+  importAddress: GUID: a0b6f2cb1df595b46930a12f75a81772 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Download Cloud Icon.png - Importer: PreviewImporter
+Importing 'GUID: a0b6f2cb1df595b46930a12f75a81772 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Download Cloud Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a0b6f2cb1df595b46930a12f75a81772' -> (Import Result ID: '06e9bb3a1f748215dca22577c4e4821b') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1121170703484a1985ea0ba2589d6d27 DependenciesID=3bb508e6c7a28328e859334e4153e014 StaticDependenciesID=175a48dd44e5a3d65f270edeca741cf4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:24:59.9487448Z
+  Time since last request: 0.000719 seconds.
+  importAddress: GUID: cf03c630256c7dc47afa1a941c9b7968 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Exit Left Icon.png - Importer: PreviewImporter
+Importing 'GUID: cf03c630256c7dc47afa1a941c9b7968 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Exit Left Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf03c630256c7dc47afa1a941c9b7968' -> (Import Result ID: 'b321893b47870752746af0d0246b75ed') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=13e2654fafc351fc8e857e3c6b126da4 DependenciesID=bf9418f079644095b1a502dc4d72d9cc StaticDependenciesID=be7963aea1a92fb457ca981942f19202 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:00.1451958Z
+  Time since last request: 0.1690057 seconds.
+  importAddress: GUID: abccf8751e994124bb259458fbbf08c3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 5 Icon.png - Importer: PreviewImporter
+Importing 'GUID: abccf8751e994124bb259458fbbf08c3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 5 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: abccf8751e994124bb259458fbbf08c3' -> (Import Result ID: '23adbd7ec080a5a3698a44bc26f5516d') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1e5a9efea5b4eca80a0e6d4075db5a72 DependenciesID=3c5d8c75f21c9d0c2ce1215cacbfd49f StaticDependenciesID=55bb3996c654d31587805342336257bb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:00.18208Z
+  Time since last request: 0.0002797 seconds.
+  importAddress: GUID: bd932e08b9a3647458aace94f16cf6ca - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 2 Icon.png - Importer: PreviewImporter
+Importing 'GUID: bd932e08b9a3647458aace94f16cf6ca - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Disk 2 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bd932e08b9a3647458aace94f16cf6ca' -> (Import Result ID: 'b6763377d25f4ebcb1bcd926436f826a') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7494e58a70f8053e5fe49414e888977a DependenciesID=cf302be3cdfd574448ab65037c73e9aa StaticDependenciesID=ffe679887c6e2f1dfee6aeae12ea4c5b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:00.2313588Z
+  Time since last request: 0.005611 seconds.
+  importAddress: GUID: 5d52258ac0c672b4696b3d924f44d149 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 2 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 5d52258ac0c672b4696b3d924f44d149 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 2 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5d52258ac0c672b4696b3d924f44d149' -> (Import Result ID: '83dccd8aa52a94129cb4461be33517e2') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=241c40d9fd4831a49013ecf1430a8fe4 DependenciesID=5a9797eb054a5ae7e6a876597b72f54a StaticDependenciesID=e4809af59c207e93beeee5a40c5d006f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:00.2618891Z
+  Time since last request: 0.0002377 seconds.
+  importAddress: GUID: 8973670be4bd7fe49a6a7b82418796d4 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 3 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 8973670be4bd7fe49a6a7b82418796d4 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 3 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8973670be4bd7fe49a6a7b82418796d4' -> (Import Result ID: 'b61c449bb4d2e62125f19f252f8ea55c') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1d72bef0f0e6f47b92d946e51cdd0cbb DependenciesID=ec83b0d7db310d0988cc547c6126dd84 StaticDependenciesID=078b3701b429be59a0fb54063e0ab2dd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:00.2884297Z
+  Time since last request: 0.0003375 seconds.
+  importAddress: GUID: 2835edfbaa1a84341974068ce97952c5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 0 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2835edfbaa1a84341974068ce97952c5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Connection 0 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2835edfbaa1a84341974068ce97952c5' -> (Import Result ID: 'd01f9311f04f95de05fe0c39d04b68b8') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=08c461465a5baa614541588ee50d6623 DependenciesID=803800095b0f9784dfbe36cd442dcd08 StaticDependenciesID=8b8b468c02e27fdb3d66dafa195e56d7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:00.8979154Z
+  Time since last request: 0.5816674 seconds.
+  importAddress: GUID: dabc19380a76426458ac691061a1a10a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud Icon.png - Importer: PreviewImporter
+Importing 'GUID: dabc19380a76426458ac691061a1a10a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dabc19380a76426458ac691061a1a10a' -> (Import Result ID: 'f0303425f79697990d9c70dde52b4746') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1316a3eea8970df9a0c466407ade42da DependenciesID=ee5fcbd2adeb21b229e450c511822d33 StaticDependenciesID=24c22fe94650746e57306bc4fce4c684 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:00.9699935Z
+  Time since last request: 0.0406296 seconds.
+  importAddress: GUID: 42e143c86e7453d4f8f631ea354c035a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 42e143c86e7453d4f8f631ea354c035a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Cloud 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 42e143c86e7453d4f8f631ea354c035a' -> (Import Result ID: '71778382a642cd2b8ea43c1d2e0b7503') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cc92e5493404bd7e7cdfc26fb5d80937 DependenciesID=542cb771888f5efa61e325758ee80aa4 StaticDependenciesID=36e97244f7f93153a7621e876fd3018c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:01.812605Z
+  Time since last request: 0.809731 seconds.
+  importAddress: GUID: 8150e29ed402938409cabad52898f538 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Question Icon.png - Importer: PreviewImporter
+Importing 'GUID: 8150e29ed402938409cabad52898f538 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Question Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8150e29ed402938409cabad52898f538' -> (Import Result ID: 'e401c6edf377f7a1ecac89246c0bc568') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fff1a6b18f2d1a037fbbc64f5cbc0262 DependenciesID=e507e746a4c0b95b0c8337a40702e36f StaticDependenciesID=e1e419f5a914cc47d44fb4241eb7dff8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:01.8971136Z
+  Time since last request: 0.0499697 seconds.
+  importAddress: GUID: 98e0f9ed3a2516b4888cbb15bc0a3b54 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Ellipsis Icon.png - Importer: PreviewImporter
+Importing 'GUID: 98e0f9ed3a2516b4888cbb15bc0a3b54 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Ellipsis Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 98e0f9ed3a2516b4888cbb15bc0a3b54' -> (Import Result ID: '3b832cbd59b7ea88da2b798b72423b06') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6787de8728f9c97326dc824fdbff1def DependenciesID=798984e067e496c9533388e5d9010c92 StaticDependenciesID=0c67ed827cf184ffe2a15ead189285a3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:02.4136544Z
+  Time since last request: 0.4802963 seconds.
+  importAddress: GUID: 45f301519d9427048b776fdec7ec376b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Bars Icon.png - Importer: PreviewImporter
+Importing 'GUID: 45f301519d9427048b776fdec7ec376b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 3 Bars Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 45f301519d9427048b776fdec7ec376b' -> (Import Result ID: 'ab724c98da66b4e6b818a561accdb7ed') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1956729db823c4984f4a6fb7b3c1f6af DependenciesID=e8ea14307b069789bb32f6e898ca99ca StaticDependenciesID=8b008358f88466bd07d76b628301e77e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:02.4905644Z
+  Time since last request: 0.0411385 seconds.
+  importAddress: GUID: 0f6a6fda1c4ce744095db2dc3335304d - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Exclaim Icon.png - Importer: PreviewImporter
+Importing 'GUID: 0f6a6fda1c4ce744095db2dc3335304d - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Exclaim Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0f6a6fda1c4ce744095db2dc3335304d' -> (Import Result ID: '568262663b90272e14788ee56765dc13') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12881f1d553dea0f4e3da6b979941517 DependenciesID=f83d8c729f263e513d2213b4d07e0053 StaticDependenciesID=1b64e4207879eb9d2d33d6aadddbdc59 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:02.8096258Z
+  Time since last request: 0.2748769 seconds.
+  importAddress: GUID: da3f1e13ca1ae7f478c9b1a43fe699a8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Blank Icon.png - Importer: PreviewImporter
+Importing 'GUID: da3f1e13ca1ae7f478c9b1a43fe699a8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 2 Blank Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: da3f1e13ca1ae7f478c9b1a43fe699a8' -> (Import Result ID: '8132922e08bc2b81da85871f1c9a23fb') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aec434af8311dc089709f77a71aabb91 DependenciesID=4fdb08f6934108fb5bf4ebdb5e65f96b StaticDependenciesID=92f43bd68a58f2ba164ce984685cb228 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:02.8408988Z
+  Time since last request: 0.0004721 seconds.
+  importAddress: GUID: 2d69c6f4e333cb449acab64d0c219815 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Exclaim Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2d69c6f4e333cb449acab64d0c219815 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Exclaim Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2d69c6f4e333cb449acab64d0c219815' -> (Import Result ID: 'de2d9f12901180d4f178965f0850e1c9') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c083bcf60e4bc963ef714147ca9fecc DependenciesID=a96528e175c9c0a1f300a09261b832d2 StaticDependenciesID=04c2d4e476781b13589adb677f86d15b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:02.8834626Z
+  Time since last request: 0.0015845 seconds.
+  importAddress: GUID: 71d79bf573254f644a28e7c73e416105 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Blank Icon.png - Importer: PreviewImporter
+Importing 'GUID: 71d79bf573254f644a28e7c73e416105 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Blank Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 71d79bf573254f644a28e7c73e416105' -> (Import Result ID: '9384e4e53eed83448b885d59745bd9df') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f564eddfadef437ab7b2d01fb6e9cf5b DependenciesID=edaee056e3b6d37818700fd5acbc9378 StaticDependenciesID=337c7591e1842d62a41fde3c678ac82f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:03.1881133Z
+  Time since last request: 0.2701748 seconds.
+  importAddress: GUID: b14a97e41c4b4434092e87d6ceb06183 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Bars Icon.png - Importer: PreviewImporter
+Importing 'GUID: b14a97e41c4b4434092e87d6ceb06183 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Chat 1 Bars Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b14a97e41c4b4434092e87d6ceb06183' -> (Import Result ID: '358161a923bea67fa7b98f1e49083625') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b54daa242dbf5eff3f48468e4e2669ae DependenciesID=f879b4fa7cd049e32b48447e305a6061 StaticDependenciesID=24756d621eb9ce45929e6026009aa25a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:03.2244562Z
+  Time since last request: 0.0004255 seconds.
+  importAddress: GUID: 31261ef829c8d5443941fedf93581633 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid X Icon.png - Importer: PreviewImporter
+Importing 'GUID: 31261ef829c8d5443941fedf93581633 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid X Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 31261ef829c8d5443941fedf93581633' -> (Import Result ID: 'b2cff0a7cc0bb41d5b7bf6ac59389796') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cda24b0847d7c94835db0d2dea7b397 DependenciesID=8e31dbd0a572def6ff4facdca2367b7a StaticDependenciesID=b0c8f2d665d6091bec4bb78c06600925 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:03.2637175Z
+  Time since last request: 0.0005522 seconds.
+  importAddress: GUID: 03d93f0af71a932438f67fe810db03b9 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Triangle Icon.png - Importer: PreviewImporter
+Importing 'GUID: 03d93f0af71a932438f67fe810db03b9 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Triangle Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 03d93f0af71a932438f67fe810db03b9' -> (Import Result ID: '6ab6239a31fe7c0459ec0766bda7ddb0') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=090f4fe12a58583c6998f8f10049b654 DependenciesID=45ff8f5231f6e1e96ae98fad85cb22d4 StaticDependenciesID=471256cab2665cec6ea454ce439ee8ae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:03.2983068Z
+  Time since last request: 0.0003712 seconds.
+  importAddress: GUID: 133177f5811aded4995e8f89f46aee00 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Icon.png - Importer: PreviewImporter
+Importing 'GUID: 133177f5811aded4995e8f89f46aee00 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 133177f5811aded4995e8f89f46aee00' -> (Import Result ID: '2fdef8abdcfff682c1cec768996db93a') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7f996df8675fb76d7da8cc7622a3cbd0 DependenciesID=2b1890990cc14bb054dcb979853aa703 StaticDependenciesID=123da0b2d7991b29baac14cfcf31d65f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:03.5843753Z
+  Time since last request: 0.2602564 seconds.
+  importAddress: GUID: f26be72dc8be4764ca51a54b57d312d0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Bumper Icon.png - Importer: PreviewImporter
+Importing 'GUID: f26be72dc8be4764ca51a54b57d312d0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right Bumper Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f26be72dc8be4764ca51a54b57d312d0' -> (Import Result ID: '479ab4201a4908fe054fbc3919cd739f') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ccf4060525ed64a48944a7704f5c47b9 DependenciesID=2376c8e8b5e5e8e7d1642d8514c25bb1 StaticDependenciesID=a94f010274836a7e9a0b1645f81e7f3e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:03.6133217Z
+  Time since last request: 0.0002888 seconds.
+  importAddress: GUID: c5592df54283ce742af9371403fc8a72 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: c5592df54283ce742af9371403fc8a72 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Right 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c5592df54283ce742af9371403fc8a72' -> (Import Result ID: 'da5b92e382e12db61c8475030735a485') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=92ea17f2a26d3dc5bf1781017490a7c9 DependenciesID=413b5d89c0992e9bb13fb9e0d5d5ec92 StaticDependenciesID=a47811164038a50c74c38616deb4189f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:03.9781663Z
+  Time since last request: 0.3215368 seconds.
+  importAddress: GUID: 99e3ae56e068f9d4a880289d87a4c4a2 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left Trigger Icon.png - Importer: PreviewImporter
+Importing 'GUID: 99e3ae56e068f9d4a880289d87a4c4a2 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left Trigger Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 99e3ae56e068f9d4a880289d87a4c4a2' -> (Import Result ID: 'c3e45472d3118fcbfb8eb0531f10fc35') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=15aea5ebc0470c0a7748bfe79ab64e33 DependenciesID=4c0373e78b3eb0deb89bf50b220ffe5f StaticDependenciesID=d7d470fbd5c265c44a636cdac1fee350 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.0125703Z
+  Time since last request: 0.0000622 seconds.
+  importAddress: GUID: 6f2bf985368854e409f94054cafc28b4 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left Bumper Icon.png - Importer: PreviewImporter
+Importing 'GUID: 6f2bf985368854e409f94054cafc28b4 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left Bumper Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6f2bf985368854e409f94054cafc28b4' -> (Import Result ID: 'dbfcf0634b1495837b6772a90a390f60') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=192c1c32ed452d3538d3362412457eed DependenciesID=9fc6c2936e2a6559542b4b40d3275933 StaticDependenciesID=5d38c9c2bd62741ab29c6135d79ad0e8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.0532922Z
+  Time since last request: 0.0025039 seconds.
+  importAddress: GUID: 02b95ae4605dbb948aa440a62175c40e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Cross Icon.png - Importer: PreviewImporter
+Importing 'GUID: 02b95ae4605dbb948aa440a62175c40e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Cross Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 02b95ae4605dbb948aa440a62175c40e' -> (Import Result ID: '49e8a48b613e2e5df7e5a33f1e8b2cf9') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c4a2dbb2d80c9166b90f17d4cc54a61 DependenciesID=fbec41e3e5de9126590bcc082ef274c3 StaticDependenciesID=46da26f79ebbf3a4481f7c97cab68dd7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.088644Z
+  Time since last request: 0.0008708 seconds.
+  importAddress: GUID: 5bc5c58f25a195e48a39ed8a641b7399 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 5bc5c58f25a195e48a39ed8a641b7399 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5bc5c58f25a195e48a39ed8a641b7399' -> (Import Result ID: 'c6f0a40a1e6c617ad052c431bb30623d') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=35977fea457640edbaadd0f2801c37c7 DependenciesID=95a083cdec1cdbff67d8291117f975a9 StaticDependenciesID=19b93783f374b823ab068566a7b739f0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.1194608Z
+  Time since last request: 0.0005073 seconds.
+  importAddress: GUID: 340813340169a9f4e9222a2ed4b4ca5b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left 2 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 340813340169a9f4e9222a2ed4b4ca5b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Solid Left 2 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 340813340169a9f4e9222a2ed4b4ca5b' -> (Import Result ID: '572a2b0efb3ee307ba5da964084c197f') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05656ee069a541fb1fa98104eda18a43 DependenciesID=860c766c86b95447b194f3869d6f2c5b StaticDependenciesID=33d11b42879a6b21933767b9a8a4cf6d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.4129917Z
+  Time since last request: 0.2676675 seconds.
+  importAddress: GUID: 734d62e201e3dda4ca1377df9bd9b8de - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Y Icon.png - Importer: PreviewImporter
+Importing 'GUID: 734d62e201e3dda4ca1377df9bd9b8de - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Y Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 734d62e201e3dda4ca1377df9bd9b8de' -> (Import Result ID: 'd355091251eed26889a7412d3ffdeb24') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0199f3368d55ebb2ddb0a781d7b8f316 DependenciesID=16dca44b60884cb4c48fe996bd690ea3 StaticDependenciesID=9529696981d37149176855c3d0e04f40 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.4510014Z
+  Time since last request: 0.0003956 seconds.
+  importAddress: GUID: 786aa4bc4afe21e4aab9aa3fa82d0c8b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Square Icon.png - Importer: PreviewImporter
+Importing 'GUID: 786aa4bc4afe21e4aab9aa3fa82d0c8b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Square Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 786aa4bc4afe21e4aab9aa3fa82d0c8b' -> (Import Result ID: 'f80c81b5e490d2e35d833980f9bc91d6') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7e42b699bf5f0c9981702357943605ca DependenciesID=a402164620c80785861942e72de7c576 StaticDependenciesID=5b5e2fc56a5edb7119d39c4bcd555dfb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.4851545Z
+  Time since last request: 0.0002317 seconds.
+  importAddress: GUID: 3fa719a8f0beb164b89eacd7130bb9f3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right Icon.png - Importer: PreviewImporter
+Importing 'GUID: 3fa719a8f0beb164b89eacd7130bb9f3 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3fa719a8f0beb164b89eacd7130bb9f3' -> (Import Result ID: 'a9eeb703e17ab160546b36e91ea8c414') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=008d41b7831e5592437ef6729795098d DependenciesID=06aa45d283bf304e5c2be372b9d8739d StaticDependenciesID=227242307737033cf43a7100af9d25a7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.5178559Z
+  Time since last request: 0.0003194 seconds.
+  importAddress: GUID: b988e45b20744634e8f05906f78dfdb1 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right Bumper Icon.png - Importer: PreviewImporter
+Importing 'GUID: b988e45b20744634e8f05906f78dfdb1 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right Bumper Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b988e45b20744634e8f05906f78dfdb1' -> (Import Result ID: '80d125f5478276197096b969cdbcecfa') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c1abc182d2818a34b9893f3c1dfde0b7 DependenciesID=3db82d2491ee164632802103cca233d3 StaticDependenciesID=56aa8a369e1f6a370047e79a4cd4c313 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.5464346Z
+  Time since last request: 0.0006077 seconds.
+  importAddress: GUID: 55040708e249eda4486ec40810a73f60 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 55040708e249eda4486ec40810a73f60 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Right 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 55040708e249eda4486ec40810a73f60' -> (Import Result ID: '4413311468c0979fc32a6a718027cebe') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ad5c69f56721c151712204ee3712bc3 DependenciesID=a66d6aad931cee364c369d2c61bb707f StaticDependenciesID=ba0b249ce487e19e732c51f563624cfc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.7849731Z
+  Time since last request: 0.2088356 seconds.
+  importAddress: GUID: 5bfbb18ec577f0e47b617770aff8d907 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left Trigger Icon.png - Importer: PreviewImporter
+Importing 'GUID: 5bfbb18ec577f0e47b617770aff8d907 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left Trigger Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 5bfbb18ec577f0e47b617770aff8d907' -> (Import Result ID: '46f65fd582a35d78dfb03b14edffb9c0') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=96f370d661df380ed5d609cea51c6e3f DependenciesID=6e21a4efeff0aa1ee3a941afb1dc63ca StaticDependenciesID=d5870e419ea9c6ca3a64be084a1222c7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.8191963Z
+  Time since last request: 0.0007491 seconds.
+  importAddress: GUID: 44b9de42941a2734d80bc4bb2f45f09b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 44b9de42941a2734d80bc4bb2f45f09b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 44b9de42941a2734d80bc4bb2f45f09b' -> (Import Result ID: '311ba5ca43f5b775a655900df15be171') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7a332d4ecfdd803e5bf7bd60523094f DependenciesID=b0f7e7ba8811f1d139738f11866ef2a4 StaticDependenciesID=fad939e5958c4cfb1e7b190edf328edc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.8589995Z
+  Time since last request: 0.0001694 seconds.
+  importAddress: GUID: 4f3012bd5d70cd841b352ad5afdb9c3c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 3 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 4f3012bd5d70cd841b352ad5afdb9c3c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Left 3 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4f3012bd5d70cd841b352ad5afdb9c3c' -> (Import Result ID: 'bc6bca64e6cbae9363de38e92254231d') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1705a35fd8cdaa1538044344155d5a5 DependenciesID=cf560c7b59d622ce9a57f69281b76914 StaticDependenciesID=1b8b2d25ffe3b0133f6496a33d055a89 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:04.8941204Z
+  Time since last request: 0.0003119 seconds.
+  importAddress: GUID: dfcc201f2cac247418588a8f8601299a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Cross Icon.png - Importer: PreviewImporter
+Importing 'GUID: dfcc201f2cac247418588a8f8601299a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank Cross Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dfcc201f2cac247418588a8f8601299a' -> (Import Result ID: '9686bf6147e835beb183651126e51ad6') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=534e3e3da55a588734be0a794d5cfff1 DependenciesID=5a20f369cc3e9e0afda5b070e240c975 StaticDependenciesID=58ee4450aafb25ae0d8708d761d0d49c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:05.1464191Z
+  Time since last request: 0.2247159 seconds.
+  importAddress: GUID: afcf80015f5ff514fb2494b415eeb6e8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank B Icon.png - Importer: PreviewImporter
+Importing 'GUID: afcf80015f5ff514fb2494b415eeb6e8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Button Blank B Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: afcf80015f5ff514fb2494b415eeb6e8' -> (Import Result ID: 'ceca3f5d0ce0a3d5d3ccef6faec31a24') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f83371dd138a36101b99101b193676c0 DependenciesID=1025fde178013b837fa4ef7775c88e63 StaticDependenciesID=e0df2fc8a58409ae74511276cc750bcb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:05.1858576Z
+  Time since last request: 0.0006289 seconds.
+  importAddress: GUID: 2b4b49567b30dcf49839b100491f4bfc - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 8pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2b4b49567b30dcf49839b100491f4bfc - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 8pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2b4b49567b30dcf49839b100491f4bfc' -> (Import Result ID: '8bdd0ad82fd9ded53bfce22676b5aafa') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26d0150bb65a9f945634a64fa1da312c DependenciesID=05fb20886b810155941976546837f528 StaticDependenciesID=ea34f10144b14ca95c07127545380694 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:05.2212771Z
+  Time since last request: 0.0006205 seconds.
+  importAddress: GUID: cb315a524431eba489474f0e41e28fdd - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 5pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: cb315a524431eba489474f0e41e28fdd - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 5pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cb315a524431eba489474f0e41e28fdd' -> (Import Result ID: '00c97f1d4f82e17e3d2df788b15147f0') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39b6e95feaeb0ff11e6ddfe592c901bd DependenciesID=3c467362db04ce5e6d079b1667a5edd4 StaticDependenciesID=27270e8f6816b83166f16f443529a1f6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:05.2500016Z
+  Time since last request: 0.0002754 seconds.
+  importAddress: GUID: 057efff16d907304c8b0990c295fe5c9 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 4pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: 057efff16d907304c8b0990c295fe5c9 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 4pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 057efff16d907304c8b0990c295fe5c9' -> (Import Result ID: 'de4edfca806bd222a4c97a593d92c808') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c456d33c1deb6476117e33ba170c282 DependenciesID=471f222486d3024133efd7b55b9b1b54 StaticDependenciesID=f732873d52839e52685979ab99a94883 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:05.5495144Z
+  Time since last request: 0.2701852 seconds.
+  importAddress: GUID: d3583677195ecc645bee6ca3d5c03068 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 2pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: d3583677195ecc645bee6ca3d5c03068 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Single 2pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d3583677195ecc645bee6ca3d5c03068' -> (Import Result ID: 'd42a94cf58973484c376e1a394925b37') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c219381f9b2224078e0b963d69b75deb DependenciesID=fefc366e12378cdb2e99c45accc11a10 StaticDependenciesID=2cc376db4acda2296eb25afd5ea17128 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:05.5773567Z
+  Time since last request: 0.0004367 seconds.
+  importAddress: GUID: 12f86861311f44d498be1af5893d3779 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 4-1pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: 12f86861311f44d498be1af5893d3779 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 4-1pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 12f86861311f44d498be1af5893d3779' -> (Import Result ID: 'e5523d8798d329597894f6d246634783') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6e8793d45859f235629bf162271ced8e DependenciesID=0da8d9e4d8434b1278c95c3eb0e8c967 StaticDependenciesID=5469a4d7de10c8753639d600988d3cac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:05.9154055Z
+  Time since last request: 0.3136595 seconds.
+  importAddress: GUID: a7a29f624782e684fa9767fcc0f313f5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 3-1pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: a7a29f624782e684fa9767fcc0f313f5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 3-1pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a7a29f624782e684fa9767fcc0f313f5' -> (Import Result ID: 'aff8438d9e7cdc6e9ad006f6ca176da0') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=51f378460600444575669781dc53390d DependenciesID=c1afadc22a9b8ba07352b8e3dd26600e StaticDependenciesID=0619d3c17ffd5288e90a9a18e189b8b6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:05.9496114Z
+  Time since last request: 0.0002877 seconds.
+  importAddress: GUID: 23cfec53737da0341b6ed0bc5b46582c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-4pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: 23cfec53737da0341b6ed0bc5b46582c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-4pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 23cfec53737da0341b6ed0bc5b46582c' -> (Import Result ID: '1dcf8eb63ad608389c5cbcfdb4bb9176') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cd3669a52346f2147235c6081a22e2b9 DependenciesID=e3b2ee556093343229e839d091fc6f30 StaticDependenciesID=6dae2890994f486c3bab996bc16a53bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:06.2977318Z
+  Time since last request: 0.3232338 seconds.
+  importAddress: GUID: 71a05f27a813b0b40ba97c72bf8c59f8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-3pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: 71a05f27a813b0b40ba97c72bf8c59f8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-3pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 71a05f27a813b0b40ba97c72bf8c59f8' -> (Import Result ID: 'ae71fd1259446ad3ff42d7692bbc82bf') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34bf97c95964195be4c0c60e96fb4032 DependenciesID=0183f5c2a08c2cbee063a4c3b156aa3a StaticDependenciesID=e6f17aa9d002985bc1f323948c393648 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:06.3643184Z
+  Time since last request: 0.0360645 seconds.
+  importAddress: GUID: 99ef4b1b6c988c54f992f3b96981549a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-1pt Icon.png - Importer: PreviewImporter
+Importing 'GUID: 99ef4b1b6c988c54f992f3b96981549a - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Border Double 1-1pt Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 99ef4b1b6c988c54f992f3b96981549a' -> (Import Result ID: '4c9125be81b1883ff9fad6f1c1d49137') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ec8cdf3dd08caaef88ed302f38f3a7f DependenciesID=8cecfeaed2b6513c210a2060781a230a StaticDependenciesID=5ffa46b7164cff4f5097ff3fbef6b7e0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:06.6653056Z
+  Time since last request: 0.2742339 seconds.
+  importAddress: GUID: 4f21aab22562181448516fa15782bad7 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 6 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 4f21aab22562181448516fa15782bad7 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 6 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4f21aab22562181448516fa15782bad7' -> (Import Result ID: 'e02beb21fc838342eb7d0a42aa1fede7') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d33811bf70f1b50b1a669e5f8226b4f DependenciesID=5c73da0d639595ff46957f0ca0ba3ae0 StaticDependenciesID=6112435181b36f331378f64ce3d0dead 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:07.1589977Z
+  Time since last request: 0.4634223 seconds.
+  importAddress: GUID: babc4a27f003ee94a9d37f5a7d24b3d5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 4 Icon.png - Importer: PreviewImporter
+Importing 'GUID: babc4a27f003ee94a9d37f5a7d24b3d5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 4 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: babc4a27f003ee94a9d37f5a7d24b3d5' -> (Import Result ID: 'b288e9d3d12d71830e64617aecfef527') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=856dfa74ab037f2bf28fe5674cb72f55 DependenciesID=c243faf3ecca216635a8165048f5396c StaticDependenciesID=2aa47aedbc919b2fa01c2840404d54f3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:07.191715Z
+  Time since last request: 0.0003477 seconds.
+  importAddress: GUID: 2c2664dc6312ab641ac1abe6324ceca6 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2c2664dc6312ab641ac1abe6324ceca6 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Tick 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2c2664dc6312ab641ac1abe6324ceca6' -> (Import Result ID: 'feef09bfad335d975a98b0dab4a49671') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=06ee5f863503c2b70e9368a8ecfec003 DependenciesID=b1f3718ffcc6426c7fcb19d61ae685a4 StaticDependenciesID=c58fad285c09184a8629757e04bd02f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:07.4991524Z
+  Time since last request: 0.2715224 seconds.
+  importAddress: GUID: b47e5e900aad8344f8c4b8bf0a328d3c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth Fill Icon.png - Importer: PreviewImporter
+Importing 'GUID: b47e5e900aad8344f8c4b8bf0a328d3c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth Fill Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b47e5e900aad8344f8c4b8bf0a328d3c' -> (Import Result ID: 'cdc78a1e0ad2994d10867cf72d2129eb') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e1bcdc88b9553cc02fa4b9da260e74b2 DependenciesID=8343c79441713203216dde7d24d33c86 StaticDependenciesID=29c5924043ba6f30ccd237c4a312c6f0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:07.5395657Z
+  Time since last request: 0.0058987 seconds.
+  importAddress: GUID: f9633802d07c8534b822260661b2dcdb - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 4 Icon.png - Importer: PreviewImporter
+Importing 'GUID: f9633802d07c8534b822260661b2dcdb - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 4 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f9633802d07c8534b822260661b2dcdb' -> (Import Result ID: '1b97a0033c54270d9bef5194d136cbf1') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1904740024896b55dd8ea448190189cb DependenciesID=90ad626771c9a8a0e4f281f7e26f992e StaticDependenciesID=f8be12a798d1e91c97b418e665b012f4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:07.8911893Z
+  Time since last request: 0.3126841 seconds.
+  importAddress: GUID: 82031b80b43cc524fae78ff6c698aee9 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 2 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 82031b80b43cc524fae78ff6c698aee9 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery Smooth 2 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 82031b80b43cc524fae78ff6c698aee9' -> (Import Result ID: '6f015ac6d2dc321ea76dc581799879e2') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=64019fb824bdbe83d3e2f5684b13dd3a DependenciesID=29c0c0c73c59e6066d42318df907c71c StaticDependenciesID=f7861ab683ec4eb9c8509fb380f156bd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:07.9635006Z
+  Time since last request: 0.0374849 seconds.
+  importAddress: GUID: d52aaa3c2c8f6554ca1c329a5a1dbcd8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery No Icon.png - Importer: PreviewImporter
+Importing 'GUID: d52aaa3c2c8f6554ca1c329a5a1dbcd8 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery No Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d52aaa3c2c8f6554ca1c329a5a1dbcd8' -> (Import Result ID: 'eaaee567f2f38f1b2a4e0e753bc8c6ea') in 0.023 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=34d2f804c1594dae3928088d394c49f1 DependenciesID=d725c8da5e05cc96f72c303c3ca0d562 StaticDependenciesID=0ba5811f2da0734a2014baed994ca4fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:08.2736905Z
+  Time since last request: 0.2750152 seconds.
+  importAddress: GUID: ba2f65608a2209040afff27eab9cece5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery No Dash Icon.png - Importer: PreviewImporter
+Importing 'GUID: ba2f65608a2209040afff27eab9cece5 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Battery No Dash Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ba2f65608a2209040afff27eab9cece5' -> (Import Result ID: '29975a4c995d1739a4d45b2d790f06c8') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4b4ba8d9c08fb90113a90213cb4d6fe6 DependenciesID=66eb530cd049bc3535ae8ee60c5f85e2 StaticDependenciesID=a047c87817028c80aa334df535f21780 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:08.344574Z
+  Time since last request: 0.0364333 seconds.
+  importAddress: GUID: a23c0d0f5384d9f43b834cdea5621314 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Banner Icon.png - Importer: PreviewImporter
+Importing 'GUID: a23c0d0f5384d9f43b834cdea5621314 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Banner Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a23c0d0f5384d9f43b834cdea5621314' -> (Import Result ID: 'df43b287675052e5f96ef372ee8332db') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0bde9ac8e7fb0cea7a1f5b82364bd9d3 DependenciesID=1f87fca23a027826c0a84369691bdc61 StaticDependenciesID=257c0ce9855bf58b94945bb59a7cc822 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:08.7489773Z
+  Time since last request: 0.3674991 seconds.
+  importAddress: GUID: 09ff2c9da44bcb740befe466a832c257 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Bag 1 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 09ff2c9da44bcb740befe466a832c257 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Bag 1 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 09ff2c9da44bcb740befe466a832c257' -> (Import Result ID: '88b75edae716053748d5d011a4864861') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aec80ac312765ee887fed6dafe44edb1 DependenciesID=a2f29f0b52bf191218cc06a7707cf07b StaticDependenciesID=b4878ee0c2aa3d08d6f402a75a992db7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:08.8407835Z
+  Time since last request: 0.0628406 seconds.
+  importAddress: GUID: 2bc9d759bddc7c449b69b96a63557c9c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Right 2 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 2bc9d759bddc7c449b69b96a63557c9c - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Right 2 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2bc9d759bddc7c449b69b96a63557c9c' -> (Import Result ID: '038fe61d38bd6217e436d102a31f0b0e') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=206ebe2be3e161eff4eebec04a653348 DependenciesID=d2c5ec0f9df692e9abf27b8e3e234f43 StaticDependenciesID=6b0700604dfda2f128f613bfaca69ae7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:08.9139816Z
+  Time since last request: 0.0387456 seconds.
+  importAddress: GUID: 663a79f194b91454aa36d58ffb23feb0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Left 2 Icon.png - Importer: PreviewImporter
+Importing 'GUID: 663a79f194b91454aa36d58ffb23feb0 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow Curved Left 2 Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 663a79f194b91454aa36d58ffb23feb0' -> (Import Result ID: '4c23ff53a919a2d33c381d71f5718f5d') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60fb87d452840ec899525b02ea28f9ed DependenciesID=431c784473a340532b9ad65ff8d955da StaticDependenciesID=5c0bdc7fb50a7c21091c093da07ed569 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:09.2730853Z
+  Time since last request: 0.3257291 seconds.
+  importAddress: GUID: e84e4078783da5147bc34c68e2842556 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 W Icon.png - Importer: PreviewImporter
+Importing 'GUID: e84e4078783da5147bc34c68e2842556 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 W Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e84e4078783da5147bc34c68e2842556' -> (Import Result ID: '73d106565b8c5558405960ade6673950') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=905f09d1100fc4269c23eeebfef8ce33 DependenciesID=47894f8d7baf9e20098ab99acdd94a3b StaticDependenciesID=fdc1b574ad677cf871709aca734cdc87 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:25:09.3120266Z
+  Time since last request: 0.0003565 seconds.
+  importAddress: GUID: 12b5978509d7c4c40a7b23ff0adefc96 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 SE Icon.png - Importer: PreviewImporter
+Importing 'GUID: 12b5978509d7c4c40a7b23ff0adefc96 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 7 SE Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 12b5978509d7c4c40a7b23ff0adefc96' -> (Import Result ID: '2b6e44e0221efe46fb3c05b0d3beaf87') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b0e425b70d41c24ba2cf77d5a8206fcc DependenciesID=a5d47accecdbfed91f595664318194aa StaticDependenciesID=ed992098cf04f3dbf9e242fc2daa0a36 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

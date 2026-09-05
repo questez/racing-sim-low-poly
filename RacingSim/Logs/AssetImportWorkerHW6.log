@@ -1,0 +1,1607 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.4f1 (d550df8bd089) revision 13979871'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany" at "2026-09-05T10:25:00.0564081Z"
+System  architecture: x64
+Process architecture: x64
+Date: 2026-09-05T10:25:00Z
+
+COMMAND LINE ARGUMENTS:
+D:\UNITY\Installs\6000.5.4f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW6
+-projectPath
+D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+-logFile
+Logs/AssetImportWorkerHW6.log
+-srvPort
+25971
+-parentPid
+16988
+-analyticsCloudUserId
+10171394731915
+-analyticsLocalProjectId
+761e7e679cf607248b93b98558fc3d2b
+-licensingIpc
+LicenseClient-vany
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+5
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [13584]  Target information:
+
+Player connection [13584]  * "[IP] 172.22.131.175 [Port] 0 [Flags] 2 [Guid] 4143695133 [EditorId] 4143695133 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IE2K1EE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [13584] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [13584] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-vany"
+[Licensing::IpcConnector] LicenseClient-vany channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4" at "2026-09-05T10:25:16.0962506Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14584, path: "D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              d48fe7fc23124926b6edb6aa3d198ab4
+  Correlation Id:          ebd87833a23bda9af7e23f8ca2d36e23
+  External correlation Id: 6053092601100848700
+  Machine Id:              +LmYPC+2oN3U6DFsdUHdOP1mlqY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-vany-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4-notifications" at "2026-09-05T10:25:16.1043306Z"
+[Licensing::Module] Licensing Background thread has ended after 16.05s
+[Licensing::Module] Licensing is initialized (took 15.65s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Initialize engine version: 6000.5.4f1 (d550df8bd089)
+[Subsystems] Discovering subsystems at path D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.1]
+    Renderer:        Intel(R) UHD Graphics (ID=0xa7a8)
+    Vendor:          Intel
+    VRAM:            8054 MB
+    App VRAM Budget: 7395 MB
+    Driver:          31.0.101.4146
+    Unified Memory Architecture
+    Cache Coherent UMA
+Initialize mono
+Mono path[0] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003234 seconds.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.380 seconds
+Domain Reload Profiling: 783ms
+	BeginReloadAssembly (97ms)
+	RebuildCommonClasses (4ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (241ms)
+		LoadAssemblies (96ms)
+		AnalyzeDomain (178ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (165ms)
+	FinalizeReload (381ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (89ms)
+			ProcessInitializeOnLoadAttributes (82ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.650 seconds
+Domain Reload Profiling: 1357ms
+	BeginReloadAssembly (144ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (499ms)
+		LoadAssemblies (250ms)
+		AnalyzeDomain (235ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (153ms)
+			BuildScriptInfoCaches (58ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (650ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (74ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (99ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Curl error 3: URL rejected: Malformed input to a URL function
+Unloading 6583 unused Assets / (5.9 MB). Loaded Objects now: 7426.
+Memory consumption went from 320.6 MB to 314.7 MB.
+Total: 9.214900 ms (FindLiveObjects: 0.620400 ms CreateObjectMapping: 2.341900 ms MarkObjects: 3.889600 ms  DeleteObjects: 2.361300 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7426.
+Memory consumption went from 313.3 MB to 310.7 MB.
+Total: 6.543200 ms (FindLiveObjects: 0.357100 ms CreateObjectMapping: 0.946400 ms MarkObjects: 4.898700 ms  DeleteObjects: 0.339700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 29.11 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6568 unused Assets / (5.0 MB). Loaded Objects now: 7426.
+Memory consumption went from 319.1 MB to 314.1 MB.
+Total: 41.664800 ms (FindLiveObjects: 1.444000 ms CreateObjectMapping: 14.311300 ms MarkObjects: 15.919800 ms  DeleteObjects: 9.986800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.018 seconds
+Domain Reload Profiling: 4505ms
+	BeginReloadAssembly (573ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (125ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (42ms)
+	initialDomainReloadingComplete (197ms)
+	LoadAllAssembliesAndSetupDomain (1650ms)
+		LoadAssemblies (973ms)
+		AnalyzeDomain (641ms)
+			TypeCache.Refresh (33ms)
+			BuildScriptInfoCaches (582ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (2021ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			BeforeProcessingInitializeOnLoad (205ms)
+			ProcessInitializeOnLoadAttributes (710ms)
+			ProcessInitializeOnLoadMethodAttributes (291ms)
+			AfterProcessingInitializeOnLoad (5ms)
+		AwakeInstancesAfterBackupRestoration (38ms)
+Refreshing native plugins compatible for Editor in 2.80 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.2 MB). Loaded Objects now: 7470.
+Memory consumption went from 330.2 MB to 325.0 MB.
+Total: 20.819000 ms (FindLiveObjects: 1.424200 ms CreateObjectMapping: 4.563500 ms MarkObjects: 10.373600 ms  DeleteObjects: 4.455300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 5.99 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6568 unused Assets / (4.2 MB). Loaded Objects now: 7470.
+Memory consumption went from 331.3 MB to 327.1 MB.
+Total: 27.333800 ms (FindLiveObjects: 1.514200 ms CreateObjectMapping: 5.932300 ms MarkObjects: 14.936200 ms  DeleteObjects: 4.947600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.742 seconds
+Domain Reload Profiling: 1455ms
+	BeginReloadAssembly (184ms)
+		DisableScriptedObjects (7ms)
+		CreateAndSetChildDomain (41ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (459ms)
+		LoadAssemblies (269ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (10ms)
+			BuildScriptInfoCaches (153ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (743ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (137ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (107ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (6.0 MB). Loaded Objects now: 7473.
+Memory consumption went from 330.0 MB to 324.0 MB.
+Total: 9.194100 ms (FindLiveObjects: 0.619300 ms CreateObjectMapping: 2.470100 ms MarkObjects: 3.558500 ms  DeleteObjects: 2.544900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7473.
+Memory consumption went from 326.3 MB to 323.7 MB.
+Total: 10.192200 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 1.146600 ms MarkObjects: 8.170600 ms  DeleteObjects: 0.509500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.621 seconds
+Domain Reload Profiling: 1157ms
+	BeginReloadAssembly (179ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (264ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (622ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (229ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.7 MB). Loaded Objects now: 7478.
+Memory consumption went from 331.8 MB to 326.1 MB.
+Total: 9.494100 ms (FindLiveObjects: 0.600800 ms CreateObjectMapping: 2.474500 ms MarkObjects: 3.831700 ms  DeleteObjects: 2.585400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.717 seconds
+Domain Reload Profiling: 1253ms
+	BeginReloadAssembly (178ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (42ms)
+	LoadAllAssembliesAndSetupDomain (293ms)
+		LoadAssemblies (264ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (719ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (241ms)
+			ProcessInitializeOnLoadMethodAttributes (170ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (31ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.5 MB). Loaded Objects now: 7481.
+Memory consumption went from 332.8 MB to 327.3 MB.
+Total: 11.592200 ms (FindLiveObjects: 0.618900 ms CreateObjectMapping: 2.444600 ms MarkObjects: 5.224700 ms  DeleteObjects: 3.302200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7481.
+Memory consumption went from 329.1 MB to 326.5 MB.
+Total: 4.916400 ms (FindLiveObjects: 0.329300 ms CreateObjectMapping: 0.538200 ms MarkObjects: 3.727900 ms  DeleteObjects: 0.320000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.648 seconds
+Domain Reload Profiling: 1190ms
+	BeginReloadAssembly (178ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (297ms)
+		LoadAssemblies (270ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (649ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (232ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.8 MB). Loaded Objects now: 7484.
+Memory consumption went from 334.8 MB to 329.0 MB.
+Total: 10.187700 ms (FindLiveObjects: 0.553400 ms CreateObjectMapping: 1.785900 ms MarkObjects: 5.109800 ms  DeleteObjects: 2.737100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7484.
+Memory consumption went from 331.1 MB to 328.5 MB.
+Total: 6.521300 ms (FindLiveObjects: 0.329400 ms CreateObjectMapping: 1.003400 ms MarkObjects: 4.836300 ms  DeleteObjects: 0.350600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7484.
+Memory consumption went from 332.0 MB to 329.4 MB.
+Total: 7.115600 ms (FindLiveObjects: 0.357000 ms CreateObjectMapping: 0.615800 ms MarkObjects: 5.599700 ms  DeleteObjects: 0.541100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:43:52.2996822Z
+  Time since last request: 249359.10899790000985 seconds.
+  importAddress: GUID: 4b83569d67af61e458304325a23e5dfd - Path: Assets/Settings/PC_RPAsset.asset - Importer: PreviewImporter
+Importing 'GUID: 4b83569d67af61e458304325a23e5dfd - Path: Assets/Settings/PC_RPAsset.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 4b83569d67af61e458304325a23e5dfd' -> (Import Result ID: 'acf0542211de4c292c77bd097dbe7634') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6cb6ecbf79c032dd7d21c6e16909c597 DependenciesID=74245c161aa25dfb07e89bc08f221159 StaticDependenciesID=417e7ad6369560a29b48e73b9e6f4084 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:47:02.2351522Z
+  Time since last request: 189.88258250000001 seconds.
+  importAddress: GUID: 9e59621e3e8614f8ca42c5665750258d - Path: Assets/Tom's Terrain Tools/Example Data/1-grassmap.tif - Importer: PreviewImporter
+Importing 'GUID: 9e59621e3e8614f8ca42c5665750258d - Path: Assets/Tom's Terrain Tools/Example Data/1-grassmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Imported 'GUID: 9e59621e3e8614f8ca42c5665750258d' -> (Import Result ID: '34843df1b0fbc4f47ae4e62efb4a7f4a') in 0.081 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1b4cb86c63d0c212c3b45eb580f29072 DependenciesID=5f66014531bb179675e2ebf78fe32390 StaticDependenciesID=88e623f5707377df545235c4858387cb 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:47:02.34662Z
+  Time since last request: 0.0004023 seconds.
+  importAddress: GUID: 1c75e2e3c84714956a5b3714a8a132a0 - Path: Assets/Tom's Terrain Tools/Example Data/2-bushmap.tif - Importer: PreviewImporter
+Importing 'GUID: 1c75e2e3c84714956a5b3714a8a132a0 - Path: Assets/Tom's Terrain Tools/Example Data/2-bushmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1c75e2e3c84714956a5b3714a8a132a0' -> (Import Result ID: '5d920685c248d708db874b86f9927a5f') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2ce91c0d92b82233cae5c4a090cd6013 DependenciesID=66ebe4db42b3e6452e39c4cae382a554 StaticDependenciesID=e7968f8d51e97720529d9eff62ab601e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:47:02.3735462Z
+  Time since last request: 0.0003363 seconds.
+  importAddress: GUID: 3dfc45796632e6941bbc179669c647c7 - Path: Assets/Tom's Terrain Tools/Example Data/1Terrain_splatmap.png - Importer: PreviewImporter
+Importing 'GUID: 3dfc45796632e6941bbc179669c647c7 - Path: Assets/Tom's Terrain Tools/Example Data/1Terrain_splatmap.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3dfc45796632e6941bbc179669c647c7' -> (Import Result ID: '69c7fe3b27516a806306c0378750ca0b') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=357f765ea04045e27359baa7f36a2eca DependenciesID=8fce238ce12e518e62ed760a412599cf StaticDependenciesID=091c0f8ac77d6bfea5a2893ef543f2bf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:47:02.4038584Z
+  Time since last request: 0.0002556 seconds.
+  importAddress: GUID: 97e9e1e398e2c4fcf806c2a681cfdee7 - Path: Assets/Tom's Terrain Tools/Example Data/1-splatmap.tif - Importer: PreviewImporter
+Importing 'GUID: 97e9e1e398e2c4fcf806c2a681cfdee7 - Path: Assets/Tom's Terrain Tools/Example Data/1-splatmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 97e9e1e398e2c4fcf806c2a681cfdee7' -> (Import Result ID: '2bcb6532f5d41c68b327b52d8dd71d16') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6bb4f23accff5b46c289fc6f9210d0e DependenciesID=474a01a10c405a26b8c21057d01d3f0f StaticDependenciesID=3a82045bc35b51454cc5928a2ed77465 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7489.
+Memory consumption went from 323.0 MB to 320.4 MB.
+Total: 7.518100 ms (FindLiveObjects: 0.388600 ms CreateObjectMapping: 1.052200 ms MarkObjects: 5.467000 ms  DeleteObjects: 0.608700 ms)
+
+Prepare: number of updated asset objects reloaded= 20
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:54:54.4018108Z
+  Time since last request: 471.95460750000001 seconds.
+  importAddress: GUID: 63b23d07d008d78479472967955b4b81 - Path: Assets/AsphaltLayer.terrainlayer - Importer: PreviewImporter
+Importing 'GUID: 63b23d07d008d78479472967955b4b81 - Path: Assets/AsphaltLayer.terrainlayer - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 63b23d07d008d78479472967955b4b81' -> (Import Result ID: '64f427c5578f09f41d710452ffd16d67') in 0.043 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8d465633c37648c35c7f1bdc995ca7de DependenciesID=b632a8aa77331a807f491bd4c02f2be3 StaticDependenciesID=edc1eeafef8c663a5d3432c6f76aa0a7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:54:54.4619143Z
+  Time since last request: 0.0000448 seconds.
+  importAddress: GUID: d9f35230ed361074ca7492aca2232c82 - Path: Assets/New Terrain.asset - Importer: PreviewImporter
+Importing 'GUID: d9f35230ed361074ca7492aca2232c82 - Path: Assets/New Terrain.asset - Importer: PreviewImporter' with importer (PreviewImporter)
+The tree M_Realistic21_1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+Imported 'GUID: d9f35230ed361074ca7492aca2232c82' -> (Import Result ID: 'a114949ee42d98e634f1007810459753') in 0.208 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e299b2d4d70b720eb92e8f9523b2883a DependenciesID=a304597cdea95b8031e5c2c8b3e248d2 StaticDependenciesID=a0b2190a7d0e82b47f1d017355f90868 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:06.4336214Z
+  Time since last request: 11.74974 seconds.
+  importAddress: GUID: f8030c853837db9408211f93c904d16d - Path: Assets/Pictures - Importer: PreviewImporter
+Importing 'GUID: f8030c853837db9408211f93c904d16d - Path: Assets/Pictures - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f8030c853837db9408211f93c904d16d' -> (Import Result ID: '0049601ebc93eafa25fa4dcdf1e4c054') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=18d87787f217cd870a26511c07b92d5c DependenciesID=8f29106ca270c33cc053b6a58fd225f2 StaticDependenciesID=2c7bb3d68212f5d2eddaf20c21a4757d 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:11.7344259Z
+  Time since last request: 5.2801911 seconds.
+  importAddress: GUID: 87e6c1b3851f7934c9aa2deaf5bcc67f - Path: Assets/Pictures/DriftRush Icon.png - Importer: PreviewImporter
+Importing 'GUID: 87e6c1b3851f7934c9aa2deaf5bcc67f - Path: Assets/Pictures/DriftRush Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 87e6c1b3851f7934c9aa2deaf5bcc67f' -> (Import Result ID: '16d94237a731586d157006efb48314c4') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ebe8c896cb65784e2cb94b5087e3d20 DependenciesID=cda3e0b228a2a8d6f43a43750222a08d StaticDependenciesID=6c26423e59098f612ccdba91a3249fc4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.1717025Z
+  Time since last request: 7.3991152 seconds.
+  importAddress: GUID: 67790b7e4a86448178a9309b17359524 - Path: Assets/Tom's Terrain Tools/Example Data/2-spawnmap.tif - Importer: PreviewImporter
+Importing 'GUID: 67790b7e4a86448178a9309b17359524 - Path: Assets/Tom's Terrain Tools/Example Data/2-spawnmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 67790b7e4a86448178a9309b17359524' -> (Import Result ID: '7def53e0071ad17f59353e8696494682') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab08a7447b12049c9d74db212faf574d DependenciesID=ec4d2f17cc77db411ed4e1b0750f3188 StaticDependenciesID=75d2ee246704f802da9f8ea79f1b2fec 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.2582635Z
+  Time since last request: 0.0544206 seconds.
+  importAddress: GUID: ee98f9873b9fb440fa21c8b4be6c72db - Path: Assets/Tom's Terrain Tools/Example Data/2-treemap.tif - Importer: PreviewImporter
+Importing 'GUID: ee98f9873b9fb440fa21c8b4be6c72db - Path: Assets/Tom's Terrain Tools/Example Data/2-treemap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ee98f9873b9fb440fa21c8b4be6c72db' -> (Import Result ID: 'fc45a256b0adaccf72912ddf9bc3163d') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b76e3c44fe723d9de97ceb2a8d7561e9 DependenciesID=b4ab61dcc13c52f64b4da0cedf462060 StaticDependenciesID=f0988b9a76f0be81ce6e8e15324058e7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.3108572Z
+  Time since last request: 0.0101753 seconds.
+  importAddress: GUID: a2f219c9a1e2649ac88cc1250bb90f2d - Path: Assets/Tom's Terrain Tools/Example Data/3-grassmap.tif - Importer: PreviewImporter
+Importing 'GUID: a2f219c9a1e2649ac88cc1250bb90f2d - Path: Assets/Tom's Terrain Tools/Example Data/3-grassmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a2f219c9a1e2649ac88cc1250bb90f2d' -> (Import Result ID: '23a4f18460ab30b4a5e00512f76226df') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=71f5b8c92616f37dea5cfacb4d4679aa DependenciesID=0ace6c059a8935db4604ec2458b8fea7 StaticDependenciesID=2c0601806db6bb9bea46047a1230c8a0 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.6425706Z
+  Time since last request: 0.3016185 seconds.
+  importAddress: GUID: 48512632e327c426487e139e01db60d6 - Path: Assets/Tom's Terrain Tools/Example Data/3-spawnmap.tif - Importer: PreviewImporter
+Importing 'GUID: 48512632e327c426487e139e01db60d6 - Path: Assets/Tom's Terrain Tools/Example Data/3-spawnmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 48512632e327c426487e139e01db60d6' -> (Import Result ID: '2500b0a9fc27b2194d88b4a488c13204') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=53ebd872ad1b3daee9e2297de5ff3bb6 DependenciesID=255b6e9c7216f524f379c3215c6eae24 StaticDependenciesID=9192c6f5bf9fd2748db3ac6d067e5988 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.6730136Z
+  Time since last request: 0.0003763 seconds.
+  importAddress: GUID: 905c20e3897b4c34ea76000931750abd - Path: Assets/Tom's Terrain Tools/Example Data/7-bushmap.tif - Importer: PreviewImporter
+Importing 'GUID: 905c20e3897b4c34ea76000931750abd - Path: Assets/Tom's Terrain Tools/Example Data/7-bushmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 905c20e3897b4c34ea76000931750abd' -> (Import Result ID: '1e73d7262daec5e57755da86a9c0c66d') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e62e49b2992ca372888f8874f80baef7 DependenciesID=62e6fc2848b2cd2c41dbe18fb29581d5 StaticDependenciesID=39257c78b34b1b281effe048a69c1b96 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:19.7457815Z
+  Time since last request: 0.0474753 seconds.
+  importAddress: GUID: 0f312a0c98e8e8a488620e042ac61657 - Path: Assets/Tom's Terrain Tools/Example Data/7-grassmap.tif - Importer: PreviewImporter
+Importing 'GUID: 0f312a0c98e8e8a488620e042ac61657 - Path: Assets/Tom's Terrain Tools/Example Data/7-grassmap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0f312a0c98e8e8a488620e042ac61657' -> (Import Result ID: '7dddbe59a828a3ce3c8b7c480d6804c9') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e69d575981fa4e4f60b0a6ef2a4a1b14 DependenciesID=f837f1906677a0bfea2ea30b1701ba6e StaticDependenciesID=50a2a2c6d5fda36ff532382559a7d2c7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.0065686Z
+  Time since last request: 0.2326177 seconds.
+  importAddress: GUID: 305857cf5761c8f428ec249f42001b5b - Path: Assets/Tom's Terrain Tools/Example Data/7-treemap.tif - Importer: PreviewImporter
+Importing 'GUID: 305857cf5761c8f428ec249f42001b5b - Path: Assets/Tom's Terrain Tools/Example Data/7-treemap.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 305857cf5761c8f428ec249f42001b5b' -> (Import Result ID: '69988d0173f8b1a64615d53f53e4ca39') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b07de5691f7fdda60a25906e6ecd7cca DependenciesID=8b9be27af815ccc45ca9e83d026bd70e StaticDependenciesID=0ee64ade3fbbefa516159d52b5c1d795 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.0508856Z
+  Time since last request: 0.0037019 seconds.
+  importAddress: GUID: 34a74330fac842a4f97649ddf77d6d50 - Path: Assets/ARCADE - FREE Racing Car/Textures/AFRC_Env_Mat.png - Importer: PreviewImporter
+Importing 'GUID: 34a74330fac842a4f97649ddf77d6d50 - Path: Assets/ARCADE - FREE Racing Car/Textures/AFRC_Env_Mat.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 34a74330fac842a4f97649ddf77d6d50' -> (Import Result ID: '575fe55b25490d3334ae88777f9eb103') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4499636473ea78fff939683b7931ca14 DependenciesID=f5c8875c9a8c5315e3ebe36584e7a2e6 StaticDependenciesID=258d247129000cf26a1bb4cfee5360d3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.0843395Z
+  Time since last request: 0.0004594 seconds.
+  importAddress: GUID: f5339e3a5ecdae64aa3afa490a1d892e - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col3.png - Importer: PreviewImporter
+Importing 'GUID: f5339e3a5ecdae64aa3afa490a1d892e - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col3.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f5339e3a5ecdae64aa3afa490a1d892e' -> (Import Result ID: '90aa98583cc2f8d889236d2042b876cd') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c075ad1102ad7266fa67a6c0b43c5d14 DependenciesID=286d6beb0ea0f7c86d39b28ff3536d07 StaticDependenciesID=0caa108d550a27fdeca580d31df09b0e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.1142568Z
+  Time since last request: 0.0003635 seconds.
+  importAddress: GUID: 8c508eea1762dd44cbf66593e03a6b04 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col1.png - Importer: PreviewImporter
+Importing 'GUID: 8c508eea1762dd44cbf66593e03a6b04 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col1.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8c508eea1762dd44cbf66593e03a6b04' -> (Import Result ID: 'b2c75bd78f0a54fcf78c9b3c98be9465') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=87864625633f77baabf7782eb98ba341 DependenciesID=d9d47f5e127073a18efea0590e3d9459 StaticDependenciesID=8fcbcab7cab72c477bc4ef163d9f6bac 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.1421445Z
+  Time since last request: 0.0003216 seconds.
+  importAddress: GUID: 6242e2ca19f64494ba8e4ae07a3a2c39 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col2.png - Importer: PreviewImporter
+Importing 'GUID: 6242e2ca19f64494ba8e4ae07a3a2c39 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col2.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6242e2ca19f64494ba8e4ae07a3a2c39' -> (Import Result ID: '33db4e3bb4ed8996767ce5bc3e2e39bd') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c81ad71f9dccbd805c29bb078893c8c5 DependenciesID=caddcb6ab74cb3f0d226773ae5e54d54 StaticDependenciesID=b649b6e249d0e4cb30395cb028881490 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.3799243Z
+  Time since last request: 0.2086238 seconds.
+  importAddress: GUID: 1732d531203aec748bc591f92d780684 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col4.png - Importer: PreviewImporter
+Importing 'GUID: 1732d531203aec748bc591f92d780684 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col4.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 1732d531203aec748bc591f92d780684' -> (Import Result ID: 'a5042eae667533d125b7f95398b7a5a6') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c135b7514c0d25acf34e5d9c5c4a1589 DependenciesID=80484f829cda6f05a7d5b434a7045df0 StaticDependenciesID=716580173c16c61323fccf631118cf7e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.4049652Z
+  Time since last request: 0.000303 seconds.
+  importAddress: GUID: ee5f07cb504e5b04dbdd32ef7d265c72 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col5.png - Importer: PreviewImporter
+Importing 'GUID: ee5f07cb504e5b04dbdd32ef7d265c72 - Path: Assets/ARCADE - FREE Racing Car/Textures/Color Variations/AFRC_Tex_Col5.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ee5f07cb504e5b04dbdd32ef7d265c72' -> (Import Result ID: 'd5cd1a74f9dd27ae7e84c649c8e09b2f') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2890eb3f170127affee0973ec6d34fc3 DependenciesID=e37d2db5cdbbd0cf36f348e614156856 StaticDependenciesID=85ade6e664c0342a43dd6cca2e3462a1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.4309937Z
+  Time since last request: 0.0006716 seconds.
+  importAddress: GUID: 061b881dbd110e38a00062d88f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBark.PSD - Importer: PreviewImporter
+Importing 'GUID: 061b881dbd110e38a00062d88f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBark.PSD - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 061b881dbd110e38a00062d88f962b59' -> (Import Result ID: 'f8ce521038d60898d6bd1e0197a79ec9') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c82f78e3e02c8a146787a0438220afb5 DependenciesID=e148d2877cb96f12a5f973e818289566 StaticDependenciesID=3fbd5c5c95ea18cfc4c653df4cecd945 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.4635879Z
+  Time since last request: 0.0004272 seconds.
+  importAddress: GUID: d72b881dbd110e38a00062d88f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBranches.psd - Importer: PreviewImporter
+Importing 'GUID: d72b881dbd110e38a00062d88f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Trees Ambient-Occlusion/Textures/AlderBranches.psd - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d72b881dbd110e38a00062d88f962b59' -> (Import Result ID: '78fe1e85c7d0372d27bc94afc5996465') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e727decec948c328edec0970fee3a9a DependenciesID=226e5bf9ba1dbf368969f1c6dbc2bebf StaticDependenciesID=9d3a019863522b818af74680219b0102 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.489633Z
+  Time since last request: 0.0003732 seconds.
+  importAddress: GUID: 573a5992a1e562d45a64f56dabbe47ea - Path: Assets/ARCADE - FREE Racing Car/Textures/AFRC_Tex_Emission.png - Importer: PreviewImporter
+Importing 'GUID: 573a5992a1e562d45a64f56dabbe47ea - Path: Assets/ARCADE - FREE Racing Car/Textures/AFRC_Tex_Emission.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 573a5992a1e562d45a64f56dabbe47ea' -> (Import Result ID: '05850373b1dc6797cef608eebbbd3cb0') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=02ebf8edc4aba19cd8d453aebe058b7d DependenciesID=47a28b7a2d4ffba3af6fc72ddba37657 StaticDependenciesID=64c8cc56425dec5158d245a2de25bf94 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.5194307Z
+  Time since last request: 0.0004261 seconds.
+  importAddress: GUID: 577bffac5bc25c846bb3d510d80110ec - Path: Assets/Textures/Map/asphalt.jpg - Importer: PreviewImporter
+Importing 'GUID: 577bffac5bc25c846bb3d510d80110ec - Path: Assets/Textures/Map/asphalt.jpg - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 577bffac5bc25c846bb3d510d80110ec' -> (Import Result ID: '2aec8ea7b0d57bd3ed52d8304cf76505') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=09c115d3c7a9c61795c736742911e7b1 DependenciesID=111b441c51040ead0e221777f17b8dab StaticDependenciesID=6217db4806ee59ba2c8924b00b08e8cf 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.7697Z
+  Time since last request: 0.2183453 seconds.
+  importAddress: GUID: e5ebd597679525a438f3f1e01f33e8e1 - Path: Assets/ARCADE - FREE Racing Car/Skybox/Night/Textures/Bottom.png - Importer: PreviewImporter
+Importing 'GUID: e5ebd597679525a438f3f1e01f33e8e1 - Path: Assets/ARCADE - FREE Racing Car/Skybox/Night/Textures/Bottom.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e5ebd597679525a438f3f1e01f33e8e1' -> (Import Result ID: '44f3d6c6ebb64d65a3e84eb9d55c33bd') in 0.064 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a7795f95c067692c198ef0f045718630 DependenciesID=7c554d083a00ef7d74bc5ddd5f81ed0d StaticDependenciesID=ab461ae42a6f373ef28026d645015ea2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.8466923Z
+  Time since last request: 0.0003763 seconds.
+  importAddress: GUID: d20e5329bb2905844a1ae38b80640d3f - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas.tga - Importer: PreviewImporter
+Importing 'GUID: d20e5329bb2905844a1ae38b80640d3f - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d20e5329bb2905844a1ae38b80640d3f' -> (Import Result ID: '53dca242e210561a62ac4d7a62b39901') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0dd84b4741bd45a17be9e8ec67901bb1 DependenciesID=056fc72c148054c625cae5357c9e82f4 StaticDependenciesID=5d4e2ce8c2f5b23b67cd8a79ab6fdda2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.8801237Z
+  Time since last request: 0.0002734 seconds.
+  importAddress: GUID: d954891cb9e58434d86e01d839ed4997 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga - Importer: PreviewImporter
+Importing 'GUID: d954891cb9e58434d86e01d839ed4997 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d954891cb9e58434d86e01d839ed4997' -> (Import Result ID: '160a543e642a6f20f325e51be599035a') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=791f4e74a27dde4977be70345d73e44b DependenciesID=29d998c1a62995189fa9dca723ff1543 StaticDependenciesID=c73a116070a33e2944a5c230fcbd849a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:20.9169361Z
+  Time since last request: 0.0003787 seconds.
+  importAddress: GUID: 0ec79c3d1dd0fb640b7f3f72ebb28f74 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 0ec79c3d1dd0fb640b7f3f72ebb28f74 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0ec79c3d1dd0fb640b7f3f72ebb28f74' -> (Import Result ID: 'dbad44d163b2b3b8173ef8859360b148') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ffaf5b93f8d04d07e9af480323062662 DependenciesID=bfd84f3c51f0d4e41246f0172fc295c6 StaticDependenciesID=04fc7b17572fe8f585758569454a46f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.1640938Z
+  Time since last request: 0.2003587 seconds.
+  importAddress: GUID: bc6e7e1374ff3e1459f65bf72da64c85 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards.tga - Importer: PreviewImporter
+Importing 'GUID: bc6e7e1374ff3e1459f65bf72da64c85 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bc6e7e1374ff3e1459f65bf72da64c85' -> (Import Result ID: '3ffd6700101e9e3b9c01a65c05613039') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19f3f43f729efb3d67c4925ac2a0e678 DependenciesID=1d415bf654f07e649d6632749754ed46 StaticDependenciesID=349106c9fe50cd3e8f255aa26c64f4de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.2147995Z
+  Time since last request: 0.0006663 seconds.
+  importAddress: GUID: 45cab4c9b31009748999eec1556926b3 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga - Importer: PreviewImporter
+Importing 'GUID: 45cab4c9b31009748999eec1556926b3 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Specular.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 45cab4c9b31009748999eec1556926b3' -> (Import Result ID: '3ab78a4667c22dca824945849ff78259') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e42fd0495d08b415aee2e454df6c285 DependenciesID=3cb660d21263e8b299ebc196a55af5dd StaticDependenciesID=9d5ad74c917f494acc2af358a7e7a4ff 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.2450326Z
+  Time since last request: 0.000451 seconds.
+  importAddress: GUID: 34f07406286974e4ca236867d8d58b51 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 34f07406286974e4ca236867d8d58b51 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 34f07406286974e4ca236867d8d58b51' -> (Import Result ID: '604814d8a6ee652226cf6d2f6678937c') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb3f6191780b37553d8aea3269a391ac DependenciesID=d1fb1fb5ffb5bc2ff6798706db5c180e StaticDependenciesID=9a73a6bf5bcdf05080eab525f9348ca1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.2816979Z
+  Time since last request: 0.0119215 seconds.
+  importAddress: GUID: ea60173ceac07334c91568c48cc765cd - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga - Importer: PreviewImporter
+Importing 'GUID: ea60173ceac07334c91568c48cc765cd - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ea60173ceac07334c91568c48cc765cd' -> (Import Result ID: '3a92aa66eb88ffb268bb4f3b2e141aa7') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2a4091a00c293362d6588987150672cc DependenciesID=6187b1fb8b447b73a227556777875633 StaticDependenciesID=06f2ccc435cfd27bea56d8e17cc160d5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.5478781Z
+  Time since last request: 0.2353262 seconds.
+  importAddress: GUID: 6308da3d0ff986b42be3b0a6ea5b6fae - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga - Importer: PreviewImporter
+Importing 'GUID: 6308da3d0ff986b42be3b0a6ea5b6fae - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6308da3d0ff986b42be3b0a6ea5b6fae' -> (Import Result ID: '06fa79cfe21a386b57274e879a28e401') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4e48cd6715a0354a116a03cd65400ee DependenciesID=82a502fd14acbb907bf4a65275fa513d StaticDependenciesID=0b7cad07cd5b2e282177c1ddc5ad4024 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.5959438Z
+  Time since last request: 0.0005502 seconds.
+  importAddress: GUID: e7b2d3eeb0a4d694792c93a8ab87e4a4 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: e7b2d3eeb0a4d694792c93a8ab87e4a4 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: e7b2d3eeb0a4d694792c93a8ab87e4a4' -> (Import Result ID: '5b81ff1f246d623ae417abb4a98f79c4') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=713de7549489b7fb10c7f82c3d36fd90 DependenciesID=3d2ebc641389b0ba11a99255c4e5c162 StaticDependenciesID=dbc3087920f4ac3076fad5806b885958 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.6336868Z
+  Time since last request: 0.000394 seconds.
+  importAddress: GUID: b063a9f2b9f645b40948a32b447c738f - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga - Importer: PreviewImporter
+Importing 'GUID: b063a9f2b9f645b40948a32b447c738f - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b063a9f2b9f645b40948a32b447c738f' -> (Import Result ID: 'f4c9afb62b57ccc3ecdeebc176c4892d') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45c28763afbaf89fc16ca761a82ee9f5 DependenciesID=bd2dc29235db8b48d34503c0f9613134 StaticDependenciesID=0414204907a56105b2a8724d396601f9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.926175Z
+  Time since last request: 0.2570413 seconds.
+  importAddress: GUID: db2f1c62933fa1745a9eb8479b15698b - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga - Importer: PreviewImporter
+Importing 'GUID: db2f1c62933fa1745a9eb8479b15698b - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Mobile_Spec.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: db2f1c62933fa1745a9eb8479b15698b' -> (Import Result ID: 'dc32e2098a46eb330fcb5172f42b7b16') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcfeb7cb09bdc429c71c0922157f10ad DependenciesID=432999b2906f3ab741dd56416daef90c StaticDependenciesID=74817693b5712cb3db11912daef1269a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:21.9627352Z
+  Time since last request: 0.0003273 seconds.
+  importAddress: GUID: d1b22258a59b9a3488c77525c0366c24 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Textures/Bush5-tif.tif - Importer: PreviewImporter
+Importing 'GUID: d1b22258a59b9a3488c77525c0366c24 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Textures/Bush5-tif.tif - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d1b22258a59b9a3488c77525c0366c24' -> (Import Result ID: '2a84b9ad84b643fbdaeee62d312ae05c') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5c169b01338c7cd6dd4183b18dae9f0 DependenciesID=8314481d22e57c51677832a6500a40f6 StaticDependenciesID=67d712811a288f514a6a6f41a95f250c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.0093729Z
+  Time since last request: 0.0189338 seconds.
+  importAddress: GUID: ae6ddf96bd116869a000fb488f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Textures/Bush7.psd - Importer: PreviewImporter
+Importing 'GUID: ae6ddf96bd116869a000fb488f962b59 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Bushes/Textures/Bush7.psd - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ae6ddf96bd116869a000fb488f962b59' -> (Import Result ID: 'dce8a0eb9c634eac518db27aca9555ad') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a8a0496c5664cb85b0176e9be87cd03b DependenciesID=6fd8fa3e7fe089299cb0405a02803ff8 StaticDependenciesID=d0cccb9009e191f347f0b59384f30c23 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.2403785Z
+  Time since last request: 0.208669 seconds.
+  importAddress: GUID: c688b8230f338954e977969bd4457584 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga - Importer: PreviewImporter
+Importing 'GUID: c688b8230f338954e977969bd4457584 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_01.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c688b8230f338954e977969bd4457584' -> (Import Result ID: '5b4d0a374be2c28fdf613e340294d998') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e4985b15a61414a649ca72e086d94d2 DependenciesID=25477a1760cc0d6b37d72ca61f81bb7e StaticDependenciesID=19119322bce9b7a9daa7829ab407d229 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.2819312Z
+  Time since last request: 0.0002948 seconds.
+  importAddress: GUID: 371fa5d370f67534696194100d17bfad - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 371fa5d370f67534696194100d17bfad - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 371fa5d370f67534696194100d17bfad' -> (Import Result ID: '85eb92254e9738f0caefcde402390ac2') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0be8b1f65cdbae2e95ab7c65db131d16 DependenciesID=8061efd87612d8d792392aec334cf9a9 StaticDependenciesID=73918ddf2418d447900ebe1c3caa3d1c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.3132174Z
+  Time since last request: 0.000337 seconds.
+  importAddress: GUID: 60c35420f1ca7da4a9d34dde9b6a9a1a - Path: Assets/Tom's Terrain Tools/2DTools/Sprites/circle2D.png - Importer: PreviewImporter
+Importing 'GUID: 60c35420f1ca7da4a9d34dde9b6a9a1a - Path: Assets/Tom's Terrain Tools/2DTools/Sprites/circle2D.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 60c35420f1ca7da4a9d34dde9b6a9a1a' -> (Import Result ID: '6306e60690f8ed012abd45e796c8ce39') in 0.037 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=85f279d8328956fd497e82475b7ac3b9 DependenciesID=8ae787bb9fb7fa8fdb884113c4b31543 StaticDependenciesID=3b1b5d2a5a9bd08c5c0de0b5964f5b79 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.5987988Z
+  Time since last request: 0.2333215 seconds.
+  importAddress: GUID: bbcb664661b4baa42984c0d7f27c564c - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Grassy)_normal-png.png - Importer: PreviewImporter
+Importing 'GUID: bbcb664661b4baa42984c0d7f27c564c - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Grassy)_normal-png.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bbcb664661b4baa42984c0d7f27c564c' -> (Import Result ID: 'be96c606573431c17ca50ce0e1d4798c') in 0.027 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fd6c5cb9fe4d7d47a2441cd5e267ccfe DependenciesID=052f2ad2a1047914ba3884c341ec269a StaticDependenciesID=f7319df0e331564a446ebeed16a0a7b3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.6493985Z
+  Time since last request: 0.0003267 seconds.
+  importAddress: GUID: c8dd3ecd2ab0b4d48a627d11fea945c0 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Layered Rock)_normal-png.png - Importer: PreviewImporter
+Importing 'GUID: c8dd3ecd2ab0b4d48a627d11fea945c0 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Cliff (Layered Rock)_normal-png.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c8dd3ecd2ab0b4d48a627d11fea945c0' -> (Import Result ID: '26297a83ed3412e8620fa0f27ff8aefc') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8cc2365bc1dbcf317df78935f39fab96 DependenciesID=05468ade0b18979e44bb2889bbd157f6 StaticDependenciesID=4af11bcb1248adaab1ec59f49db0adbd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:22.6835368Z
+  Time since last request: 0.000254 seconds.
+  importAddress: GUID: f82badc465974aa4cbc424065780aa3d - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga - Importer: PreviewImporter
+Importing 'GUID: f82badc465974aa4cbc424065780aa3d - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f82badc465974aa4cbc424065780aa3d' -> (Import Result ID: 'ab2cb015e7d97bf8b066b3ddb5396050') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=765c0a771ed5c9fe1b0ea0282a30593c DependenciesID=82edba2a3a155a79c2746ae30d68a6ad StaticDependenciesID=0f31f211e828c84934c1c7a8446cb2a1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.0149728Z
+  Time since last request: 0.304492 seconds.
+  importAddress: GUID: ea9799c461d3f6e4eb0be2264829282d - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas.tga - Importer: PreviewImporter
+Importing 'GUID: ea9799c461d3f6e4eb0be2264829282d - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ea9799c461d3f6e4eb0be2264829282d' -> (Import Result ID: '71ac5e4197fc6df44768c7a5187ee291') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e091f2cdf97a3867d25ba0028b0e74af DependenciesID=5571cd3dd333ed05efcc21dec0400240 StaticDependenciesID=70d50d6b19d207110fe883f054c408e1 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.0611983Z
+  Time since last request: 0.0003462 seconds.
+  importAddress: GUID: 6c2afc8a038f69f4aa35c25dcd94fd55 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards_Normal.tga - Importer: PreviewImporter
+Importing 'GUID: 6c2afc8a038f69f4aa35c25dcd94fd55 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards_Normal.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 6c2afc8a038f69f4aa35c25dcd94fd55' -> (Import Result ID: 'be59430ab22bbe4eef2abf0f4a689430') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c77ac5497deaed73e55a2bebbd7e3b86 DependenciesID=3fa20b0261cac302338cb507bd83fa8d StaticDependenciesID=4ee02e313ce08555fef68f2e5a514b7f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.1141868Z
+  Time since last request: 0.0169663 seconds.
+  importAddress: GUID: 41232aac50fb25a40b390906295f9aa6 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga - Importer: PreviewImporter
+Importing 'GUID: 41232aac50fb25a40b390906295f9aa6 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Specular.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 41232aac50fb25a40b390906295f9aa6' -> (Import Result ID: '44e529e1251a4b136a258c620d8195ad') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c989f41b5309296d795f384a8f1147a8 DependenciesID=03c02faf4aaf1dab5237158a3d07a9af StaticDependenciesID=8f61ac99b6b89514db71fd039604c497 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.4271566Z
+  Time since last request: 0.2843582 seconds.
+  importAddress: GUID: 34d2758af9e0a2b4690fbcfcad0285d6 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga - Importer: PreviewImporter
+Importing 'GUID: 34d2758af9e0a2b4690fbcfcad0285d6 - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 34d2758af9e0a2b4690fbcfcad0285d6' -> (Import Result ID: 'ea1a8edec4f7e72d9b774517316c39c1') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=52677d8769054161c4ffab561e07e485 DependenciesID=183c1f89be4c153bd43d409ad5289ce5 StaticDependenciesID=5f5c6123f6ba1cd7ab74f43c4bcbd153 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.482922Z
+  Time since last request: 0.0005618 seconds.
+  importAddress: GUID: 9654cfdd87d7daf429b8931c28d7a93c - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga - Importer: PreviewImporter
+Importing 'GUID: 9654cfdd87d7daf429b8931c28d7a93c - Path: Assets/Tom's Terrain Tools/Example Data/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 9654cfdd87d7daf429b8931c28d7a93c' -> (Import Result ID: 'ee1696a6575b23ce5799bc7a536fb3d3') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9e1f66d831fda3527618215b2ca80f19 DependenciesID=ec1c1e55558fe441bc9dde99f08ed66c StaticDependenciesID=dde8440f698a40caa82e27b440cb63f7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.5128523Z
+  Time since last request: 0.0001863 seconds.
+  importAddress: GUID: 7a659dd2171d699488bebb541ec450d3 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_black.png - Importer: PreviewImporter
+Importing 'GUID: 7a659dd2171d699488bebb541ec450d3 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_black.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7a659dd2171d699488bebb541ec450d3' -> (Import Result ID: 'ab475ec3ef8917ac99fb330d60d7f8b9') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f4316a27c6d1d1344b8e99d0ff7fd439 DependenciesID=b1fbc86f0fe4283285f57ef879fa8f86 StaticDependenciesID=47cb20193c4676ead1f5a1c459e7bf7b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.777301Z
+  Time since last request: 0.2394047 seconds.
+  importAddress: GUID: 8ef0d90fe6dfab340a4062d34ce2182c - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_cyan.png - Importer: PreviewImporter
+Importing 'GUID: 8ef0d90fe6dfab340a4062d34ce2182c - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_cyan.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8ef0d90fe6dfab340a4062d34ce2182c' -> (Import Result ID: 'fe98436a6241bd056f8b143d59ba2b1c') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2784c5560167b9bcecfc46e646423c9a DependenciesID=82be7cf90362b1642a26e15276e801d5 StaticDependenciesID=93f85ee13593c94a6c9ec5145f383579 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.8075055Z
+  Time since last request: 0.001289 seconds.
+  importAddress: GUID: ef1f34ebaf1eac344aecb1f942829846 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_magenta.png - Importer: PreviewImporter
+Importing 'GUID: ef1f34ebaf1eac344aecb1f942829846 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_magenta.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ef1f34ebaf1eac344aecb1f942829846' -> (Import Result ID: 'c2f8b2363a98c6811da6a8daf1fe1c72') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=62199f66f96c50cfd464833b5d83d823 DependenciesID=d5c0104fe8ea6bb73e856cbc8f8f1418 StaticDependenciesID=f968d95564186deeaa229edbef9dddb2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.8372996Z
+  Time since last request: 0.0040921 seconds.
+  importAddress: GUID: 66b198998fea90d42b25b88a002a55e3 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_white.png - Importer: PreviewImporter
+Importing 'GUID: 66b198998fea90d42b25b88a002a55e3 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/Debug/debug_white.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 66b198998fea90d42b25b88a002a55e3' -> (Import Result ID: '4c31cbcab09654990e53a8d08e8aba93') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3cfd0ba7e22b4e6fea4b7fa8d2f7c465 DependenciesID=1a3281072d02433820a91755ea50841f StaticDependenciesID=23237e18fdf01dcf01359cd042b7ee40 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.8711857Z
+  Time since last request: 0.0112485 seconds.
+  importAddress: GUID: 72a68a039ed2c5e41b63e577689d32b6 - Path: Assets/Tom's Terrain Tools/Example Data/Trees/SampleTree3_Textures/diffuse.png - Importer: PreviewImporter
+Importing 'GUID: 72a68a039ed2c5e41b63e577689d32b6 - Path: Assets/Tom's Terrain Tools/Example Data/Trees/SampleTree3_Textures/diffuse.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 72a68a039ed2c5e41b63e577689d32b6' -> (Import Result ID: '862aad225c7e0aa3e3728be57b3f790c') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26296502ecc5fc1d05266f940a2f5a89 DependenciesID=f9692dcf4e97955df07394dd079021a2 StaticDependenciesID=febd39a1c3bb5c48e0fb645791b79b15 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:23.9141248Z
+  Time since last request: 0.0003257 seconds.
+  importAddress: GUID: b7b9d73918bb86c49a73edadf1e967b9 - Path: Assets/Tom's Terrain Tools/Example Data/Tree_Textures/diffuse.png - Importer: PreviewImporter
+Importing 'GUID: b7b9d73918bb86c49a73edadf1e967b9 - Path: Assets/Tom's Terrain Tools/Example Data/Tree_Textures/diffuse.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b7b9d73918bb86c49a73edadf1e967b9' -> (Import Result ID: '5b668223468842d206dc6fef46a74715') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d4021998556d7f0a6bcb0931b636cef0 DependenciesID=45392b8cc9e57b5b0170a2f252194d9b StaticDependenciesID=489c228f57503179b763c66915d9743e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:24.1556753Z
+  Time since last request: 0.2184778 seconds.
+  importAddress: GUID: 2745d153eef6b0a479c57f43cf3433d9 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/DirtGrass-png.png - Importer: PreviewImporter
+Importing 'GUID: 2745d153eef6b0a479c57f43cf3433d9 - Path: Assets/Tom's Terrain Tools/Unity Terrain Assets/Textures/DirtGrass-png.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 2745d153eef6b0a479c57f43cf3433d9' -> (Import Result ID: 'e67a97f5d15d6417fb911bd147994dda') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f741dc20454848bfd27f2ee5b22e08c7 DependenciesID=f46fbecdd8c568b985b49f48d2b5c3cc StaticDependenciesID=79979d1f458afa246b18afc6983179ba 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:24.2238654Z
+  Time since last request: 0.0225861 seconds.
+  importAddress: GUID: be56aeeaaf2300242a948e7551c0826f - Path: Assets/Fence pack/Textures/fence_a_metallic.tga - Importer: PreviewImporter
+Importing 'GUID: be56aeeaaf2300242a948e7551c0826f - Path: Assets/Fence pack/Textures/fence_a_metallic.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: be56aeeaaf2300242a948e7551c0826f' -> (Import Result ID: '40a3e43a1f2625169565f6e8d3512356') in 0.059 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=749f9e722b966cfe17ab3015d9072df5 DependenciesID=7f5519f70450ede51d492a591f3e8243 StaticDependenciesID=b4c7a45943035dfc788252d9027244d6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T10:55:24.2991512Z
+  Time since last request: 0.0004064 seconds.
+  importAddress: GUID: becaf18404d71ac4cb3cb0060ba110a0 - Path: Assets/Fence pack/Textures/fence_b_metallic.tga - Importer: PreviewImporter
+Importing 'GUID: becaf18404d71ac4cb3cb0060ba110a0 - Path: Assets/Fence pack/Textures/fence_b_metallic.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: becaf18404d71ac4cb3cb0060ba110a0' -> (Import Result ID: '719f0c597ac97a678387e9185b284fa8') in 0.054 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ba15c51ba0746fd80ea0f445018ab3b DependenciesID=a0a0b127cfaca48236d78685ae2f398e StaticDependenciesID=989b72acb86ea6eb4bf52677f4aee976 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7501.
+Memory consumption went from 324.3 MB to 321.7 MB.
+Total: 7.154300 ms (FindLiveObjects: 0.363100 ms CreateObjectMapping: 0.559600 ms MarkObjects: 5.874600 ms  DeleteObjects: 0.355600 ms)
+
+Prepare: number of updated asset objects reloaded= 55
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  colorSpace: 0 -> 1
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7501.
+Memory consumption went from 325.3 MB to 322.7 MB.
+Total: 7.233900 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.620800 ms MarkObjects: 5.662800 ms  DeleteObjects: 0.593700 ms)
+
+Prepare: number of updated asset objects reloaded= 55
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:18.3476878Z
+  Time since last request: 413.97825879999999 seconds.
+  importAddress: GUID: d77d2597dd4b55f429d48e029f3e2ac0 - Path: Assets/Fence pack - Importer: PreviewImporter
+Importing 'GUID: d77d2597dd4b55f429d48e029f3e2ac0 - Path: Assets/Fence pack - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d77d2597dd4b55f429d48e029f3e2ac0' -> (Import Result ID: 'd336081e4766d958e0cf655b52ad5ce6') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9cf12ea6e8bee1d1658f7a6c706f6d91 DependenciesID=cca9e6a462431e8c0c22c782a59ee8b2 StaticDependenciesID=df00117a60d976d9e73df01eb70b1364 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:19.8166638Z
+  Time since last request: 1.452686 seconds.
+  importAddress: GUID: dc685cfe21b548a4188fd9bda0b50b13 - Path: Assets/Fence pack/Textures - Importer: PreviewImporter
+Importing 'GUID: dc685cfe21b548a4188fd9bda0b50b13 - Path: Assets/Fence pack/Textures - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: dc685cfe21b548a4188fd9bda0b50b13' -> (Import Result ID: '7e400a82ca42460eea83f06aa6e96811') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2042c75e7858c9d5c955b410424c4a55 DependenciesID=88ea2a59ca224974ac1e777b8f776848 StaticDependenciesID=d9c75c00ae37b4bcf42081fb769187ae 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:19.8775516Z
+  Time since last request: 0.0462709 seconds.
+  importAddress: GUID: 8f5461dc878fb3d4485619a3ffbacecb - Path: Assets/Fence pack/Textures/fence_c.tga - Importer: PreviewImporter
+Importing 'GUID: 8f5461dc878fb3d4485619a3ffbacecb - Path: Assets/Fence pack/Textures/fence_c.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8f5461dc878fb3d4485619a3ffbacecb' -> (Import Result ID: '18eea9f4cb2428267518a7157e63c6d3') in 0.074 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=26480d9d08513d31f7a3c25c7085abc0 DependenciesID=e18fbc3e632dbd858f836a2864b1eea4 StaticDependenciesID=a95b1f379a5f12f66567f4345cfce027 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:19.9695345Z
+  Time since last request: 0.0003452 seconds.
+  importAddress: GUID: 8ea1b4baf5ef6ac4e98d94dd636898bd - Path: Assets/Fence pack/Textures/fencec_normals.TGA - Importer: PreviewImporter
+Importing 'GUID: 8ea1b4baf5ef6ac4e98d94dd636898bd - Path: Assets/Fence pack/Textures/fencec_normals.TGA - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 8ea1b4baf5ef6ac4e98d94dd636898bd' -> (Import Result ID: 'ce549f1e96451c22475dff72bbb62136') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=49e8c5f12f3b0dd2864a0e30994ae409 DependenciesID=a931e0a80135de475f23c7f71bae9272 StaticDependenciesID=d104479e5a256e3d6e10e9e2b49c9cf6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.0474435Z
+  Time since last request: 0.0004083 seconds.
+  importAddress: GUID: 825424b98e74ea94a877fc28ed9b9f5a - Path: Assets/Fence pack/Textures/fence_d_metallic.tga - Importer: PreviewImporter
+Importing 'GUID: 825424b98e74ea94a877fc28ed9b9f5a - Path: Assets/Fence pack/Textures/fence_d_metallic.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 825424b98e74ea94a877fc28ed9b9f5a' -> (Import Result ID: '44c2a690fb572a9f32c9eba915baa212') in 0.063 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0fda6966d48f63eb43c28117027bdbda DependenciesID=bae7a1ee94bf95794fe805910c46b51a StaticDependenciesID=8ee8aea3a5344f802705e6aedec9f7a8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.1246042Z
+  Time since last request: 0.0002495 seconds.
+  importAddress: GUID: 631cc869aa8b51d4faee41bbe2eaaf6c - Path: Assets/Fence pack/Textures/fencea_normals.TGA - Importer: PreviewImporter
+Importing 'GUID: 631cc869aa8b51d4faee41bbe2eaaf6c - Path: Assets/Fence pack/Textures/fencea_normals.TGA - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 631cc869aa8b51d4faee41bbe2eaaf6c' -> (Import Result ID: 'b44cb7ecea700d6cb31c1b89ea6749f6') in 0.050 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f21d67f5ffa5bec44f36302432b7618d DependenciesID=f06130c3a3738d47b0568d25746eb559 StaticDependenciesID=ae2de544977ccf23de7fe257d31472f2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.1921223Z
+  Time since last request: 0.0005886 seconds.
+  importAddress: GUID: ccbe4e8945d144243bb0550b1007d3bc - Path: Assets/Fence pack/Textures/fence_g_h_normals.tga - Importer: PreviewImporter
+Importing 'GUID: ccbe4e8945d144243bb0550b1007d3bc - Path: Assets/Fence pack/Textures/fence_g_h_normals.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: ccbe4e8945d144243bb0550b1007d3bc' -> (Import Result ID: '57691d17a02dd22e43b4b17f5c4af4a7') in 0.057 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14b83f84848394304c4eeb5a91ccdcba DependenciesID=fe8e5977947b54ded2c0131d76e61488 StaticDependenciesID=d9982eb4bcc4ef8f39a26775ec19b35c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.2653864Z
+  Time since last request: 0.000286 seconds.
+  importAddress: GUID: 3d01dfc892c1bce499d88174f49e513c - Path: Assets/Fence pack/Textures/fence_g_h.tga - Importer: PreviewImporter
+Importing 'GUID: 3d01dfc892c1bce499d88174f49e513c - Path: Assets/Fence pack/Textures/fence_g_h.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3d01dfc892c1bce499d88174f49e513c' -> (Import Result ID: '29f5a8ae0a8d3175cf774be267a13bf2') in 0.065 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=223d1ba31f340e20c5658bcec69b9037 DependenciesID=af0d519d9453acf685ce7161083d5d19 StaticDependenciesID=833224d799108bb465d87837073d7484 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:20.3450165Z
+  Time since last request: 0.0002787 seconds.
+  importAddress: GUID: 0c92b5244caccfe49bdb507fa94580c7 - Path: Assets/Fence pack/Textures/Fence_e_f.tga - Importer: PreviewImporter
+Importing 'GUID: 0c92b5244caccfe49bdb507fa94580c7 - Path: Assets/Fence pack/Textures/Fence_e_f.tga - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 0c92b5244caccfe49bdb507fa94580c7' -> (Import Result ID: '59e4f466b380d6242f7830c5609d1d2c') in 0.051 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=22744688d5e2e0deb4161a9e642d39ae DependenciesID=069f536fd44e1bb83c056481cd397aa9 StaticDependenciesID=1bee3489b87d6ff6e1d896b9e69f129a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:27.0104067Z
+  Time since last request: 6.6017817 seconds.
+  importAddress: GUID: b84363adbd73f2e4388dd97cc50b6425 - Path: Assets/Fence pack/Materials - Importer: PreviewImporter
+Importing 'GUID: b84363adbd73f2e4388dd97cc50b6425 - Path: Assets/Fence pack/Materials - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b84363adbd73f2e4388dd97cc50b6425' -> (Import Result ID: '7844681d3a2f32d4c82092dad814f349') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=954753ae050fc5747bc458ac3e3c4232 DependenciesID=3a52667adf10b3452c2999daef922969 StaticDependenciesID=97239f38290c42b95dbf017037c598d8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:27.0916287Z
+  Time since last request: 0.0682963 seconds.
+  importAddress: GUID: b025ab45d4e013946bc626ebc33cd540 - Path: Assets/Fence pack/Materials/fence_a.mat - Importer: PreviewImporter
+Importing 'GUID: b025ab45d4e013946bc626ebc33cd540 - Path: Assets/Fence pack/Materials/fence_a.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: b025ab45d4e013946bc626ebc33cd540' -> (Import Result ID: '29754339d6741b2daefc18e95fc33dc9') in 0.863 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=711a18403f6ca5970bb9173f194e6fe7 DependenciesID=508f5a3522ba78740fcf23141ae8d04f StaticDependenciesID=70425b56a0deb49fd719f4bf103f8312 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:02:27.968543Z
+  Time since last request: 0.0000678 seconds.
+  importAddress: GUID: a9766d5e44b6b7746aa9607b599d35ba - Path: Assets/Fence pack/Materials/fence_g.mat - Importer: PreviewImporter
+Importing 'GUID: a9766d5e44b6b7746aa9607b599d35ba - Path: Assets/Fence pack/Materials/fence_g.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a9766d5e44b6b7746aa9607b599d35ba' -> (Import Result ID: '7f41ac075592e050947c46a844ea8171') in 0.121 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d165ab6c46f88298c690e9b3e17be5e DependenciesID=3e7a1d3edaabd02789db1d0ad9c545ef StaticDependenciesID=1a82cd8fc328f1936f79cb6903b3ce1b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:03:07.4427085Z
+  Time since last request: 39.3345371 seconds.
+  importAddress: GUID: 69b6e8fa160b23c42a4052f818eb166c - Path: Assets/ARCADE - FREE Racing Car/Materials/AFRC_Env_Mat.mat - Importer: PreviewImporter
+Importing 'GUID: 69b6e8fa160b23c42a4052f818eb166c - Path: Assets/ARCADE - FREE Racing Car/Materials/AFRC_Env_Mat.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 69b6e8fa160b23c42a4052f818eb166c' -> (Import Result ID: 'c81d2c3c96917fb8ffde844fd53ed997') in 0.279 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3ac13a0391ba61ae261e2f0c7e162dde DependenciesID=4880b42c15f226ea2a58197b8e5a98ab StaticDependenciesID=9466e019e0ea6891e9bd779041409492 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:03:09.1128846Z
+  Time since last request: 1.3786426 seconds.
+  importAddress: GUID: d2344366b80fe3d4f886ec412e0174fa - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col2.mat - Importer: PreviewImporter
+Importing 'GUID: d2344366b80fe3d4f886ec412e0174fa - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col2.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: d2344366b80fe3d4f886ec412e0174fa' -> (Import Result ID: '6c5ad7df139b299d1717e03a23e3b2f2') in 0.305 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f6151c94f757d2a000d7169e801a4e43 DependenciesID=72aab1ad39170d405a2c439f1e16f7d3 StaticDependenciesID=707b69e3ef2c61f4d7a9672524d35ccd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-09-05T11:03:09.4288274Z
+  Time since last request: 0.000504 seconds.
+  importAddress: GUID: 74196cf5d503c14488ae1ef1dbc6c9a4 - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col5.mat - Importer: PreviewImporter
+Importing 'GUID: 74196cf5d503c14488ae1ef1dbc6c9a4 - Path: Assets/ARCADE - FREE Racing Car/Materials/Color Variations/AFRC_Mat_Col5.mat - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 74196cf5d503c14488ae1ef1dbc6c9a4' -> (Import Result ID: '57f54b3fc11e628dcfb732f009aea883') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e18c5e4091c4bded4767ea1fe55300c7 DependenciesID=a771b520fc4bc0366340da21c3de6b8a StaticDependenciesID=f3c5219f023176285afacbabaf181ebe 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7641.
+Memory consumption went from 327.9 MB to 325.3 MB.
+Total: 8.005000 ms (FindLiveObjects: 0.372200 ms CreateObjectMapping: 0.622400 ms MarkObjects: 6.648100 ms  DeleteObjects: 0.360300 ms)
+
+Prepare: number of updated asset objects reloaded= 37
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2097152 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7641.
+Memory consumption went from 328.9 MB to 326.3 MB.
+Total: 6.289900 ms (FindLiveObjects: 0.354300 ms CreateObjectMapping: 0.594900 ms MarkObjects: 4.945600 ms  DeleteObjects: 0.393500 ms)
+
+Prepare: number of updated asset objects reloaded= 37
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.646 seconds
+Domain Reload Profiling: 1220ms
+	BeginReloadAssembly (206ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (276ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (647ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (126ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.5 MB). Loaded Objects now: 7564.
+Memory consumption went from 333.9 MB to 328.4 MB.
+Total: 10.566400 ms (FindLiveObjects: 0.491000 ms CreateObjectMapping: 1.926700 ms MarkObjects: 5.368800 ms  DeleteObjects: 2.778200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.737 seconds
+Domain Reload Profiling: 1289ms
+	BeginReloadAssembly (193ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (259ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (739ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (6.0 MB). Loaded Objects now: 7567.
+Memory consumption went from 334.8 MB to 328.8 MB.
+Total: 12.259200 ms (FindLiveObjects: 0.603800 ms CreateObjectMapping: 2.547200 ms MarkObjects: 6.085100 ms  DeleteObjects: 3.021300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1204ms
+	BeginReloadAssembly (181ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (252ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (673ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (77ms)
+			ProcessInitializeOnLoadAttributes (240ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 3.92 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.1 MB). Loaded Objects now: 7570.
+Memory consumption went from 335.9 MB to 330.9 MB.
+Total: 11.474400 ms (FindLiveObjects: 0.688800 ms CreateObjectMapping: 1.815400 ms MarkObjects: 5.792500 ms  DeleteObjects: 3.176000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.643 seconds
+Domain Reload Profiling: 1181ms
+	BeginReloadAssembly (182ms)
+		DisableScriptedObjects (5ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (290ms)
+		LoadAssemblies (261ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (644ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (121ms)
+		AwakeInstancesAfterBackupRestoration (18ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.6 MB). Loaded Objects now: 7573.
+Memory consumption went from 337.1 MB to 331.5 MB.
+Total: 9.383200 ms (FindLiveObjects: 0.534500 ms CreateObjectMapping: 1.444200 ms MarkObjects: 4.131200 ms  DeleteObjects: 3.271500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7573.
+Memory consumption went from 333.4 MB to 330.8 MB.
+Total: 5.048100 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.570500 ms MarkObjects: 3.738100 ms  DeleteObjects: 0.342900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7573.
+Memory consumption went from 334.4 MB to 331.8 MB.
+Total: 6.807500 ms (FindLiveObjects: 0.479700 ms CreateObjectMapping: 0.900800 ms MarkObjects: 5.037300 ms  DeleteObjects: 0.388000 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7573.
+Memory consumption went from 335.5 MB to 332.9 MB.
+Total: 5.195000 ms (FindLiveObjects: 0.305300 ms CreateObjectMapping: 0.575400 ms MarkObjects: 3.971500 ms  DeleteObjects: 0.341700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.749 seconds
+Domain Reload Profiling: 1299ms
+	BeginReloadAssembly (187ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (44ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (292ms)
+		LoadAssemblies (253ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (750ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (344ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.5 MB). Loaded Objects now: 7576.
+Memory consumption went from 341.2 MB to 335.7 MB.
+Total: 9.322400 ms (FindLiveObjects: 0.643700 ms CreateObjectMapping: 2.518000 ms MarkObjects: 3.894700 ms  DeleteObjects: 2.264600 ms)
+
+Prepare: number of updated asset objects reloaded= 1
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 5.50 ms, found 4 plugins.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6568 unused Assets / (5.6 MB). Loaded Objects now: 7576.
+Memory consumption went from 342.4 MB to 336.8 MB.
+Total: 26.670500 ms (FindLiveObjects: 1.663400 ms CreateObjectMapping: 5.362300 ms MarkObjects: 12.807100 ms  DeleteObjects: 6.835200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling: 1532ms
+	BeginReloadAssembly (188ms)
+		DisableScriptedObjects (6ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (268ms)
+		AnalyzeDomain (180ms)
+			TypeCache.Refresh (11ms)
+			BuildScriptInfoCaches (160ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (806ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			BeforeProcessingInitializeOnLoad (129ms)
+			ProcessInitializeOnLoadAttributes (238ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6579 unused Assets / (5.9 MB). Loaded Objects now: 7579.
+Memory consumption went from 350.0 MB to 344.0 MB.
+Total: 8.171300 ms (FindLiveObjects: 0.498000 ms CreateObjectMapping: 1.457700 ms MarkObjects: 3.667600 ms  DeleteObjects: 2.546400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7579.
+Memory consumption went from 346.3 MB to 343.6 MB.
+Total: 5.446500 ms (FindLiveObjects: 0.335700 ms CreateObjectMapping: 0.550900 ms MarkObjects: 4.208100 ms  DeleteObjects: 0.350600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7579.
+Memory consumption went from 347.3 MB to 344.7 MB.
+Total: 9.845700 ms (FindLiveObjects: 0.648100 ms CreateObjectMapping: 0.969700 ms MarkObjects: 7.566700 ms  DeleteObjects: 0.658900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+Editor requested this worker to shutdown with reason: Editor is closing down
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

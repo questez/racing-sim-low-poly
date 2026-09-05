@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 868.8
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 112}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 47
+  controlID: 52
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 48
+  controlID: 53
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 49
+  controlID: 54
   draggingID: 0
 --- !u!114 &9
 MonoBehaviour:
@@ -246,8 +246,8 @@ MonoBehaviour:
     y: 0
     width: 499.20004
     height: 546.4
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 226}
+  m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -263,7 +263,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -272,15 +272,15 @@ MonoBehaviour:
     y: 546.4
     width: 893.60004
     height: 266.39996
-  m_MinSize: {x: 52, y: 76}
-  m_MaxSize: {x: 4002, y: 4026}
-  m_ActualView: {fileID: 19}
+  m_MinSize: {x: 232, y: 276}
+  m_MaxSize: {x: 10002, y: 10026}
+  m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
   - {fileID: 19}
   - {fileID: 20}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -356,7 +356,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 1}
-  m_TargetSize: {x: 2338, y: 1080}
+  m_TargetSize: {x: 2778, y: 1284}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -377,11 +377,11 @@ MonoBehaviour:
     - '{"m_SerializationStates":{"thermalFoldout":false,"performanceFoldout":false,"developerFoldout":false,"indexerFoldout":false,"scalersFoldout":false,"deviceSettingsFoldout":false}}'
     - '{}'
     - '{}'
-    scale: 19
+    scale: 16
     fitToScreenEnabled: 0
     rotationDegree: 270
     highlightSafeAreaEnabled: 0
-    friendlyName: iOS Notch Device Small (1080x2338)
+    friendlyName: Apple iPhone 13 Pro Max
     screenIndex: 0
     networkReachability: 1
     systemLanguage: 10
@@ -700,28 +700,13 @@ MonoBehaviour:
       m_LastClickedID:
         m_rawData: 0
       m_ExpandedIDs:
-      - m_rawData: 568105589213572706
-      - m_rawData: 568105589213573080
-      - m_rawData: 568105589213575762
-      - m_rawData: 568105589213575796
-      - m_rawData: 568105589213597490
-      - m_rawData: 568105589213605054
-      - m_rawData: 568105589213608040
-      - m_rawData: 568105589213608230
-      - m_rawData: 568105589213663616
-      - m_rawData: 568105589213663634
-      - m_rawData: 568105589213667074
-      - m_rawData: 568105589213673376
-      - m_rawData: 568105589213676272
-      - m_rawData: 568105589213676464
-      - m_rawData: 568105589213680130
-      - m_rawData: 568105589213755188
-      - m_rawData: 568105589213755938
-      - m_rawData: 568105584918840348
-      - m_rawData: 568105584918848702
-      - m_rawData: 568105584918848774
-      - m_rawData: 568105584918849878
-      - m_rawData: 568105584918851704
+      - m_rawData: 568105589213729370
+      - m_rawData: 568105589213729744
+      - m_rawData: 568105589213732426
+      - m_rawData: 568105589213732460
+      - m_rawData: 568105589213756062
+      - m_rawData: 568105584918839596
+      - m_rawData: 568105584918839780
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1331,9 +1316,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 377.70883, y: 29.624918, z: -12.456776}
+    m_Target: {x: -122.58893, y: 2613.6775, z: -2848.0242}
     speed: 2
-    m_Value: {x: 377.70883, y: 29.624918, z: -12.456776}
+    m_Value: {x: -122.58893, y: 2613.6775, z: -2848.0242}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1380,13 +1365,13 @@ MonoBehaviour:
     m_gridOpacity: 0.5
     m_NearestPlaneToHandleMode: 0
   m_Rotation:
-    m_Target: {x: 0.21338752, y: 0.77155674, z: -0.33069974, w: 0.50027335}
+    m_Target: {x: 0.28222564, y: 0.19932248, z: -0.06085795, w: 0.9366916}
     speed: 2
-    m_Value: {x: 0.21333742, y: 0.7713756, z: -0.3306221, w: 0.50015587}
+    m_Value: {x: 0.28103465, y: 0.19934805, z: -0.0606041, w: 0.93680686}
   m_Size:
-    m_Target: 4.600313
+    m_Target: 2.8423038
     speed: 2
-    m_Value: 4.600313
+    m_Value: 2.719908
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1530,25 +1515,16 @@ MonoBehaviour:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 387.60004}
+    scrollPos: {x: 0, y: 255}
     m_SelectedIDs:
-    - m_rawData: 568105584918842666
+    - m_rawData: 568105584918842784
     m_LastClickedID:
-      m_rawData: 568105584918842666
+      m_rawData: 568105584918842784
     m_ExpandedIDs:
-    - m_rawData: 568105589213755242
+    - m_rawData: 568105589213725262
     - m_rawData: 0
-    - m_rawData: 568105584918840126
-    - m_rawData: 568105584918840250
-    - m_rawData: 568105584918840252
-    - m_rawData: 568105584918840262
-    - m_rawData: 568105584918841718
-    - m_rawData: 568105584918841984
-    - m_rawData: 568105584918842382
-    - m_rawData: 568105584918842526
-    - m_rawData: 568105584918850334
-    - m_rawData: 568105584918850346
-    - m_rawData: 568105584918850356
+    - m_rawData: 568105584918840404
+    - m_rawData: 568105584918842772
     - m_rawData: 568105587066273791
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1583,7 +1559,7 @@ MonoBehaviour:
       m_rawData: 0
     m_ExpandedIDs:
     - m_rawData: 0
-    - m_rawData: 568105584918840126
+    - m_rawData: 568105584918840404
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1614,7 +1590,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: []
     m_LastClickedEntityId:
       m_rawData: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
       m_UserAcceptedRename: 0

@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.5/staging' branch; Version is '6000.5.4f1 (d550df8bd089) revision 13979871'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany" at "2026-09-05T09:44:33.7653426Z"
 OS: 'Windows 11  (10.0.26200) Professional' Language: 'ru' Physical Memory: 16108 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany" at "2026-09-05T11:31:13.6183223Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-05T09:44:33Z
+Date: 2026-09-05T11:31:13Z
 
 COMMAND LINE ARGUMENTS:
 D:\UNITY\Installs\6000.5.4f1\Editor\Unity.exe
@@ -19,9 +19,9 @@ D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
 -logFile
 Logs/AssetImportWorkerHW2.log
 -srvPort
-25971
+19374
 -parentPid
-16988
+14980
 -analyticsCloudUserId
 10171394731915
 -analyticsLocalProjectId
@@ -76,12 +76,12 @@ D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim
     "memorysetup-job-temp-allocator-block-size=2097152"
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
-Player connection [7832]  Target information:
+Player connection [12304]  Target information:
 
-Player connection [7832]  * "[IP] 172.22.131.175 [Port] 0 [Flags] 2 [Guid] 4280038240 [EditorId] 4280038240 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IE2K1EE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12304]  * "[IP] 172.22.131.175 [Port] 0 [Flags] 2 [Guid] 2096085126 [EditorId] 2096085126 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-IE2K1EE) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [7832] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [7832] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12304] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12304] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -93,7 +93,32 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.03 ms, found 4 plugins.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-vany"
+[Licensing::IpcConnector] LicenseClient-vany channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4" at "2026-09-05T11:31:31.1114919Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 13264, path: "D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              17ffa52b0b6247aeac99a006a273b020
+  Correlation Id:          cf50c94949a4783fb9a7f8ca8f9d5536
+  External correlation Id: 5145798555767408907
+  Machine Id:              +LmYPC+2oN3U6DFsdUHdOP1mlqY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-vany-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.03s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4-notifications" at "2026-09-05T11:31:31.143306Z"
+[Licensing::Module] Licensing Background thread has ended after 17.53s
+[Licensing::Module] Licensing is initialized (took 17.29s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 10171394731915-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 11.50 ms, found 4 plugins.
 Initialize engine version: 6000.5.4f1 (d550df8bd089)
 [Subsystems] Discovering subsystems at path D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim/Assets
@@ -114,40 +139,15 @@ Mono path[0] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/Managed'
 Mono path[1] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
 Mono path[2] = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/UNITY/Installs/6000.5.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
 CodeReloadManager initialized
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-[Licensing::Module] Licensing is not yet initialized.
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.1'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-vany"
-[Licensing::IpcConnector] LicenseClient-vany channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4" at "2026-09-05T09:44:51.2347895Z"
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14584, path: "D:/UNITY/Installs/6000.5.4f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
-[Licensing::Module] LicensingClient has failed validation; ignoring
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.1+9fbee8e
-  Session Id:              a6b30f9d0c2d4ef58b03d5ad8391099f
-  Correlation Id:          ebd87833a23bda9af7e23f8ca2d36e23
-  External correlation Id: 8983941639247790454
-  Machine Id:              +LmYPC+2oN3U6DFsdUHdOP1mlqY=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-vany-6000.5.4" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-vany-6000.5.4-notifications" at "2026-09-05T09:44:51.2578584Z"
-[Licensing::Module] Licensing Background thread has ended after 17.49s
-[Licensing::Module] Licensing is initialized (took 16.94s).
 [Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: 10171394731915-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
 Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-[Licensing::Client] Successfully resolved entitlement details
 Register platform support module: D:/UNITY/Installs/6000.5.4f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 16.951301 seconds.
+Registered in 0.008930 seconds.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
@@ -157,86 +157,78 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.997 seconds
-Domain Reload Profiling: 18926ms
-	BeginReloadAssembly (96ms)
-	RebuildCommonClasses (4ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (17066ms)
-	LoadAllAssembliesAndSetupDomain (748ms)
-		LoadAssemblies (98ms)
-		AnalyzeDomain (556ms)
-			TypeCache.Refresh (553ms)
-				TypeCache.ScanAssembly (515ms)
-	FinalizeReload (1001ms)
+- Finished resetting the current domain, in  0.953 seconds
+Domain Reload Profiling: 2297ms
+	BeginReloadAssembly (280ms)
+	RebuildCommonClasses (12ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (189ms)
+	LoadAllAssembliesAndSetupDomain (814ms)
+		LoadAssemblies (280ms)
+		AnalyzeDomain (526ms)
+			TypeCache.Refresh (522ms)
+				TypeCache.ScanAssembly (487ms)
+	FinalizeReload (957ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (16ms)
-			BeforeProcessingInitializeOnLoad (238ms)
-			ProcessInitializeOnLoadAttributes (249ms)
-			ProcessInitializeOnLoadMethodAttributes (286ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			BeforeProcessingInitializeOnLoad (252ms)
+			ProcessInitializeOnLoadAttributes (246ms)
+			ProcessInitializeOnLoadMethodAttributes (215ms)
 Initializing Unity extensions:
 [Licensing::Client] Successfully resolved entitlement details
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-Refreshing native plugins compatible for Editor in 4.26 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.42 ms, found 4 plugins.
 Native extension for Android target not found
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Refreshing native plugins compatible for Editor in 5.44 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.93 ms, found 4 plugins.
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.750 seconds
-Domain Reload Profiling: 3917ms
-	BeginReloadAssembly (500ms)
+- Finished resetting the current domain, in  1.770 seconds
+Domain Reload Profiling: 4010ms
+	BeginReloadAssembly (486ms)
 		DisableScriptedObjects (15ms)
-		CreateAndSetChildDomain (79ms)
-	RebuildCommonClasses (21ms)
-	RebuildNativeTypeToScriptingClass (49ms)
-	initialDomainReloadingComplete (154ms)
-	LoadAllAssembliesAndSetupDomain (1440ms)
-		LoadAssemblies (874ms)
-		AnalyzeDomain (561ms)
-			TypeCache.Refresh (382ms)
-				TypeCache.ScanAssembly (347ms)
-			BuildScriptInfoCaches (155ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (44ms)
+	initialDomainReloadingComplete (173ms)
+	LoadAllAssembliesAndSetupDomain (1512ms)
+		LoadAssemblies (835ms)
+		AnalyzeDomain (700ms)
+			TypeCache.Refresh (463ms)
+				TypeCache.ScanAssembly (426ms)
+			BuildScriptInfoCaches (212ms)
 			ResolveRequiredComponents (20ms)
-	FinalizeReload (1753ms)
+	FinalizeReload (1773ms)
 		SetupLoadedEditorAssemblies (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			BeforeProcessingInitializeOnLoad (233ms)
-			ProcessInitializeOnLoadAttributes (678ms)
-			ProcessInitializeOnLoadMethodAttributes (323ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			BeforeProcessingInitializeOnLoad (238ms)
+			ProcessInitializeOnLoadAttributes (740ms)
+			ProcessInitializeOnLoadMethodAttributes (256ms)
 			AfterProcessingInitializeOnLoad (5ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
 AcceleratorClientConnectionCallback - disconnected - :0
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 3.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 4.51 ms, found 4 plugins.
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
 Curl error 3: URL rejected: Malformed input to a URL function
-Unloading 6582 unused Assets / (6.3 MB). Loaded Objects now: 7425.
-Memory consumption went from 321.6 MB to 315.3 MB.
-Total: 22.194600 ms (FindLiveObjects: 1.314100 ms CreateObjectMapping: 5.643600 ms MarkObjects: 9.547400 ms  DeleteObjects: 5.685200 ms)
+Unloading 6581 unused Assets / (4.7 MB). Loaded Objects now: 7425.
+Memory consumption went from 321.2 MB to 316.4 MB.
+Total: 27.527500 ms (FindLiveObjects: 1.823900 ms CreateObjectMapping: 5.552300 ms MarkObjects: 13.763400 ms  DeleteObjects: 6.382800 ms)
 
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:46:27.3245948Z
-  Time since last request: 245914.13391020000563 seconds.
-  importAddress: GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Level1.unity - Importer: PreviewImporter
-Importing 'GUID: 99c9720ab356a0642a771bea13969a05 - Path: Assets/Scenes/Level1.unity - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 99c9720ab356a0642a771bea13969a05' -> (Import Result ID: 'a4abfb5c17b58300317e5a575d58fed8') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=60ca0ca267162a69cdf8a1143a5075b0 DependenciesID=0c5c65697f29bffd59417fb7e97a5883 StaticDependenciesID=891914d79454e6af47df7c1e2e80b054 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
 ========================================================================
 Received Prepare
 AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
 [Licensing::Client] Successfully resolved entitlement details
 Begin MonoManager ReloadAssembly
 Native extension for Android target not found
@@ -250,235 +242,68 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.355 seconds
-Domain Reload Profiling: 6146ms
-	BeginReloadAssembly (683ms)
-		DisableScriptedObjects (5ms)
-		CreateAndSetChildDomain (41ms)
-	RebuildCommonClasses (11ms)
-	RebuildNativeTypeToScriptingClass (238ms)
-	initialDomainReloadingComplete (56ms)
-	LoadAllAssembliesAndSetupDomain (3802ms)
-		LoadAssemblies (3944ms)
-		AnalyzeDomain (333ms)
-			TypeCache.Refresh (11ms)
-			BuildScriptInfoCaches (313ms)
+- Finished resetting the current domain, in  0.670 seconds
+Domain Reload Profiling: 1195ms
+	BeginReloadAssembly (172ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (287ms)
+		LoadAssemblies (257ms)
+		AnalyzeDomain (17ms)
+			TypeCache.Refresh (7ms)
 			ResolveRequiredComponents (7ms)
-	FinalizeReload (1356ms)
+	FinalizeReload (671ms)
 		SetupLoadedEditorAssemblies (0ms)
 			InitializePlatformSupportModulesInManaged (7ms)
 			BeforeProcessingInitializeOnLoad (75ms)
-			ProcessInitializeOnLoadAttributes (268ms)
-			ProcessInitializeOnLoadMethodAttributes (103ms)
-			AfterProcessingInitializeOnLoad (3ms)
-		AwakeInstancesAfterBackupRestoration (156ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
 Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6579 unused Assets / (5.4 MB). Loaded Objects now: 7472.
-Memory consumption went from 330.0 MB to 324.6 MB.
-Total: 10.449000 ms (FindLiveObjects: 0.596800 ms CreateObjectMapping: 2.366700 ms MarkObjects: 5.205000 ms  DeleteObjects: 2.279500 ms)
+Unloading 6580 unused Assets / (4.8 MB). Loaded Objects now: 7470.
+Memory consumption went from 320.3 MB to 315.6 MB.
+Total: 8.962400 ms (FindLiveObjects: 0.587900 ms CreateObjectMapping: 2.497300 ms MarkObjects: 3.702900 ms  DeleteObjects: 2.172800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
 ========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:23.3648046Z
-  Time since last request: 476.00922009999999 seconds.
-  importAddress: GUID: b2423a120075de14381368c3e1f492d6 - Path: Assets/_Heathen Engineering - Importer: PreviewImporter
-Importing 'GUID: b2423a120075de14381368c3e1f492d6 - Path: Assets/_Heathen Engineering - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: b2423a120075de14381368c3e1f492d6' -> (Import Result ID: 'ba1070994b121fcc8e87c3adaa9823c5') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a29e7fa389351123fb7e43c17314e50 DependenciesID=b019877ca2cfd1b60487aed5cb337e6f StaticDependenciesID=ddc9f6a97d70b1fa9f7448c057cc3169 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7470.
+Memory consumption went from 316.7 MB to 314.1 MB.
+Total: 6.703700 ms (FindLiveObjects: 0.379000 ms CreateObjectMapping: 0.960500 ms MarkObjects: 4.996800 ms  DeleteObjects: 0.366100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
 ========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:25.961876Z
-  Time since last request: 2.582406 seconds.
-  importAddress: GUID: 67bb46dfd509932429fc985052104b72 - Path: Assets/_Heathen Engineering/Assets - Importer: PreviewImporter
-Importing 'GUID: 67bb46dfd509932429fc985052104b72 - Path: Assets/_Heathen Engineering/Assets - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 67bb46dfd509932429fc985052104b72' -> (Import Result ID: 'c6a1ca83e6a54feb4ce264b1a17fb819') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ab5cadbfbdaae4d3dee6cce2b37d5914 DependenciesID=b83cdcb69c225d267f57c221ce3a5e00 StaticDependenciesID=bc73246d981d05f535ca6a88b978b04c 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7470.
+Memory consumption went from 317.8 MB to 315.2 MB.
+Total: 5.658700 ms (FindLiveObjects: 0.475000 ms CreateObjectMapping: 0.682800 ms MarkObjects: 4.134600 ms  DeleteObjects: 0.365300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
 ========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:26.9138295Z
-  Time since last request: 0.9391977 seconds.
-  importAddress: GUID: 847642ab4c6075d4d934ce75df517885 - Path: Assets/_Heathen Engineering/Assets/UX - Importer: PreviewImporter
-Importing 'GUID: 847642ab4c6075d4d934ce75df517885 - Path: Assets/_Heathen Engineering/Assets/UX - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 847642ab4c6075d4d934ce75df517885' -> (Import Result ID: '0de3d267c47fafbb1e5443265b55f6f0') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9d0b602d37e301726d69635b4a617e80 DependenciesID=6af999b2034a11ae84e37c26662baba7 StaticDependenciesID=8472e02c79a548808dedf1d6b1b877ba 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:27.0030176Z
-  Time since last request: 0.0781819 seconds.
-  importAddress: GUID: f5702ca0318eb1942af8daf18131f44d - Path: Assets/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef - Importer: PreviewImporter
-Importing 'GUID: f5702ca0318eb1942af8daf18131f44d - Path: Assets/_Heathen Engineering/Assets/UX/HeathenEngineering.UX.asmdef - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: f5702ca0318eb1942af8daf18131f44d' -> (Import Result ID: '6912d88eea46d4004aa2d78d56e2eb3b') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b4380783a69382467c628fd4f5dff261 DependenciesID=37ff30a656eed7694acfc51a8f1ba3fc StaticDependenciesID=62f04014dc12d2df56e9bea86e380c26 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:27.8654301Z
-  Time since last request: 0.8498244 seconds.
-  importAddress: GUID: 00431337d21e1ff4f80d7e6f0761c4ee - Path: Assets/_Heathen Engineering/Assets/UX/Icons - Importer: PreviewImporter
-Importing 'GUID: 00431337d21e1ff4f80d7e6f0761c4ee - Path: Assets/_Heathen Engineering/Assets/UX/Icons - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 00431337d21e1ff4f80d7e6f0761c4ee' -> (Import Result ID: '77fa8bd154d04f63c9eb6975b540c595') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=854fefad4b8c79ff85fcf56c4217b13c DependenciesID=c5a5b8f6cca6d60415faa5f7979e6ca6 StaticDependenciesID=3e248d8f8e20224e36712f2e743ab6b7 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.4815311Z
-  Time since last request: 0.6045191 seconds.
-  importAddress: GUID: 15e6763d3d1ad8046889af0be1224f8e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free] - Importer: PreviewImporter
-Importing 'GUID: 15e6763d3d1ad8046889af0be1224f8e - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free] - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 15e6763d3d1ad8046889af0be1224f8e' -> (Import Result ID: '68b82d2c3ceb93f532315ba9c52f2428') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5283f644ac2ab9c519f8b411c845722f DependenciesID=6f25bc53eefa05d7bc5c686a0d8085b3 StaticDependenciesID=60e5324dee59138f65a9ccfaeead5168 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.5681716Z
-  Time since last request: 0.0749713 seconds.
-  importAddress: GUID: b0b13fccedbbc0243acde6180912a042 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 E Icon.png - Importer: PreviewImporter
-Importing 'GUID: b0b13fccedbbc0243acde6180912a042 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 E Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Client] Successfully resolved entitlement details
-Imported 'GUID: b0b13fccedbbc0243acde6180912a042' -> (Import Result ID: '4a2066f0f9db43dafdaede58e01908b7') in 0.117 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cce695e94d10b2b401dd16c659fac542 DependenciesID=b64d9b79a523eff02569cc8650d2506a StaticDependenciesID=6755ad7285e67b448e064d7a7486b4e1 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.7134937Z
-  Time since last request: 0.0000331 seconds.
-  importAddress: GUID: afa13aa3dd1037b4684bb0e9a8e18d8f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NW Icon.png - Importer: PreviewImporter
-Importing 'GUID: afa13aa3dd1037b4684bb0e9a8e18d8f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: afa13aa3dd1037b4684bb0e9a8e18d8f' -> (Import Result ID: '12c894738e20e8ac3173e00f0ddf2947') in 0.019 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f568d38e524ce2eac62c595cbc2dcd25 DependenciesID=3d85f2c69d464282e1032bd9c8f7eac5 StaticDependenciesID=d36dc0f0defbfe94e371a79e3ee39bce 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.7452917Z
-  Time since last request: 0.0003281 seconds.
-  importAddress: GUID: 6d58acdac385dc546b74022fbe2912d7 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 SW Icon.png - Importer: PreviewImporter
-Importing 'GUID: 6d58acdac385dc546b74022fbe2912d7 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 SW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 6d58acdac385dc546b74022fbe2912d7' -> (Import Result ID: '17ca8c66fae69ec0b5c4d35db4252c49') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1fb147b0a1292500a6301054927df11b DependenciesID=32202e506a2e6c4c2c2eea6301eac67d StaticDependenciesID=9bf1f6c04eed1e986b26d04896d7e65e 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.7700966Z
-  Time since last request: 0.0005854 seconds.
-  importAddress: GUID: b32c7f736da6d414885853c4b34e31d7 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 SE Icon.png - Importer: PreviewImporter
-Importing 'GUID: b32c7f736da6d414885853c4b34e31d7 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 SE Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: b32c7f736da6d414885853c4b34e31d7' -> (Import Result ID: 'ee5fbcabb590b8ef992f59ed16bdfdca') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=de79d2778475dce6c898edb817570a3f DependenciesID=cd3179d67a121c034d35b0110076d22f StaticDependenciesID=60ed7d134b0769e9d6bc2d9ea73b7943 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.7953161Z
-  Time since last request: 0.0002429 seconds.
-  importAddress: GUID: b986971d1c7b79f4da924287d73529da - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 SW Icon.png - Importer: PreviewImporter
-Importing 'GUID: b986971d1c7b79f4da924287d73529da - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 SW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: b986971d1c7b79f4da924287d73529da' -> (Import Result ID: '6bdcc37b8cb8a52b09fd861100607917') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=450bc7f0b04bfde3a8102d91e7dc7157 DependenciesID=22fc376e163c5e83bf70512e51980f18 StaticDependenciesID=e21f884527c00dbfbd535d8cfdd5c02e 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.8200659Z
-  Time since last request: 0.0003028 seconds.
-  importAddress: GUID: f1737b486a23f634bb246de79b8d4f4b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 W Icon.png - Importer: PreviewImporter
-Importing 'GUID: f1737b486a23f634bb246de79b8d4f4b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 W Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: f1737b486a23f634bb246de79b8d4f4b' -> (Import Result ID: '96d6fe529f7a177ee04332f182a018f6') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ac61d7a5f4f725510bd1b41444d48af DependenciesID=b590b93e1168ce3325cf4cfbd8f252d2 StaticDependenciesID=32dbeea6c69ddf354cca72b6adaa21ef 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.8471764Z
-  Time since last request: 0.0001971 seconds.
-  importAddress: GUID: 374f5d9702e6f8e40b920390c6e57387 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 NW Icon.png - Importer: PreviewImporter
-Importing 'GUID: 374f5d9702e6f8e40b920390c6e57387 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 NW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 374f5d9702e6f8e40b920390c6e57387' -> (Import Result ID: '651e8320f38f06571db00049c433038d') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=00026f435741011c05083ef206c405ac DependenciesID=3caa48e2526ee1e32e69a06ce9db50b8 StaticDependenciesID=2990c494d88238f9427ccc4d859acd6c 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.8716747Z
-  Time since last request: 0.0001995 seconds.
-  importAddress: GUID: 0908671c4d9d28e4890451f605e68243 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 NW Icon.png - Importer: PreviewImporter
-Importing 'GUID: 0908671c4d9d28e4890451f605e68243 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 NW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 0908671c4d9d28e4890451f605e68243' -> (Import Result ID: '7905020fcfe28cd8b264032c22841482') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=77cdf49c14e6ab2729681196b25f7ac1 DependenciesID=ad0d00db6e64e2d770e25be40c0df439 StaticDependenciesID=568759489aafd64438fc3340c2e406a0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.8962429Z
-  Time since last request: 0.0004417 seconds.
-  importAddress: GUID: 279a7f16bcc31014ea2d1e135f042805 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 NE Icon.png - Importer: PreviewImporter
-Importing 'GUID: 279a7f16bcc31014ea2d1e135f042805 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 1 NE Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 279a7f16bcc31014ea2d1e135f042805' -> (Import Result ID: '7d261b7ce7395c965e920ff5d54924c5') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1a9a5d2d2691dda508a1f9e831e86a72 DependenciesID=e54e08ac3ef84bf924e42413793f8857 StaticDependenciesID=e865b697ae28fa0a76ea9f4327a92828 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.9204033Z
-  Time since last request: 0.0004908 seconds.
-  importAddress: GUID: 2750da8e4b41f294090c5d2a83c0992f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 E Icon.png - Importer: PreviewImporter
-Importing 'GUID: 2750da8e4b41f294090c5d2a83c0992f - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 3 E Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 2750da8e4b41f294090c5d2a83c0992f' -> (Import Result ID: '400d147fb33e1e573f47f1c6400bc8c7') in 0.011 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f735c1ea817f696afa302d0c63cf26b9 DependenciesID=128270559b0bbd1c331edb9d4a455377 StaticDependenciesID=38b54fceec1f1332740a9e2e5bdef5dd 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.9459383Z
-  Time since last request: 0.0005718 seconds.
-  importAddress: GUID: 23add5d3efd8ecd49af5c748108f341b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 W Icon.png - Importer: PreviewImporter
-Importing 'GUID: 23add5d3efd8ecd49af5c748108f341b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 W Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 23add5d3efd8ecd49af5c748108f341b' -> (Import Result ID: '0796e65abbf3383026daf87eccc4d061') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=147620af93cc1d248a68a354437749f7 DependenciesID=01843c71929612fd14e09d4c270392d5 StaticDependenciesID=911e9494b1532a5a5b5a7e54854b63e6 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:28.9710977Z
-  Time since last request: 0.0001072 seconds.
-  importAddress: GUID: dbd95e0b0a894e24c80c1feabe91c32b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NE Icon.png - Importer: PreviewImporter
-Importing 'GUID: dbd95e0b0a894e24c80c1feabe91c32b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 2 NE Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: dbd95e0b0a894e24c80c1feabe91c32b' -> (Import Result ID: 'b0869bd1054311873d787d6736ff0c8c') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5cbbb20d011b602964f1e146530864fc DependenciesID=fae9dcbcf1423321f1b4912bdc40cc1f StaticDependenciesID=9a6dc6ab6e2e08f15c7288ce9219f647 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:29.9449292Z
-  Time since last request: 0.9497257 seconds.
-  importAddress: GUID: c3c804cbbfd6a8a4c8e930a1817c8780 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 E Icon.png - Importer: PreviewImporter
-Importing 'GUID: c3c804cbbfd6a8a4c8e930a1817c8780 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 E Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: c3c804cbbfd6a8a4c8e930a1817c8780' -> (Import Result ID: '499592b05a9299e382d69e3e229c42aa') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d0cdcf924a847422fc8b3ecbbb5ba1d9 DependenciesID=7513f45480e2f23000a7cdd85a765d31 StaticDependenciesID=ab8be4850e03703da77764948f03b330 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:29.9820516Z
-  Time since last request: 0.0001796 seconds.
-  importAddress: GUID: a718555c3c9d59846ac98a0c328a6de1 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 NE Icon.png - Importer: PreviewImporter
-Importing 'GUID: a718555c3c9d59846ac98a0c328a6de1 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 NE Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: a718555c3c9d59846ac98a0c328a6de1' -> (Import Result ID: 'e98cf1ae90582f0ec3d1d72354faf036') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=03de6f1a4be19efc0feb07a54fe3a23b DependenciesID=f7345df84bd7d26c64f159bd93c3f1d7 StaticDependenciesID=ca047276a04966de4cae17413ba7daf0 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:30.0229344Z
-  Time since last request: 0.0002412 seconds.
-  importAddress: GUID: 2289b2efc9ebb0a40a1d9e8f21419921 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 NW Icon.png - Importer: PreviewImporter
-Importing 'GUID: 2289b2efc9ebb0a40a1d9e8f21419921 - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 NW Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 2289b2efc9ebb0a40a1d9e8f21419921' -> (Import Result ID: '7f9d545c31378487b8fe6b837bc1f604') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3d62b6f8ea497c0bf0797be10bd3a19c DependenciesID=ef88c2531af24280c507750fb1641f85 StaticDependenciesID=c0fcd145904150939cb7a2772777b254 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time of request: 2026-09-05T09:54:30.0540228Z
-  Time since last request: 0.0005007 seconds.
-  importAddress: GUID: 539a4c67d1d328e4ab6c8f533d26a90b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 W Icon.png - Importer: PreviewImporter
-Importing 'GUID: 539a4c67d1d328e4ab6c8f533d26a90b - Path: Assets/_Heathen Engineering/Assets/UX/Icons/Flat Icons [Free]/Free Flat Arrow 4 W Icon.png - Importer: PreviewImporter' with importer (PreviewImporter)
-Imported 'GUID: 539a4c67d1d328e4ab6c8f533d26a90b' -> (Import Result ID: '23076a34e5d1f328bdee820e88a3bab8') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c028b0d3f625ac50cace0565624a82bb DependenciesID=11eaef838ed814f1de72351da1db17b2 StaticDependenciesID=4a90e89d1047f1ca579c5d72532a3b59 
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (2.6 MB). Loaded Objects now: 7470.
+Memory consumption went from 319.0 MB to 316.4 MB.
+Total: 7.462200 ms (FindLiveObjects: 0.406000 ms CreateObjectMapping: 0.632200 ms MarkObjects: 5.963900 ms  DeleteObjects: 0.456900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+EnvironmentDependencyValues requested are different than current active one (requested -> active):
+  graphicsApiMask: 2099200 -> 2361344
+Editor requested this worker to shutdown with reason: Editor is closing down
 AcceleratorClientConnectionCallback - disconnected - :0
 AssetImportWorker is now disconnected from the server
 Process exiting

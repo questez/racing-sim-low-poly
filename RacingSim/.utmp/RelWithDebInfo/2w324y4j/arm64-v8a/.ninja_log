@@ -1,10 +1,10 @@
 # ninja log v5
-35	1467	8103106284009807	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	de0498b9ececc9eb
-0	1483	8103106284144684	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	313ccc55ef46101e
-63	1493	8103106284216377	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b0ccdcfc8f8a97fc
-27	1508	8103106284333520	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	15bacbc5ac0ed2ac
-16	1568	8103106285057629	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	47a0ca1791e3f7f2
-53	1887	8103106287789241	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d7f1b022069b75d3
-45	1954	8103106288050855	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	48df1768cf05e9d
-8	2098	8103106290296717	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	36120b859d61c9e
-2099	2251	8103106291806657	D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2w324y4j/obj/arm64-v8a/libgame.so	90df0745648b8eb0
+58	1499	8103116572038993	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	15bacbc5ac0ed2ac
+67	1509	8103116572038993	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	de0498b9ececc9eb
+29	1534	8103116572381661	GameActivity/CMakeFiles/game.dir/UGAConfiguration.cpp.o	313ccc55ef46101e
+87	1556	8103116572611294	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	b0ccdcfc8f8a97fc
+0	1649	8103116573501563	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	47a0ca1791e3f7f2
+77	1799	8103116574983581	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	d7f1b022069b75d3
+47	1861	8103116575659004	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	48df1768cf05e9d
+12	1958	8103116576711108	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	36120b859d61c9e
+1959	2142	8103116578561595	D:/UNITY/MyProjects/racing-sim-low-poly/RacingSim/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/2w324y4j/obj/arm64-v8a/libgame.so	90df0745648b8eb0
